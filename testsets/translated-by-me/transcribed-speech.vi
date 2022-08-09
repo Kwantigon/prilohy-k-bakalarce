@@ -1,0 +1,1098 @@
+Thế còn cái ở trên này?
+Thế tôi có nên tăng nó lên nữa không?
+Như này.
+Rồi.
+Tôi đang gõ vào cái mi-crô ở trên đầu tôi.
+Và bây giờ tôi đang gõ vào cái mi-crô ở trên áo của tôi.
+Trên áo của mình.
+Tôi có thể không?
+Ừ.
+Ở đây tôi gặp vấn đề đầu tiên, làm thế nào để dịch biases sang tiếng Séc.
+Thực ra tôi cũng chưa bao giờ nói từ đấy trong tiếng Séc.
+Nhưng mà chắc là tôi có thể gọi nó là cái trở ngại của phương pháp chấm điểm phiên dịch bằng máy tính
+Các bạn có thể thấy từ dàn bài là bài trình chiếu này tôi chỉ chuẩn bị qua thôi.
+Và nó là để cho hội thảo chuyên về phiên dịch, đánh giá phiên dịch cái chính là cả văn bản, tức là document level MT evaluation.
+Đấy là một trong những chủ đề mà tôi muốn nói đến.
+Nhưng mà ngay từ đầu trước khi tôi nói đến dánh giá phiên dịch bằng máy tính thì tôi muốn chỉ một cái ý tưởng này.
+Những vấn đề, vấn đề của phiên dịch bằng máy tinh, hoặc là còn trước đó, những vấn đề của người phiên dịch.
+Cái nối-
+Chúng ta muốn theo rõi những phẩm chất gì?
+Và sau đó tôi sẽ nói đến vấn đề phiên dịch những tài liệu và đến một cái chủ đề mà tôi nghiên cứu, đó là sự thích nghi với lĩnh vực cụ thể và với Translationese.
+Từ đó tôi dịch ra là tiếng Dịch - cái ngôn ngữ mà đã là một bản dịch và cách nó ảnh hưởng đến một là phiên dịch bằng máy tính và hai là đánh giá phiên dịch bằng máy tính.
+Thế tôi sẽ bắt đầu.
+Thường khi đánh giá các bản dịch máy hoặc bản dịch nói chung thì chúng ta phân biệt hai mặt của cái chất lượng.
+Mặt thứ nhất người ta gọi là fluency trong tiếng Anh, mình có thể hiểu là sự lưu loát của cái bản dịch, nó có dễ khe trong ngôn ngữ đích mà không cần biết câu gốc có nghĩa gì.
+Và cái mặt thứ hai là adequacy, tức là sự tín nhiệm hoặc là sự chính xác và nó có giữ lại ý nghĩa không.
+Và cái mà tôi muốn minh họa trên bức tranh này là chúng ta không phải lúc nào cũng đạt được một trăm phần trăm chất lượng trong cả hai bề mặt.
+Có những trường hợp mà người phiên dịch phải lựa chọn.
+Kể cả những người phiên dịch chuyên nghiệp mà có đủ thời gian để suy nghĩ.
+Họ phải chọn một là giữ lại ý nghĩa của câu cũ.
+Hoặc dịch cho nó dễ nghe ở trong ngôn ngữ được dịch sang, để nó được tự nhiên.
+Nên là trong phiên dịch có những câu mà, ít nhất là ở trong cái lĩnh vực này, không thể dịch được, kể cả sau khi đa suy nghĩ về nó thật lâu.
+Tất nhiên là tôi không phải lúc nào cũng suy nghĩ kĩ và tôi không phải là một người phiên dịch được rèn luyện, nên là chất lượng những bản dịch của tôi nó kém hơn.
+Nhưng mà ở đây tôi muốn minh hoạ những thứ gì mà chúng ta có thể đạt được.
+Thứ thú vị là cái vấn đề này nó phát sinh ra kể ca khi chúng ta không phiên dịch cái gì.
+Kể cả khi tôi nói bằng tiếng mẹ đẻ thì tôi cũng không luôn luôn nói đúng những gì tôi đang nghĩ trong đầu hoặc là tôi không nói đúng theo cách nói của tiếng Séc.
+Rồi ở đây tôi có một cái minh họa, tôi có một ý nghĩ, ý định, và tôi dịch nó sang tiếng Séc, tiếng mẹ đẻ của tôi.
+Và sau đó nó được dịch bằng máy tính sang tiếng Anh.
+Và đây là một lĩnh vực mà kể cả tôi cũng không bày tỏ được trong tiếng mẹ đẻ của mình những gì mà tôi muốn.
+Hoặc là nó không được trôi chảy như tôi muốn.
+Tại sao tôi lại nói về việc đó?
+Tôi sẽ quay lại vấn đề nay khi tôi nói về đánh giá phiên dịch bằng máy tính và câu hỏi là chúng ta có cái gì đó để so sánh với nó không?
+Chúng ta nên so sánh nó với những gì đã được nói hoặc viết trong ngôn ngữ gốc hay là so với cái chúng ta coi là ý định của người nói.
+Và đôi khi ở đây sẽ có mâu thuẫn giữa hai thứ đó.
+Và câu hỏi được đặt ra là khi phiên dịch máy tính sửa một lỗi nào đấy thì đấy có phải là bản dịch đúng hay là chúng ta nên coi nó là lỗi.
+Hai bề mặt nữa là khi chúng ta nói về sự chính xác và sự tín nhiệm thì chúng ta muốn so sánh ngữ nghĩa học hay là sự thực dụng
+Tôi đưa ra ví dụ từ dữ liệu WMT hai nghìn không trăm mười tám, ở trong đấy có câu tiếng anh là "I am not going to worry too much about it".
+Bản dịch mẫu sang tiếng Séc từ người phiên dịch là "Tôi tin là mọi thứ sẽ tốt lành".
+Bây giờ nếu chúng ta suy nghĩ một tí thì đó là hai sự thật khác nhau.
+Hoặc tôi tin là mọi thứ sẽ tốt lành hoặc là tôi không tin.
+Và hoặc là tôi lo lắng về tương lai hoặc là tôi không lo lắng.
+Và bình thường sẽ có tình huống là...
+Hãy cho là tôi tin rằng một ngày mọi thứ sẽ tốt lành.
+Và tôi không lo lắng.
+Nhưng mà.
+Hoặc là tôi không tin và tôi lo lắng.
+Nhưng hai trường hợp đối lập này có thể xảy ra.
+Bây giờ câu hỏi là chúng ta có nhận ra được trường hợp nào là đúng từ cái câu được dịch ra.
+Nhưng nếu chúng ta đọc hết cái tài liệu thì có thể chúng ta sẽ xác định được là đấy là cái trường hợp điển hình là người mà đã nói câu đấy đã không lo lắng về tương lai hoặc là vể việc đó.
+Và người đấy cũng tin là mọi thứ sẽ tốt lành.
+Trong trường hợp đó từ một góc nhìn thực tế thì bản dịch đó là đúng.
+Nhưng tôi vẫn nghĩ theo ngữ nghĩa thì bản dịch của câu đó không đúng.
+Tại vì trong tiếng Séc thì ta có thể dịch ra là ví dụ, tôi không định lo lắng về kết quả, hoặc về việc đấy và vân vân.
+Ở đây từ cái tài liệu đó tôi đã không xác định được là câu đó nói về trường hợp nào.
+Nên là tôi cảm thấy là tôi không hiểu tại sao câu đấy đã được dịch như vậy.
+Tôi đánh giá nó là một lỗi sai.
+Cuối cùng thì bây giờ tôi sẽ nói đến câu hỏi đánh giá phiên dịch bằng máy tính và đầu tiên chỉ là đánh giá bằng tay.
+Tức là khi con người đánh giá xem họ thích cái bản dịch nào hơn.
+Một bề mặt mà chúng ta có thể chia cách đánh giá ra là những người chấm điểm có chỉ nhìn thấy-
+Họ được chỉ cho bản dịch của câu mà họ phải đánh giá.
+Sau đó họ được chỉ cho một là bản dịch mẫu từ người phiên dịch chuyên nghiệp hoặc hai là bản gốc.
+Ví dụ khi phiện dịch tiếng Anh sang tiếng Séc thì ngoài bản dịch tiếng Séc họ còn được chỉ cho bản gốc trong tiếng Anh.
+Hoặc họ được chỉ cho cả hai và họ có thể chọn.
+Rồi.
+Tất cả ba tùy chọn nảy đều có sự trở ngại của nó.
+Và nó sẽ ảnh hưởng một cách nào đó đến kết quả.
+Là nếu hệ thống A có tốt hơn hệ thông B không và như vậy.
+Trong trường hợp reference based thì vấn đề là người ta không thệ xác định được là cái bản dịch có đúng so với bản gốc không không, họ chỉ xác định được sự tương tự với bản dịch mẫu thôi.
+Và như tôi đã chỉ ra, người phiên dịch đã phải lựa chọn.
+Có thể là người ta chọn sự lưu loát cao hơn và nó không hẳn giống cái bản dịch mẫu.
+Hoặc trong bản dịch mẫu đấy đã có lỗi rồi.
+Kể cả chuyện đó cũng có thể xảy ra với những người phiên dịch chuyên nghiệp.
+Sau đó thì cả bản dịch tốt bằng máy tính sẽ bị đánh giá là sai vì nó không giống bản mẫu.
+Khi chúng ta chỉ đưa ra bản gốc thôi thì đấy lại là một yêu cầu lớn đặt vào những người đánh giá là họ phải hiểu biết tốt cả hai ngôn ngữ, ngôn ngữ gốc và ngôn ngữ được dịch sang.
+Ví dụ cả tiếng Anh và tiếng Séc.
+Và họ phải suy nghĩ kỹ.
+Còn khi chúng ta chỉ cho họ cả hai câu thì cả hai cái vấn đề đó sẽ xảy ra.
+Và vấn đề thứ ba nữa là mình không biết là những người đánh giá đã nhìn vào đâu.
+Tức là có người người ta chỉ nhìn vào bản gốc thôi.
+Có người chỉ nhìn và bản dịch mẫu.
+Có người thì một lần nhìn vào đây còn một lần thì nhìn vào kia.
+Một bề mặt nữa.
+Một cách phân loại những chỉ số là đầu đề là phải sắp xếp một vài bản dịch.
+Ví dụ chúng ta có một câu và dùng năm cái hệ thống phiên dịch chúng ta có 5 bản dịch của một câu đấy.
+Và chúng ta phải xếp hạng nó.
+Cái đấy được gọi là "relative ranking" từ một đến năm, thường thi cũng được cho phép hoà.
+Phương pháp thứ hai được gọi là "direct assesment", là khi chúng ta chỉ nhìn thấy một bản dịch và chúng ta phải chấm điểm nó, ví dụ bằng một số thực từ không đến một.
+Và phương pháp thứ nó ba kết hợp hai phương pháp vừa rồi và nó được đặt nhiệu loại tên.
+Ở đây tôi đã dùng tên gọi mà đồng nghiệp của tôi dùng "rank based magnitude estimation", là khi tôi nhìn thấy vài bản dịch và tôi so sánh nó với nhau, nhưng nhiệm vụ ở đây không chỉ là xếp hạng nó mà cùng lúc đó nhiệm vụ là chấm điểm từng câu dịch bằng một số thực.
+Tốt nhất là...
+Ừ.
+Một lúc nữa tôi sẽ chỉ trên những ví dụ, ở đấy chắc sẽ dễ hiểu nhất.
+Và bể mặt thứ ba.
+Chúng ta đánh giá từng câu gọi là sentence based hoặc sentence level evaluation.
+Hay là chúng ta đánh giá cả bản tài liệu.
+Nhưng mà cái tôi gọi là document level ở đây nghĩa là cả cái bản tài liệu được chấm điểm.
+Mặc dù có những câu được dịch đúng và có những câu bị dịch sai thì tôi phải tính trung bình trong đầu rồi chấm điểm cả cái bản dịch bằng một con số.
+Và cái mà tôi gọi là document aware là chúng ta chỉ cho cả cái tài liệu một câu một và chúng ta muốn những người đánh giá chấm điểm cho từng câu.
+Rồi bây giờ thì những ví dụ.
+Trong những năm từ hai nghìn không trăm mười đến hai nghìn không trăm mười sáu thì đánh giá bằng tay trong share task trong cuộc thi WMT nhìn như thế này.
+Như tôi đã nói, ở đây đã có năm bản dịch khác nhau từ năm hệ thống phiên dịch.
+Có thể có những cái từ người dịch.
+Câu trong bản gốc đã được chỉ.
+Trong trường hợp này thì là phiên dịch Séc-Anh và bản gốc là trong tiếng Séc.
+Bản dịch mẫu là trong tiếng Anh.
+Vậy.
+Và đấy chỉ là những câu riêng lẻ.
+Khi mà tôi đánh giá xong thì tôi ấn đâu vào đây.
+Và ở màn hình tiếp theo nó hiện lên một câu từ cái tài liệu hoàn toàn khác.
+Có lẽ sau tầm...cứ gọi là, ba ngày thì tôi lại nhìn thấy một câu từ cái tài liệu cũ, nhưng mà lúc đấy thì tôi cũng không nhận ra.
+Mà tôi chưa nói về việc đấy nhưng mà sự bất lợi khi đánh giá từng câu một là thỉnh thoảng chúng ta thật sự không thể xác định được sự chính sác và sực lưu loát của bản dịch.
+Chúng ta không thể đánh giá được.
+Chúng ta cần đọc cả cái tài liệu để đánh giá được chính sác.
+Ở đây các bạn có thể nhìn thấy ví dụ từ năm ngoái, năm cuối cùng, ở đó một trong những nhiệm vụ là đánh giá chất lượng của cả bản dịch, tức là cả cái tài liệu.
+Như bạn có thể thấy, cái tài liệu đó có thề rất dài.
+Đây không phải là cái dài nhất trong tất cả.
+Tôi đã có nhiệm vụ đánh giá cả cái tài liệu này bằng điểm từ không đến một trăm phần trăm.
+Ở đây có...
+Tôi đã có thể đặt cái thanh trượt này vào bất kỳ vị chí nào.
+Trong thực tập tôi nghĩ là nó có một trăm vị chí khác nhau.
+Và tất nhiên, vấn đề là nó rất khó để đánh giá chất lượng của tất cả các câu này và gộp nó vào một con số.
+Năm ngoái đồng thời đã thử một cách tôi gọi là pseudo document aware, khi mà họ liên tục chi chỉ những câu riêng lẻ.
+Ở đây thì đã sử dụng cái Direct Assesment, tức là tôi chỉ nhìn thấy một bản dịch thôi.
+Tôi không nhìn thấy bản dịch nào khác, tôi lại đánh giá từ không đến một trăm phần trăm.
+Nhưng mà những câu đấy đi sau nhau giống như ở trong cái tài liệu.
+Nhưng tại sao tôi lại gọi nó là pseudo?
+Tại vì những người đánh giá không được quay lại những câu trước.
+Ở đấy không có nút quay lại.
+Họ không cả nhìn thấy những câu tiếp theo.
+Cho nên chỉ những gì mà tôi đã nhỡ từ những câu trước thì tôi có thể dùng là văn cảnh của cái tài liệu.
+Tôi cảm thấy như thế là rất thiếu xót.
+Tại vì thỉnh thoảng khi mà tôi thử cách đánh giá đấy thì tôi thật sự không thể làm được, tôi tự nói với mình là tôi cần biết sau đó sẽ là gì, hoặc là tôi đã quên cái câu trước.
+Mà tôi cũng không cả thay đổi được quyết định của mình.
+Ví dụ ở câu tiếp theo tôi lại phát hiện ra là cái bản dịch của câu trước nó tốt hợn nhiều so với tôi đánh giá.
+Nhưng mà tôi lại không được thay đổi nữa.
+Vì thế nên pseudo.
+Và đây là ví dụ thứ ba.
+Đây là buổi đánh giá mà tôi đã tổ chức.
+Chúng tôi đã thuê vài người đánh giá, trong đó có những người phiên dịch chuyên nghiệp và cả một vài các bạn hoặc đồng nghiệp của các bạn.
+Và đây là cái mà tôi thực sự gọi là document aware.
+Tức là đánh giá cả cái tài liệu, là tôi nhìn thấy cả cái tài liệu ở đây trong cái cột này là tất cả những câu từ bản gốc, trong trường hợp này là trong tiếng Anh, ở đây tôi nhìn thấy hai bản dịch tiếng Séc từ hai cái hệ thống.
+Thực ra trong thí nghiệm này một trong hai cái hệ thống là hệ thống dịch bằng nơ-ron của tôi tên là Transformer.
+Cái hệ thống thứ hai thực ra là bản dịch mẫu của người.
+Và những người đánh giá có nhiệm vụ điền vào ba cột này và ba cột này, mà tôi đã để họ đánh giá chất lượng chung của từng câu.
+Và sau đó thì adequacy và fluency tức là sự tín nhiệm và sự lưu loát của cái câu nói.
+Và y như vậy cho cái bản dịch thứ hai.
+Nhưng một phần của nhiệm vụ là họ phải để ý đến cả văn cảnh của cả cái tài liệu.
+Có nghĩa là họ được nhìn thấy bản gốc, câu trước và cả câu sau ở trong bản dịch.
+Những người đánh giá cũng có thể tự điền thêm lời bình luận.
+Chúng tôi có kế hoạch công khai đưa ra những dữ liệu đó.
+Nên là nếu ai đó muốn tiếp tục xử lý nó thì trong đấy có thể có những thứ thú vị.
+Rồi.
+Cái gì?
+À, cái đấy thì chúng ta sẽ thoả thuận sau.
+Có thể là chúng tôi sẽ bỏ các lời bình luận trước khi công khai nó.
+Được rồi.
+Vâng.
+Có câu hỏi nào không?
+Vâng.
+Theo tôi thì cái sự khác biệt chính là tôi được nhìn thấy cả cái tài liệu gốc.
+Thật ra ở đấy và ở đấy tôi cứ chỉ nhìn thấy một câu thôi.
+Tôi chỉ được nhìn một câu như thế này và tôi không thể quay lại câu trước.
+Cái sự khác biệt lớn nữa là ở đấy tôi chỉ được nhìn thấy một bản dịch và nhiệm vụ của tôi là đánh giá nó từ không đến một trăm phần trăm chứ ở đây tôi được nhìn thấy tất cả các phiên dịch.
+Tức là các hệ thống phiên dịch.
+Trong trường hợp này thì tôi được nhìn thấy hai cái mà tôi muốn so sánh ở cạnh nhau.
+Nên là khi mà tôi chấm điểm cái này.
+Và sau đó tôi chấm điểm cái này, thì tôi cố gắng để cho nó công bằng.
+Nếu như sau tận ba tuần nữa tôi mới nhìn thấy cái ví dụ thứ hai này thì tất nhiên là tôi sẽ không nhớ là mình đã cho nó điểm gì.
+Nên là tôi sẽ không thể so sánh được.
+Đấy là cái lời trách lớn nhất của tôi với cái phương pháp direct assesment
+Vì thế nên tôi ưu tiên nhìn thấy cả hai hệ thống, tức là relative ranking, hoặc trong trường hợp này là rank mean.
+Chính sác như vậy.
+Tôi còn nhìn thấy là những người đánh giá rất hay tận dụng việc họ được đánh giá trong bất kỳ thứ tự nào.
+Nên là thỉnh thoảng họ điền hết adequacy.
+Sau đó điền hết fluency và họ thường hay quay lại và thay đổi, cái đó tôi biết.
+Một là vì ai đó đã cho tôi biết, hai là vì đây là Google tài liệu nên thỉnh thoảng tôi đã nhìn thấy họ đang biên tập.
+Là họ tận dụng quyền được thay đổi sự quyết định của mình.
+Thế còn câu hỏi nào không?
+Về việc này hai là gì?
+Thế một lần nữa ở đây tôi có tổng hợp những vấn đề.
+Nói chung là đấy là những sự trở ngại của các phương pháp đánh giá và nó làm cho cái sự đánh giá bị biến dạng đi.
+Nhưng đấy không phải lúc nào cũng là việc sấu.
+Nhưng nó là một cái ảnh hưởng.
+Một sự biến dạng, sai lệch.
+Thực ra tôi chưa nói về cái đấy nhưng mà trong trường hợp tôi đánh giá cả cái tài liệu, nhất là khi những tài liệu đó nó dài.
+Tất nhiên một vấn đề là nó rất khó để cho cả cái tài liệu một con số điểm.
+Vấn đề tiếp theo nữa mang tính chất tâm lý.
+Là...
+Khi tôi biết là tôi nên đọc kỹ tất cả các bản dịch của các câu đấy, của các câu trong cái tài liệu dài đấy.
+Tôi bỏ ra có lẽ nửa tiếng, có khi một tiếng khi mà tôi thật sự...
+Dùng phương pháp này thì với một cái tài liệu có tầm hai mươi câu mà có những người đánh giá đã dùng hết nửa tiếng, một tiếng, tại vì người ta so sánh rất kỹ lưỡng xem cái bản dịch nào tốt hơn và vân vân.
+Nếu các bạn nhìn thấy cái này thì chắc là các bạn sẽ không muốn bỏ ra một tiếng để sau đó trong vòng một giây các bạn cho nó một con số điểm nào đó.
+Một mặt thì như thế là tốt, vì chúng ta có thể đánh giá được nhiều tài liệu hơn.
+Nhưng mà tất cả nó sẽ rất thực ra câu hỏi ở đây là chúng ta có thể tin cậy vào cái đánh giá của con người không?
+Những người đánh giá họ chấm điểm theo cái gì.
+Thực ra tôi đã làm thêm một điều nữa.
+Sau khi những người đánh giá đã chấm điểm tất cả các câu.
+Chính xác hơn thì tôi đã chọn mười câu từ mỗi tài liệu.
+Và tôi nhờ họ đưa ra một điểm số mà tôi gọi là document level, họ phải đánh giá cả mười câu đó bằng một con số điểm.
+Nhưng mà đấy là sau khi họ đã chấm điểm từng câu riêng.
+Theo tôi thì như thế họ sẽ không có cái vấn đề về tâm lý.
+Rõ ràng là họ phải bỏ thời gian ra cho từng câu một tại vì họ phải dịch cái điểm số.
+Họ phải suy nghĩ thật kỹ rồi sau đó mới định rõ một điểm số cho cả cái tài liệu, nhưng tôi không muốn họ tự tính điểm trung bình bằng tay.
+Tôi tò mọ và chúng ta có thể nghiên cứu ra từ những tài liệu đó.
+Tất nhiên điều có thể xảy ra là có lẽ một câu nào đó trong đấy là câu quan trọng nhất trong cả cái tài liệu.
+Và nếu như trong cấu đấy có lỗi thì dù là trong các câu khác không có lỗi nào thì cả cái bản dịch của cái tài liệu đấy sẽ bị điểm kém.
+Như thế.
+Mà tôi có nó ở đây.
+Ở đây có một câu hỏi, bằng cách nào?
+Nếu chúng ta không có điểm số của bản dịch của cả cái tài liệu thì làm thế nào để tính ra một điểm số gần đúng.
+Chúng ta có thể thử ở những dự liệu của tôi xem là trung bình cộng hay là trung bình nhân là đúng hơn hay là có lẽ số tối thiểu là đúng.
+À mà còn cái này.
+Tôi chưa nói.
+Nhưng mà ở đây trong cái cách chấm điểm của tôi thi những người đánh giá chấm điểm từ không đền mười.
+Sau đó chúng tôi còn cho họ sử dụng số thập phân.
+Nhưng mà họ không dùng đến nó lắm.
+Và đây là kết quả của cuộc đánh giá đó.
+Ở đây hai bản dịch là của người và của máy dịch transformer, trong trường hợp này thì cái hệ thống đấy chúng tôi đặt tên là Kubit.
+Đấy là cái bản dịch bằng nơ-ron của tôi.
+Và nếu chúng ta chỉ hỏi đơn giản là cho mỗi một câu cái bản dịch của máy nhận được điểm tốt hơn hay là điểm kém hơn hay là bằng điểm so với bản dịch của người.
+Và chúng ta không quan tâm đến là tốt hơn nhiều hay ít.
+Thì kết quả là bản dịch của máy tính tốt hơn trong bốn mươi mốt phần trăm.
+Đây là tôi chỉ đánh giá cá chất lượng tổng hợp thôi chứ tôi không xem sét đến sự lưu loát và sự tín nhiệm.
+Bản dịch của người đã tốt hơn chỉ trong ba mươi tám phần trăm.
+Thế còn số còn lại?
+Hai mươi mốt phần trăm là hoà, tức là cái chất lượng của hai bản dịch được đánh giá là bằng nhau.
+Nên là nếu tôi chỉ nhìn vào cái kết quả này thì tôi có thể suy luận ra là phiên dịch bằng máy tính đã vượt qua chất lượng phiên dịch của con người.
+Tôi muốn nhắc lại là những tài liệu này được người phiên dịch chuyên nghiệp dịch ra và tất nhiên là người ta được đọc hết cả cái tài liệu.
+Và cả những người chấm điểm cũng được nhìn thấy cả cái tài liệu.
+Dĩ nhiên nếu chúng ta xem xét chi tiết và so tỷ số trung bình thì tỷ số trung bình của bản dịch của con người là tám phẩy năm còn của máy tính là chín.
+Nếu bạn muốn biết là tại sau ở đấy lại có cái phẩy năm thì tôi có thể giải thích sau.
+Được rồi.
+Tại vì chúng ta.
+Nếu nhiều người chấm điểm một câu thì chúng tôi đã tính điểm trung bình để chúng tôi chỉ có một số điểm của người cho mỗi câu.
+Nên nó có thể xảy ra là nếu hai người đã chấm điểm một câu thì nó sẽ có cái nửa vào đấy.
+Nhưng mà cái điều thú vị mà tôi muốn chỉ ra ở đây là gì?
+Số điểm trung bình của cái chất lượng của bản dịch bằng máy tính lại thấp hơn.
+Ở bản dịch của con người là tám phẩy ba còn của máy tính là tám phẩy hai.
+Tại sao?
+Các bạn có thể nhìn thấy lý do ở trong cái biểu đồ này.
+Mặc dù là bản dịch bằng máy tính của hầu như tất cả những câu được đánh giá là tốt hơn.
+Thì có những câu bị đánh giá là kém hơn, nhưng mà kém hơn đáng kể.
+Ở chỗ nào đấy cái máy phiên dịch nó mắc lỗi mà con người không bao giờ bị mắc.
+Chúng ta có thể nhìn thấy ở đây là thỉnh thoảng bản dịch của con người cũng bị mắc lỗi lớn.
+Nhưng mà ít hơn hẳn.
+Và bây giờ thì câu hỏi là trong hai cái này thì hệ thống nào tốt hơn?
+Bản dịch của con người có thực sự là tốt hơn không?
+Hay là bản dịch của máy tính đã tốt hơn là của con người?
+Và chắc cái đấy phụ thuộc vào việc mà chúng ta cần đến phiên dịch.
+Nếu như có vài câu bị dịch sai hẳn thì có làm phiền chúng ta lắm không?
+Nếu như cái kết quả được đưa cho ai đó để người ta kiểm tra thì cái việc đấy gọi là biên tập sau.
+Chắc như thế thì chấp nhận được.
+Rồi.
+Sự trở ngại tiếp theo.
+Giờ tôi sẽ tập trung vào tự động đánh giá bản dịch.
+Đến bây giờ thì tôi nói về đánh giá bằng tay.
+Và bây giờ, nếu chúng ta muốn dùng đến cái chỉ số tự động nào đó thì ở đây tôi đã chọn cái chỉ số nổi tiếng nhất gọi là BLEU, nhưng mà về cơ bản thì những thứ này được áp dụng cho tất cả những phương pháp mà dựa vào sự so sánh giữa bản dịch và bản dịch mẫu của con người.
+Cái vấn đề nổi tiếng nhất đã được biết đến từ khi người ta mới phát minh ra cái chỉ số này.
+Chúng ta không có đủ bản dịch mẫu.
+Thường ch́ng ta chỉ có một cái bản dịch mẫu thôi.
+Vì thế chúng ta không thể bao phủ được hết tất cả những cách phiên dịch và thường thì có nhiều cách để dịch.
+Vì thế mặc dù là bản dịch của máy tính không giống bản dịch mẫu một tí nào thì nó vẫn có thể là đúng.
+Nhưng theo như chỉ số BLEU thì nó sẽ bị đánh giá là sai.
+Và vấn đề nữa.
+Kể cả nếu chúng ta có tất cả các cách dịch đúng thì câu hỏi được đặt ra là chúng ta chấp nhận được thêm cái gì là một cách dịch đúng.
+Ví dụ cái bản dịch của máy tính không phải là tốt nhất nhưng mà chỉ số BLEU không nhất thiết có liên quan đến cái sự trầm trọng của lỗi sai.
+Chỉ số BLEU được dựa vào số lượng n-gram bị khác với bản dịch mẫu.
+Và có thể xảy ra là có khi nhiều từ sẽ bị khác.
+Ví dụ như là động từ cụm.
+Nhưng đấy chỉ là một lỗi nhỏ.
+Trong khi có lúc sai hoặc thiếu một từ có thể hoàn toàn thay đổi ý nghĩa của câu.
+Và chỉ số BLEU không phản ánh điều này.
+Và vấn đề thứ ba tương đối mới, tức là trước đây chúng tôi không bị gặp đến, nó là những bản dịch mẫu cũng có thể có chất lượng thấp hơn so với bản dịch bằng máy tính.
+Và những bản dịch này bị chỉ số BLEU phạt tại vì nó không giống bản dịch mẫu.
+Câu hỏi tiếp theo là nếu phương pháp đánh giá của chúng ta là chúng ta có những câu từ tờ báo tiếng Anh nào đó và chúng ta nhờ người phiên dịch chuyên nghiệp tạo ra một bản dịch mẫu.
+Thì tôi đánh dấu ở đây, bản mẫu thực ra là một bản dịch chứ không phải là câu nguyên bản.
+Thì tất nhiên ở đây là cái vấn đề mà tôi đã nói đến.
+Cái bản dịch đấy không nhất định là đúng.
+Nếu như người phiên dịch dịch không hẳn là đúng hoặc bản dịch nó không được lưu loát.
+Và như ở slide đầu tiên, có khi người phiên dịch phải lựa chọn giữa hai lỗi sai.
+Thỉnh thoảng ta dùng cách khác.
+Khi mà tôi lấy những câu trong tiếng Séc, ví dụ từ những tờ báo của Séc, và tôi dịch nó sang tiếng Anh rồi những câu tiếng Anh này tôi dùng làm bản gốc cho việc đánh giá.
+Những câu tiếng Anh này được dịch bằng máy tính sang tiếng Séc và sau đó ta đánh giá sự giống nhau với bản mẫu.
+Tuy nhiên trong trường hợp này thì bản mẫu là cái câu ban đầu.
+Nên là trong cách cho là hướng đánh giá ngược này thì cái câu gốc không phải là câu nguyên bản.
+Nó là một bản dịch và vì thế nó có thể có đúng hai vấn đề này.
+Nó không nhất định là có đúng nghĩa so với bản mẫu.
+Và đồng thời cái câu gốc chắc là sẽ không đại diện được những loại câu nói mà tôi muốn phiên dịch.
+Chắc là chúng ta sẽ không muốn dùng máy phiên dịch Anh-Việt để dịch những câu tiếng Séc nói về những nhà chính trị của Séc.
+Nên đấy là một vấn đề về lãnh giới, hoặc đất nước nguồn gốc.
+Và cũng là vấn đề tiếng Dịch, tại vì chúng ta dịch cái văn bản mà nó không có những câu nguyên bản.
+Đấy gọi là tiếng Dịch.
+Và có một cái rủi ro nhỏ là cả cái câu nguyên bản, cái câu làm mẫu ý, nó cũng không hẳn chính xác và lưu loát, cũng như tôi đã chỉ ở slide đầu tiên là có những lúc tôi cũng không diễn đoạt được đúng theo ý mình kể cả ở trong tiếng mẹ đẻ của tôi.
+Như vậy đấy.
+Bây giờ tôi sẽ chỉ một kết quả của cuộc thi phiên dịch từ năm trước.
+Trong trường hợp này thì là phiên dịch từ tiếng Anh sang tiếng Đức và cái trục này có chỉ ra sự tương quan giữa những chỉ số khác nhau.
+Một trong những chỉ số là chỉ số BLEU mà được tô mầu hồng ở đây.
+Sự liên hệ của những chỉ số này với sự đánh giá của con người, cái mà chúng tôi coi là yếu tố quyết định trong cuộc thi này, một sự đánh giá chất lượng chuẩn.
+Và trên cái trục này các bạn có thể nhìn thấy chúng tôi đã so sánh bao nhiêu hệ thống.
+Và trong trường hợp là chúng ta so sánh hai mươi hệ thống, tất cả các hệ thông được đăng ký vào cuộc thi đấy, thì cái sự tương quan nó rất cao - hơn chín mươi năm phần trăm.
+Tuy nhiên nếu như tôi chỉ so sánh bốn cái hệ thống tốt nhất thì cái sự tương quan lại thấp hơn là không, tức là nó là  một số âm.
+Vậy thì cái hệ thống mà được chỉ số BLEU cho là tốt hơn thì thực ra nó lại là hệ thống kém hơn.
+Vì thế nếu chúng ta nhìn thấy...
+Và trước đây hầu như người ta chỉ hay báo cái con số này thôi, và người ta nói là chỉ số BLEU có tương quan với sự đánh giá của người là chín mươi sáu phần trăm.
+Xong rồi tất cả cùng vỗ tay.
+Mình cữ nghĩ là thế còn bốn cái phần trăm cuối cùng thì-
+Nhưng nếu chúng ta nhìn vào đây, ví dụ chỉ năm cái hệ thống thôi, thì cái sự tương quan lại rất kém, nếu như chúng ta chỉ so sánh các cái hệ thống đấy.
+Và đấy là một việc dễ hiểu.
+Trong hai mươi cái hệ thống đấy thì có những hệ thống có chất lượng thấp và rất giản dị.
+Tất cả đều có thể đồng ý với cái đấy.
+Cái bản dịch chất lượng rất thấp này đúng là kém hơn so với những bản dịch khác.
+Vâng, bạn nhắc đúng.
+Thế nếu chúng ta dùng chỉ số BLEU nhưng chúng ta không cho số âm vào đấy thì sao?
+Trong trường hợp này thì nó sẽ có ảnh hưởng tích cực.
+Nhưng mà việc đó chứng minh là-
+Sau này thì chúng ta có thể trang luận về việc đấy ở cuộc thảo luận.
+Tôi có một vài giả thuyết.
+Đơn giản thôi, nó có liên quan đến việc là những bản dịch tốt nhất kể cả cho tiếng Đức đã được đánh giá tốt hơn cả bản dịch của con người.
+Hoặc là tương đương với bản dịch của con người.
+Nên là sự giống nhau so với bản dịch của con người thì thực ra không thể đưa ra một kết quả chính sác cho sự đánh giá tự động.
+Tất cả những chỉ số, không riêng gì là BLEU, đều bị có vấn đề đấy.
+Và ở đây những vạch mầu ghi này là tất cả các chỉ số khác, và các bạn có thể thấy là nó cũng có vấn đề đấy.
+Vâng?
+Tôi không biết là Ondra Bojar có nhớ không?
+Tất nhiên là chúng ta có thể tìm thấy ở trên web.
+Theo tôi nhớ thì theo chỉ số BLEU thì bốn cái hệ thống đứng đầu đều tương đương nhau, nhưng có thể là có một cái đã nhô cao hơn.
+Còn tiếng Đức thì thế nào tôi không nhớ.
+Được rồi.
+À mà còn ấn được vào đây.
+Đấy là cái bài văn bao gồm những kết quả.
+Ở đấy có những kết quả giống như thế chó những đôi ngôn ngữ khác.
+Nhưng mà thực ra thì ở đâu cũng có quá trình giống như thế, tức là khi có ít hệ thống hơn thì cái sự tương quan nó thường bị sai.
+Tất nhiên là nếu chỉ có hai hệ thống thì không thể đo được sự tương quan.
+Một kết quả nữa áp dụng được cho dụng cụ chấm điểm bằng chỉ số BLEU mà ngày nay được khuyên nghị sử dụng (Sacre bleu?) đã được tôi bổ sung thêm vào và tôi nghĩ là nó đã được xuất bản rồi.
+Các bạn có thể dùng nó cho những đầu ra chi tiết, và ở đâu mà tôi có chú giải hoặc ở đâu mà tôi đã điền thêm vào thì tôi đã cố để phân biệt những lãnh giới của các văn bản vả ngôn ngữ gốc của nó.
+Tức là ví dụ tôi đã định ra hình như năm lãnh giới businness, politics, entertainment, science và technology crime.
+Ở đây nó đã được dịch ra một cách hài hước đúng không?
+Còn ở đây trong trường hợp phiên dịch từ tiếng Anh sang tiếng Đức thì tôi còn chia ra là cái câu đấy lúc đầu nó trong tiếng Đức hay là trong tiếng Anh.
+Và nếu như nó được lấy từ báo thì tôi còn xem là tờ báo đấy từ nước nào trong Liên Minh Châu Âu hay là từ Mỹ, Anh hay là từ nước nào khác.
+Cái mà tôi muốn chỉ ở đây là những đường cong này, đấy là những cái hệ thống.
+Tôi đã bình thường hoá những chỉ số BLEU để số một là trung bình.
+Tại vì, tất nhiên, có những lãnh giới dễ phiên dịch hơn nên là ở đấy thì cái điểm số nó cao hơn.
+Và một cái hệ thống, tôi nghĩ là cái mầu vàng là Facebook, đã đạt kết quả tốt trong những câu tiếng Đức.
+Đương nhiên, tôi cảnh báo, đây là bản dịch từ tiếng Anh sang tiếng Đức.
+Nên là chắc chúng ta sẽ không muốn dịch những câu mà lúc đầu ở trong các bài báo của Đức từ tiếng Anh về tiếng Đức.
+Hoặc là nó chỉ là một cách sự dụng thứ yếu.
+Nếu tôi muốn phân tích là ở Mỹ ở trong báo người ta nói gì về truyền thông Đức và tôi muốn dịch nó về tiếng Đức, thì có thể như vậy.
+Nên là cái việc mà nó đạt được kết quả tốt trong thực tập thì cũng không đáng giá lắm.
+Nhưng trong đó có một sự khác biệt lớn giữa nhưng lãnh giới đó.
+Có những hệ thống phiên dịch tốt hơn cho lãng giới này còn có cái tốt hơn cho lãnh giới kia.
+Và đến bây giờ thì việc đấy cũng không hề được nói đến.
+Lúc nào cũng chỉ chỉ vào cái kết quả trung cho tất cả các lãnh giới.
+Và dĩ nhiên tôi còn không nói đến việc là đấy chỉ liên quan tới những bài báo thôi.
+Nên là nếu như nó là ví dụ phiên dịch lời nói thì nó có thể sẽ khác hẳn.
+Nhưng mà điều đó thì người ta đã biết từ lâu rồi.
+Và có những cuộc thi khác về phiên dịch lời nói.
+Rồi và bây giờ tôi có một câu đố.
+Các bạn có thể suy nghĩ xem là phiên dịch dùng nơ-ron nó tốt hơn trong sự lưu loát hay là trong sự chính xác.
+Thế nào.
+Vâng.
+Đúng.
+So với cái gì?
+Chúng ta so sánh với cái gì?
+Và câu hỏi là chúng ta có đang so quả lê với quả táo hay là quả táo với quả lê không.
+Tôi tò mò.
+Tôi đã dịch nó là apples and oranges.
+Chắc là không.
+Đã có một vài bài báo so sánh phiện dịch nơ-ron với thế hệ phiên dịch trước, tức là phiên dịch cách thống kê, và hoá ra chủ yếu là cái sự lưu loát đã được cải thiện hơn.
+Và người ta đã nhận định là-
+Nhưng vấn đề là, cái vấn đề có thể nằm trong sự tín nhiệm, sự chính xác.
+Nhưng khi mình nhìn kỹ thì cả hai chiều đó đều được cải thiện, cả sự lưu loát và sự chính tín nhiệm.
+Nhưng tôi muốn chỉ ra cái khác.
+Tôi muốn so sánh với bản dịch của con người.
+Và không phải là tôi muốn so xem trong trường hợp này thì bản dịch nơ-ron tốt hơn hay là của con người tốt hơn.
+Tôi muốn so sánh, tương đối, là khi tôi so bản dịch của con người với của máy thì-
+Cái nào mạnh hơn trong sự lưu loát và cái nào mạnh hơn trong sự chính xác.
+Nên là các bạn hãy suy nghĩ về việc đấy một lúc đi rồi sau đó tôi sẽ cho các bạn biểu quyết.
+Ai nghĩ là cái bản dịch của máy tốt nhất có thể ví dụ ở đây cho tiếng Anh và tiếng Séc là cái phiên dịch nơ-ron của tôi, thì nó là tốt hơn khi mà tôi so với con người.
+Là sự lưu loát của nó tốt hơn?
+Ai nghĩ là có?
+Và ai nghĩ là nó tốt hơn trong sự chính xác, sự tín nhiệm?
+Thế thì chúng ta có hai, ba người.
+Khi các bạn nhìn thấy tôi giơ tay thì có thêm những người nữa giơ tay lên.
+Nó phụ thuộc rất nhiều vào cái hệ thống phiên dịch mà chúng ta lựa chọn.
+Và bây giờ ở đây là cái hệ thống phiên dịch Ang-Séc của tôi.
+Tôi chỉ riêng ra sự chính xác và ở đó thì cái hệ thống dịch của tôi tốt hơn nhiều và cho sự lưu loát thì nó kém hơn nhiều.
+Nên là ở đây thì câu trả lời là phiên dịch bằng máy nó tốt hơn trong sự chính xác.
+Thật sự có những khi-
+Nó có một vài lý do nhưng mà có lúc tôi cảm thấy là những người phiên dịch một là quên không dịch cái gì đó hoặc là họ không biết dịch chính xác thế nào hoặc là theo tôi thì có lúc họ lười không dịch.
+Trong khi cái sự thuận lợi của phiên dịch bằng máy là nó không lười.
+Cái gì cơ?
+Nó bị tự kỷ.
+Vâng.
+Rất ít khi bị xảy ra là cái phiên dịch máy tính nó bỏ cái thông tin nào đấy hoặc là nó quên không dịch cái gì đấy hoặc là nó tự biạ thêm cái gì đó.
+Trong khi con người hay gặp cái vấn đề đó và tất nhiên chúng ta có thể tranh luận là theo quan điểm thực dụng thì như thế có đúng không?
+Nhưng mà ở đây thì chỉ có là những người đấy họ chấm điểm thế nào.
+Đấy còn không phải, tôi không phải là một trong những người chấm điểm đó.
+Nên là đây thực sự là những kết quả từ những sự đánh giá đó.
+Vâng?
+Vâng, thỉnh thoảng có thể xảy ra là cả cái phiên dịch máy tính nó cho thêm cái gì đó mà trong câu gốc hoàn toàn không có.
+Tôi nghĩ là cái máy phiên dịch của tôi không hay bị như thế lắm.
+Dĩ nhiên là tôi đã có nhiều phiên bản khác nhau.
+Tôi đã cố điều chỉnh để việc này không bị xảy ra.
+Vâng?
+Vâng, rất tốt, đấy là một sự nhắc nhở tốt.
+Thỉnh thoảng trong tiếng Anh, thỉnh thoảng tiếng Anh có cho phép không phải biểu thị những gì đó.
+Ví dụ như là chủ ngữ và vân vân.
+Và nếu như chúng ta dịch sang tiếng Séc và cũng không biểu thị nó ra như thế thị nó không được hoặc là nó sẽ bị rất khó nghe và không hẳn chính xác.
+Nói chung là nó giữ lại tất cả các thứ.
+Nó không thêm cái gì cũng không bỏ bớt cái gì cả.
+Nên là ở đây chúng ta lại quay lại việc đấy.
+Có thể là nó có được điểm tốt như thế trong sự tín nhiệm lại được cân bằng bằng điểm kém trong sự lưu loát.
+Nó đi cùng nhau.
+Có khi là tôi đã nên chỉnh một cái thông số nào đấy để cho các cái bản dịch nó được lưu loát hơn với cái giá là nó sẽ không được tín nhiệm lắm.
+Và câu hỏi là chúng ta muốn gì từ cái máy phiên dịch.
+Ví dụ khi mà tôi chỉ biết tiếng Séc thôi chứ không biết tiếng Anh thì chúng ta muốn tự sửa cái câu được dịch để nó khớp vào nhau và nó được lưu loát như tiếng Séc.
+Hay là tôi thà tìm ra cái nguồn gốc và sửa những lỗi sai trong sự tín nhiệm.
+Rồi.
+Vâng?
+Vâng.
+Đấy là một câu hỏi nữa, là chúng ta có chỉ muốn cái máy phiên dịch nó mô phỏng cách dịch của những người phiên dịch.
+Hay là chúng ta muốn cái gì đấy hơi khác một chút.
+Vâng đấy cũng là một luận điểm tốt.
+Tôi nghĩ là tôi sẽ còn có slide nói về sự khác biệt giữa những người chấm điểm.
+Nhưng tạm thời thì tôi chỉ nói là trong cái sự đánh giá này thì các cái hể thống được ẩn danh và những người chấm điểm không biết là hệ thống A là người hay là máy hay là hệ thống B.
+Thậm chí họ còn không biết là, hoặc là đãng lẽ họ không nên biết được là họ sẽ chấm điểm máy tính và con người.
+Chúng tôi nó với họ là: đây là hai bản dịch khác nhau và họ đã không biết là hai cái đấy là bản dịch của con người hay là của máy tính.
+Còn câu hỏi nào nững không?
+Rồi.
+Vâng, vâng.
+Vâng.
+Vâng.
+Vâng, đấy là một sự nhắc nhở tốt.
+Tuy ở đây là bản dịch một bản dịch hai nhưng chúng tôi đã phải giữ là tất cả những câu trong một cột là từ một cái hệ thống.
+Nên là ví dụ ở đây toàn là bản dịch của người, ở đây là của máy hoặc là ngược lại.
+Chúng tôi đã cân đối là có nên đổi nó đi không nhưng như thế thì lại bị vi phạm cái là người ta phải đánh giá xem nó nối với những câu trước thế nào.
+Ví dụ tôi có hai từ đồng nghĩa thì tôi dịch thế nào.
+Cả hai từ đều đúng nhưng mà tôi không thể thay đổi nó trong mỗi câu.
+Nó phải kiên định.
+Nên vì lý do đấy mà chúng tôi đã quyết định không đổi nó trong vòng 10 câu này.
+Như vậy đấy.
+Nếu như tôi nhận ra từ một câu nào đấy là bản dịch nào của con người và cái nào của máy tính và nếu tôi biết là một cái là của người còn một cái là của máy tính thì nó có thể ảnh hưởng tôi vào cả những câu khác.
+Tôi sẽ có slide nói về cách mọi người làm thế nào mà nhận ra cái nào là máy tính và cái nào là con người.
+Đấy là một ý hay nhưng tôi sẽ ngắt cuộc thảo luận này vì hai lý do.
+Một là vì tôi đã hưá là sẽ chỉ mất dưới 90 phút.
+Và tôi vẫn còn vài slide.
+Và hai là cho cái thí nghiệm này bạn cần những người chấm điểm mà người ta không biết là trong đó sẽ có cái mẹo này.
+Và nếu mà bạn nói cho tất cả mọi người ở đây.
+Được rồi.
+Rồi.
+Ở đây tôi đã muốn chỉ là cái so sánh chất lượng phiên dịch của máy và con người, tức là ở đây ra số điểm của bản dịch bằng máy tính chừ đi chất lượng của cái của con người, nó khác nhau tùy từng lãnh giới, ví dụ cho những bài báo thương mại thì cái bản dịch của máy tính tốt hơn so với của con người.
+Nhưng mà những bài báo từ mục entertainment, tức là những bài phê bình các bộ phim, cuốc sác và vân vân, ở đấy thì cái bản dịch của máy tính đã kém hơn nhiều so với của con người.
+Ở slide trước tôi đã cho xem là nó thế nào ở mức cả những văn bản.
+Khi mà người ta chỉ chấm một điểm cho cả cái văn bản, trong trường hợp của tôi thì là cho cả mười câu.
+Ở đây các bạn có thể nhìn thấy kết quả khi mà chúng ta đưa tất cả các cái câu đấy lên.
+Nhưng mà cái xu hướng nó đểu như nhau.
+Ở đây chúng ta có nhiều quan sát hơn nhưng mà nó lại hơi khác một tý.
+Nhưng các bạn vẫn có thể nhìn thấy những sự khác biệt.
+Và ở đây thì lại trước đây tôi chỉ có cái sự tính nhiệm ở đấy thôi.
+Và ở đây thì là sự lưu loát.
+Tức là trong sự lưu loát thì nói chung là gần như ở đâu thì bản dịch của con người đều tốt hơn.
+Vì thế nên là tất cả nó đều ở dưới số không này.
+Chắc là ngoại chừ những bài nói về thương mại.
+Ở đây khi mà nó ở mức từng câu riêng.
+Ở đâu chắc các bạn có thể nhìn thấy là khi chúng ta lấy trung bình những câu thì nó được điểm tốt hơn là khi chúng ta chấm điểm tất cả những văn bản.
+Ý tôi là nó tốt hơn từ cái góc nhìn của phiên dịch máy tính.
+Nên là ở đấy vẫn cò sự khác biệt nào đó.
+Nên ở đây có câu hỏ là chúng ta có thể-
+Chúng ta có thật sự phải bắt những người chấm điểm điền vào ba cái cột, sự chính xác, sự lưu loát và chất lượng trung không, hay là chúng ta có thể ước tính cái chất lượng trung bằng số bình quân gia quyền.
+Thì chúng ta có thể thử xem.
+Chúng ta có đủ dữ liệu.
+Vì chúng tôi đã bắt họ chấm điểm ba cột.
+Và chúng tôi đã phát hiện ra là nếu như mình muốn tìm ra cái cân nặng của sự chính xác trong điểm số trung bình thì cái biến số x này sẽ thay đổi tùy theo người nào đã chấm điểm.
+Nếu như họ không phải là người phiên dịch chuyên nghiệp mà chỉ là những người mà giỏi cả hai tiếng thì người ta hay nhấn mạnh sự chính xác một nửa và nhiều hơn.
+Nên câu hỏi là sự tín nhiệm có được giữ lại không.
+Họ không quan tâm đến sự lưu loát nhiều lắm.
+Khi mà chúng tôi xem kết quả của những người phiện dịch chuyên nghiệp thì họ nhấn mạnh sự lưu loát.
+Chúng tôi còn có ba người học gia phiên dịch.
+Tôi phải nhấn mạnh là cái việc họ nhấn mạnh cái gì được chúng tôi chấm theo cách mà họ chấm sự tín nhiệm và sự lưu loát.
+Tôi không biết là tôi có cái ảnh ở đây không.
+Cái đấy tất nhiên là cũng khác.
+Thỉnh thoảng những người phiên dịch chuyên nghiệp đã đánh giá sự lưu loát thấp hơn nhiều so với những người không chuyên nghiệp.
+Và chúng tôi còn tò mò là nếu như chúng tôi chấm điểm riêng cho bản dịch của máy tính và riêng cho bản dịch của con người thì nếu như họ không biết cái nào là cái nào thì đúng ra những con số đấy sẽ ở trên một đường chéo.
+Nhưng mà hoá ra lại không phải như vậy.
+Trong trường hợp bản dịch của con ngườ thì có những người chỉ nhấn mạnh sự tín nhiệm thôi.
+Nhưng trong trường hợp bản dịch của máy tính thì có một người chấm điểm chất lượng bình quân gia quyền mà cả hai đều có trọng số như nhau.
+Không phải là họ gian lận hay gì cả.
+Thực ra có thể là họ không dùng bình quân gia quyền tuyến tính như thế.
+Có thể nó là trung bình nhân hay là gì đấy.
+Ví dụ như mức tối thiểu.
+Vậy đấy.
+Như thế là tốt.
+Tôi hy vòng là đã đến slide cuối cùng.
+Sau đó thì chúng ta có thể thảo luận.
+Vấn đề tiếp theo.
+Câu hỏi là sự phiên dịch và sự địa phương hoá nó khác nhau cái gì?
+Có những lúc khi mà chúng ta phiên dịch những bài báo từ môi trường văn hoá khác thì chúng ta không chỉ là dịch thôi mà có khi phải thay đổi cả cái gì họ viết ở trong đó.
+Nên là tôi lại tìm ra hình như là từ năm nay.
+À không từ WMT năm ngoái.
+Trong đó có một câu về lễ hội Burning Men ở Mỹ.
+Nó được dịch ra là Matějská pouť và nếu nhìn vào ảnh thì các bạn thấy nó là cái gì đấy khác hẳn.
+Nhưng tôi thấy là ở trong cái văn bản đấy nó là ở trong một cái chuyện cười.
+Và không hề̀ quan trọng là lễ hội Burning Men hay là cái gì đấy khác.
+Woodstock.
+Nó đã hữu dụng và từ góc nhìn thực dụng và địa phương hoá thì dịch thành Matějská pouť là tốt hơn.
+Dĩ nhiên và tất nhiên là chỉ con người mới dịch ra được như thế thôi.
+Máy phiên dịch không giám địa phương hoá như thế và chắc là chúng ta cũng không đòi nó làm như vậy.
+Và một câu hỏi lớn là những thứ đấy thì chấm điểm thế nào khi đánh giá bản dịch của con người.
+Tôi cảm ơn vì sự chú ý của các bạn.
+Giờ thì chúng ta có thời gian cho những câu hỏi.
+Lúc nẫy thì có vẻ là sẽ có rất nhiều câu hỏi.
+Và bây giờ thi chắc là tất cả mọi người đều cần quay lại làm việc.
+Chúng ta có thể thoải mái bàn luận.
+Nếu như tôi hiểu đúng thì ý tưởng là chúng ta làm ra một cái đánh giá cơ sở mà chúng ta chỉ chỉ cho cái bản dịch mẫu thôi.
+Sau đó thì-
+Và một cái bản dịch của máy nhưng mà thực ra thì nó lại là ngược lại.
+Cái bản mẫu thực ra sẽ là của máy tính.
+Uhm.
+Có thể sẽ có hai vấn đề.
+Một là có thể họ sẽ không tin bạn, họ sẽ nhận ra kể cả là họ đã không ngồi ở đây và họ không biết về điều đấy.
+Tại vì thật sự là có những câu mà nếu như ai đấy làm về việc này thì họ có thể nhận ra là phiên dịch máy tính làm những lỗi nào và con người làm những lỗi nào.
+Ở cuối ở đây tôi không có cái ảnh.
+Nhưng mà tôi nghĩ là rất nhiều người ở đây đã tham gia cuộc đánh giá đấy.
+Và tôi đã gửi cho các bạn bài tập.
+Tôi đã gọi nó là translation turing test.
+Nhiệm vụ là-
+Nhiệm vụ là phân biệt xem là mỗi câu được dịch bằng máy tính hay là con người.
+Và kết quả là đa số người đã không nhận được ra.
+Tỷ lệ thành công là hơn năm mươi phần trăm nhưng mà hầu như đều là hơi hơi hơn năm mươi phần trăm thôi.
+Nên là với một trăm câu mà họ đã nhận được thì nó không đáng kể.
+Những người mà phân biệt được, có những người có tỷ lệ thành công tầm bẩy mươi phần trăm, thì hầu như là khi tôi nói chuyện với họ hoặc khi tôi nhìn và dữ liệu thì đấy chỉ là vì họ biết là con người có làm những lỗi mà máy tính không bao giờ làm.
+Và vì cái lỗi đó thì họ đã đánh dấu cấu đấy là bản dịch của con người.
+Đấy là vấn đề thứ nhất là không biết nhỡ họ có nhận ra và sẽ bị ảnh hưởng không.
+Vấn đề thứ hai là trong đầu đề không nói là bản dịch mẫu là đúng hay là hãy so sánh với bản mẫu.
+Nó nói là - hãy đánh giá chất lượng của bản dịch và bản mẫu sẽ giúp bạn.
+Lúc nào cũng nói là nếu như trong bản mẫu có vấn đề gì đó, hoặc thỉnh thoảng các câu nó không được sắp thẳng mà bị thừa một đoạn từ câu nào khác, thì đừng nhìn vào mẫu.
+Hãy chỉ đánh giá chất lượng của bản dịch thôi.
+Hoặc là hãy dùng ý kiến của mình và vân vân.
+Vì thế nên là phải-
+Những chỉ thị nó không được chi tiết như thế đâu nhưng mà ngược lại phải nói rõ ràng là họ không được làm cái đấy để chống lại cái sự ảnh hưởng đấy.
+Tôi không biết nhưng chắc là thử được.
+Đấy là một việc.
+Nếu chúng ta dự định là những hệ thống khác cũng sẽ kém hơn trong sự lưu loát nhưng xong tự nhiên lại có một bản mẫu mà không lưu loát thì nó không ảnh hưởng đến số điểm.
+Nếu cái bản dịch nó lưu loát thì bạn cho nó chất lưởng hoàn hảo.
+Cái việc mà bản mẫu không được lưu loát thì cái đấy bạn có thể tự sửa vì bạn là người nói ngôn ngữ đấy.
+Mà một trong những lý do tôi đã cắt ngắn nó lại cho việc này.
+Nhưng nó phụ thuộc rất nhiều vào việc là cái bản dịch của máy tính nó tốt hơn trong sự lưu loát hay là sự chính xác tùy vào cách nó được luyện tập.
+Có dùng nhiều back translation hay ít.
+Tôi có kết quả từ một hệ thống vô danh khác, ở đó kết quả lại ngược lại.
+Tôi nghĩ là cái hệ thống đó tốt hơn trong sự lưu loát nhưng kém hơn trong sự chính xác.
+Tại vì cái cách mà nó được luyện và cũng phụ thuộc vào cách chấm điểm.
+À mà tôi bỏ qua mất vài thứ.
+Nhưng vấn đề của cái các direct assessment khi mà chúng ta chỉ đưa ra một cái bản dịch thôi thì tôi cảm thấy là chúng ta chỉ tập trung vào những lỗi sai trong sự lưu loát và một vài lỗi sai trong sự chính xác.
+Nhưng mà chỉ những lỗi sai nghiêm trọng trong sự chính xác thôi.
+Những lỗi nhỏ khác sẽ không hề được biểu hiện trên xếp hạng những hệ thống trong cách chấm điểm này.
+Và tôi thấy đấy là-
+Tôi không nói là đấy là không tốt nhưng mà nó là một sự biến dạng, sai lệch.
+Sự thuận lợi là có thể chấm điểm nhanh hơn nhiều.
+Ngược lại, vấn đề khi mà chỉ làm relative ranking thôi là-
+Tôi cũng có ở đâu ở trước đây.
+Nếu như một hệ thống có tốt hơn hệ thống khác một tý thôi thì nó sẽ biểu hiện lên ở đây.
+Nó đứng cao hơn trong xếp hạng chỉ do một sự cải thiện nhỏ mà có khi không ảnh hưởng dì đến chất lượng nhưng cái đấy không được biểu hiện.
+Nó cũng bị sai lệch nên là tôi không nói gì kể cả là trước đây tôi tiến cử cách relative ranking chứ không phải direct assessment.
+Nó cũng có những vấn đề của nó.
+Tôi thấy cái phương pháp này là tốt nhất trong những phương pháp mà tôi biết.
+Rồi câu hỏi tiếp theo.
+Thế để sau.
+Vâng.
+Tôi nhắc lại câu hỏi.
+Câu hỏi là khi mà có cái thanh trượt ở đây và có đánh dấu một nửa một phần tư và hai ba phần tư thì họ có dùng đến nó không?
+Họ sử dụng cả cái tầm đo.
+Nhưng khi mà ta làm ra cái biểu đồ thì ở chỗ phần tư và nửa thì có một phần người ưu tiên sử dụng từng phần tư một.
+Vâng.
+Chắc là nếu như tôi chia ra từng phần sáu một thì trong cái biểu đồ sẽ có những ngọn ở chỗ phần sáu.
+Nó có ảnh hưởng đến.
+Bạn có thể thử xem.
+Vâng.
+Tôi có thể chuẩn bị một bài giảng dài hai tiếng về sự trùng hợp giữa những người chấm điểm.
+Và kết luận của tôi là tôi không nhìn ra cái gì.
+Tôi nghĩ là tất cả những người mà đã đo cái đấy người ta đã làm sai.
+Hoặc còn tệ hơn nữa.
+Vì ba hoặc bốn lý do.
+Và tôi thấy  nó cũng vô ích.
+Trừ những trường hợp đặc biệt.
+Tôi còn muốn nói thêm một điều nữa.
+Tôi thấy cái này là một vấn đề thẩm mỹ nhỏ.
+Chúng ta có thể tranh luận là nên viết số vào đấy hay cái gì khác nhưng mà cái vấn đề cơ bản hơn là chúng ta chỉ đưa ra một câu thôi mà không so sánh nó với cái gì cả.
+Nên là chúng ta nhằm vào cái loại khác hẳn.
+Hoặc là trong cái đánh giá đấy thì cuối cùng là những lỗi nặng và nhất là những lỗi về sự lưu loát sẽ quyết định kết quả.
+Tại vì đa số người không cả đọc những câu gốc.
+Nói chung là.
+Người ta đọc cái bản dịch rồi bắn bừa.
+Tại vì đấy là kinh nghiệm của tôi.
+Và điều đó cũng nảy ra từ những dữ liệu.
+Chỉ đọc bản mẫu trong ngôn ngữ trong tiếng đấy, trong tiếng mẹ đẻ của mình và xác định sự lưu loát là dễ hơn nhiều.
+Cái đấy thì vài giây là xong.
+Sau đó thì họ có thể quyết định là xếp vào đâu nhưng mà những lỗi sai ở đấy thì họ nhận ra ngay.
+Nhất là khi tôi chỉ có một câu thôi chứ không phải là cả một văn bản.
+Những lỗi sai trong sự chính xác.
+Cái đấy thì tôi phải suy nghĩ lâu và kỹ và-
+Ví dụ tìm trên internet hoặc trong từ điển và vân vân.
+Cái đấy thì không có ai bận tâm đến.
+Ở đây-
+Nhất là khi mà chúng tôi không bắt họ làm.
+Tôi thấy là đấy là cái vấn đề lớn hơn nhiều.
+Vâng.
+Tất nhiên tôi đang đợi xem ai ở đây sẽ chỉ cho tôi một cái phản ví dụ trên mạng là cái nhận dạng tiếng nói đã hoạt động tốt nhưng à mà ở đây là tôi đã dùng cái máy phiên dịch của tôi, tôi nghĩ là sang tiếng Anh.
+Nên là nó tự bịa thêm cái gì đấy vào.
+Tất nhiên là việc đấy có thể sẩy ra.
+Còn đâu.
+Một câu hỏi tốt.
+Mà tôi cũng tự hỏi là tại sao những cái dữ liệu dùng để luyện tập mà tôi có thì nó-
+Trong đấy có nhiều rì rầm.
+Chỉ một phần nhỏ là từ những người phiên dịch chuyên gia.
+Kể cả nếu như tôi bỏ qua một vài lỗi thì đôi khi một phần.
+Trong đấy có phụ đề cho phim mà những người hâm mộ người ta dịch ra để người ta học cái tiếng đấy và như vậy.
+Nhưng sau một thời gian thì nó tốt hơn vì họ có thể chỉnh sửa.
+Nhưng nói chung là chúng ta không có những người phiên dịch chuyên nghiệp trong dữ liệu luyện tập.
+Trong dữ liệu luyện tập chúng ta có cả hai hướng, từ tiếng Anh sang tiếng Séc hoặc là từ tiếng Séc sang tiếng Anh.
+Nhưng mà hầu như là từ tiếng Anh sang tiếng Séc.
+Thế làm thế nào mà lại tạo ra được một cái máy phiên dịch mà có thể so sánh được với chất lượng của con người ít nhất là trong một vài điểm chấm?
+Tôi cũng không biết chính xác.
+Cái ý kiến chung là khi mà chúng ta có nhiều dữ liệu luyện tập như vậy thì nếu như có mười người phiên dịch thì họ sẽ đưa ra kết quả tốt hơn khi mà họ phải thoả thuận về cái kết quả chứ không như khi mỗi người phải dịch riêng.
+Một thứ nữa là tôi đã dùng back translation nên là tôi có một cái mô hình ngôn ngữ.
+Bạn có ansámbl ở đấy à?
+Không có, tôi không có ansámbl nhưng mà ý kiến chung là tôi đã nhìn thấy hàng triệu ví dụ luyện tập mà không có một người phiên dịch nào đã đọc được nhiều như thế trong quộc đời của người ta.
+Từ góc nhìn này thì có thể nói là tôi có ansámbl.
+Tôi có ở đấy checkpoint averaging.
+Tứ nữa là tôi dùng back translation, tức là những văn bản trong một thứ tiếng chỉ tiếng Séc hoặc tiếng Anh thôi.
+Và là một số lượng văn bản mà không một con người nào có cơ hội đọc được hết.
+Nên là cái máy phiên dịch nó có kiến thức từ nhiều lãnh giới, chính trị, thể thao và vân vân.
+Chắc chắn là nếu tôi phải dịch thì đầy thứ tôi không thể dịch ra tốt hơn được tại vì tôi không biết là dịch ra thế nào.
+Rồi còn cái này nữa.
+Đúng, đúng, bằng cái back translation.
+Tôi không muốn đi vào những chi tiết kỹ thuật.
+Ở đây tôi còn sử dụng một cách đặc biệt khi mà tôi làm back translation để tôi tránh cái cách làm mà ông Ericho Hendrick đã viết ra.
+Như thế thì nó sẽ dẫn đến những hệ thống mà rất tốt trong sự lưu loát.
+Nhưng lại không tốt trong sự chính xác.
+Tôi đã thay đổi một thứ và tôi nghĩ là vì thế, với cả trong những cái đánh giá cũng có hơi trứng thực, là tôi đã được-
+Tôi đã giữ lại được cái sự chính xác như trưức đây hoặc là còn tiếng bộ hơn
+Như vậy đấy.
+Mà còn một thứ nữa tôi muốn nói.
+Cái dì có thể dẫn đến việc là cái hệ thống phiên dịch nó tự bịa ra các thứ.
+Thường khi giải mã thì có một hằng số alpha chỉ là cái câu nó dài thế nào.
+Và chúng ta cố chỉnh để hằng số này được tối ưu.
+Và nếu như ta đặt số lớn thì chúng ta sẽ dịch tốt được những câu dài.
+Nhưng thỉnh thoảng thì nó lại bịa thêm một vài từ vào đấy để-
+Nói một cách dễ hiểu thì để nó đáp ứng hằng số này.
+Trong đấy tôi còn có cái post processing nữa.
+Rất dễ dàng, tôi dùng regular expression để xoá những N-gram bị lặp đi lặp lại và vì thế tôi đã có thể đặt hằng số alpha cao hơn.
+Nhưng mà đấy là-
+Thỉnh thoảng thì máy phiên dịch nó bị như thế.
+Thường là trong trường hợp mà nó gặp cái gì đó mà nó chưa bao giờ gặp đến ở đầu vào.
+Ví dụ như một kí tự lạ hoặc cái gì đấy nhưng thường thì nó không bị.
+Thỉnh thoảng nếu như việc này xảy ra thì nó bị lặp vòng và nó sẽ cứ nhắc đi nhắc lại một hoặc hai từ.
+Đầu tiên thỉ tôi không nghĩ ra cái gì dễ hơn là xoá những cái tự bị lặp lại đấy.
+Một ví dụ buồn cười.
+Trong đấy là:
+Ban nhạc the TAP, TAP, TAP, TAP, TAP sẽ chơi cho các bạn.
+Vâng, trong trường hợp này thì tôi đã xoá nó đi.
+Thế là xong.
+Ban nhạc the TAP sẽ chơi cho các bạn.
+Trong trường hợp này thì nó sai nhưng mà chắc là vẫn tốt hơn là cái cũ.
+Rồi chắc là câu hỏi cuối cùng để tôi không làm mất thời gian của tất cả mọi người.
+Sau đấy thì tất nhiên tôi sẽ vui lòng.
+Không có gì.
+Thế thì tôi xin cảm ơn một lần nữa vì sự chú ý của các bạn.
+Xin chào.
+Đầu tiên thì tôi sẽ giải thích là tại sao tôi lạ có cái mi-crô này ở đây.
+Tôi muốn cho các bạn xem được kết quả cuả một cái dự án của chúng tôi.
+Những nó không phải là kết quả.
+Nó là DEMO.
+Tôi làm việc-
+Tôi làm việc với phiên dịch băng máy tính.
+Và với đồng nghiệp thì chúng tôi đã phát triển ra hệ thống này, là hệ thống tự động phiên dịch ra rất nhiều ngôn ngữ khác.
+Chúng tôi muốn thử nghiệm nó ở những hội nghị mà không dễ hoặc rẻ để thuê những người phiên dịch cho tất cả các ngôn ngữ.
+Ở đây chúng tôi chỉ đang thử nó thôi.
+Tôi lưu ý trước là trong đấy có thể và sẽ có lỗi sai vì nó vẫn chưa được tinh chỉnh kỹ.
+Thỉnh thoảng nó cũng buồn cười.
+Rồi.
+Chắc là tôi còn giải thích.
+Nó tự động nhận dạng những gì tôi nói và ở đâu ở dưới bạn có thể nhình thấy kết quả của sự tự động nhận dạng ngôn ngữ.
+Trong trường hợp này thì là tiếng Séc.
+Và sau đó thì ở đấy nó phiên dịch ra tất cả các ngôn ngữ khác.
+Cái máy phiên dịch này và cả cái nhận dạng đấy đang chạy trên máy chủ của chúng tôi.
+Vì thế nên chúng tôi đã phải dẫn cái dây này ở đây để chúng tôi kết nối được lên internet.
+Và đấy là những hệ thống cái hệ thống phiên dịch sang tiếng Anh.
+Cái đấy tôi-
+Đấy là cái mà tối sẽ nói đến trong những slide sau này.
+Tôi đã tự phát triển ra nó.
+Phiên dịch sang những ngôn ngữ khác thì các đồng nghiệp của tôi đã làm theo cách giống như thế.
+Rồi và bây giờ thì tôi sẽ bắt đầu cuộc trình bày.
+Tôi làm việc ở Học viện ngôn ngữ học chính thức và ngôn ngữ học được áp dụng hoặc cũng là ngôn ngữ học máy tính.
+Các bạn có thể đang tò mò là ngôn ngữ học máy tính thì làm về cái gì?
+Thì ngoài cái phiên dịch bằng máy tính thì chắc là tôi sẽ bắt đầu bằng một đề bài kinh điển hơn và đó là kiểm tra ngữ pháp.
+Chắc chắn là tất cả mọi người đểu đã gặp đến nó.
+Trong phầm mềm soạn thảo văn bản bạn có thể bật kiểm tra ngữ pháp và nó sẽ gạch chân mầu đỏ những từ mà không có trong từ điển của ngôn ngữ đó ví dụ như tiếng Séc.
+Đúng ra thì phải gọi nó là lỗi đánh máy tại vì trong đấy không có ngữ pháp nào cả.
+Chỉ là cái từ đấy có trong tiếng Séc hay không thôi.
+Nên ví dụ nếu như tôi nói "chlapci" với y dài hoặc "lišit" với y dài thì nó phải gạch chân bằng mầu đỏ.
+Nhưng ở đây trong những trường hợp này thì tất cả các từ đấy là đúng từ tiếng Séc.
+Nhưng chắc là chúng ta muốn nhận ra cả ngữ pháp của "chlapci šli" - sự đồng tính của chủ ngữ và vị ngữ.
+Đúng thì ở đấy phải là: "šli" với i ngắn.
+Tôi cho là tất cả mọi người ở đây đều nghĩ vậy.
+Có người bảo là không.
+Đúng, tôi vui-
+Cũng như đồng nghiệp trước thì tôi sẽ vui nếu như các bạn giơ tay lên luôn.
+Và nếu như có gì đấy không rõ ràng thì, thế có ai đấy nghĩ là nó-
+Vâng, tôi để ở đây.
+Vâng?
+Thế là ở đây có người mà đã nhìn thấy câu này hoặc một câu giống như thế và nói là nó có thể là đúng, cái câu đầu tiên.
+Thế tôi nói lại một lần nữa, "děvče ty programy, nešly, chlapci šli".
+Đấy là câu trả lời.
+Nhưng cho câu hỏi nào.
+"Programy šly" ở đấy y dài là đúng.
+Bây giờ thì một câu hỏi cho tất cả mọi người.
+Cái câu thứ hai thì sao?
+"Chlapci šli do školy."
+Bây giờ thì tôi xin nhờ ai đấy khác chứ không phải là Tomáš Holan.
+Nó có thể đúng không hay trong đấy có lỗi.
+Có người dũng cảm nào khác không?
+Tôi phải nhanh lên.
+Vâng, xin mời.
+Vấn đề là có cái ngữ cảnh nào khác mà câu này có thể đúng không.
+nói cách khác là nếu như tôi phát triển một phần mềm để kiểm tra ngữ pháp thì nó phải gạch chân mầu đỏ xanh hay như là lỗi.
+Và trong trường hợp đấy thì nó đề xuất cái gì để sửa.
+Vâng?
+Vâng, vâng.
+Thế là nếu như chúng ta điền thêm vào đằng trước "děvče a chlapec šli do školy" thì nó sẽ đúng.
+À có thể, nếu như thế thì cái chữ viết hoa ở "Chlapec" phải bị gạch chân vì nó không đứng đầu câu.
+Nên đúng, đấy là một giải pháp tốt.
+Còn ai nữa không?
+Tạm thời thì tôi-
+Vâng.
+Tức là ở đây.
+Có khi tôi chỉ luôn như này.
+Nó cũng có thể là câu trả lời cho câu hỏi ai mang cái gì đi đâu.
+Và câu trả lời là "chlapec donesl kšandu do školy", hoặc cũng là "šli".
+Với cái đấy thì tôi muốn minh hoạ là kiểm tra ngữ pháp khó hơn kiểm tra lỗi đánh máy rất nhiều.
+Không phải là chỉ cần tìm trong từ điển xem cái từ đấy nó có trong tiếng Séc hay không mà chúng ta còn phải phân tích từ, phân tích câu.
+Và có nhiều sự giải thích là nó có thể có nghĩa gì.
+Nếu như trước những câu đấy không có các câu khác và chúng ta chỉ gạch chân nó mầu đỏ thôi thì đấy có thể là sai lầm.
+Ngoài cái là chúng ta biết là có sự giải thích khác mà nó làm cho câu đấy đúng thì đồng thời chúng ta cũng phải tính với một xác suất nào đấy.
+Có bao nhiêu khả năng là việc đấy xảy ra?
+Và tính cả đến ngữ cảnh của các câu trước.
+Để chúng ta xác định là có nên gạch chân không.
+Ở học viện của chúng tôi có một đồng nghiệp đã phát triển ra cái máy sửa mà nó tính cả với cái xác suất đấy.
+Anh ta thiết kế, cố thiết kế.
+Cái gì-
+Cái gì ở đấy-
+Đúng ra thì ở đấy phải là từ gì-
+Nên là tôi ở đâu cũng gặp.
+Chắc ý là, tôi đi đâu cũng gặp họ.
+Và đương nhiên là nó biết gạch chân đỏ sửa lỗi đánh máy.
+Các bạn có thể dùng thử ở địa chị đấy.
+Nó hoạt động như một plugin cho trình duyệt web.
+Nên nếu bạn thích thì có thể dùng ví dụ khi chuẩn bị những slide.
+Bây giờ thì tôi chuyển đến một áp dụng khác mà các đồng nghiệp của tôi làm.
+Và đấy là tự động tạo ra tin.
+Vấn đề là trong thế giới hiện nay thì nhu cầu đọc tin đang tăng, nhiều khi cả những tin tức được cá nhân hoá, vì mỗi đọc giả lại muốn những tin tức.
+Chính xác đấy.
+Tôi muốn tin tức.
+Như là ở-
+Chẳng hạn đây là ví dụ từ những trận đấu thể thao nào đó.
+Có thể là tôi quan tâm là ai ghi bàn thế nào hoặc là tôi quan tâm đến Sparta hơn là Slávia và vân vân.
+Đồng thời là càng ngày càng có ít nhà báo hơn, thu nhập bị giảm xuống, mà cái đấy liên quan đến việc là ngày nay một phần tin tức đã được tạo ra một cách tự động.
+Dùng dữ liệu có cấu trúc, bảng biểu trên mạng mà có những kết quả của các trận đấu thì có những hệ thống nó tạo ra bài báo trong ngôn ngữ tự nhiên, có khi là trong nhiều ngôn ngữ.
+Và những bài báo đó được đưa ra cho những đọc giả.
+Chúng tôi đang hợp tác với một công ty về việc đấy.
+Rồi một áp dụng khác.
+Để giải chí một tý.
+Là tự động tạo ra thơ.
+Thôi làm cái đấy chỉ để chơi, để giải chí sau khi tôi đã làm xong cái máy phiên dịch từ tiếng Anh sang tiếng Séc.
+Và ở đây chúng tôi có cái quầy ở phía trước.
+Các bạn có thể vào đấy và thử một cái phiên bản bạn có thể cho văn bản nào đấy vào đầu vào.
+Và cái máy nó sẽ thử chuyển sang ngôn ngữ của bài thơ.
+Từ tiếng Séc sang tiếng Anh.
+Sau đấy thì tôi sẽ vui lòng nói cho các bạn những chi tiết.
+Thực ra thì tôi đã dùng, là tôi đã dịch những dữ liệu luyện tập sang tiếng Anh rồi ngược lại để tôi bỏ đi những vần thơ.
+Và như thế tôi đã tạo ra dữ liệu luyện tập cho cái máy tạo thơ này.
+Tại sao mà tôi là có cái ý đấy là một việc ngẫu nhiên.
+Có lần tôi đang phát triển một cái máy dịch, hồi đấy còn dựa trên phân tích câu sâu và tôi có bài là dịch câu:
+"I will come a bit latter on my own."
+Và tôi đã thay đổi cái gì đấy trong cái máy và tôi nhận được kết quả này:
+"Jsem čelist ještě na své milé."
+Cái đấy đã rất thu hút tôi.
+Tôi nghĩ là có thể nó có thể tự động tạo rã thơ như này?
+Tôi đố các bạn của tôi là nhà văn nổi tiếng nào của Séc là tác giả của câu thơ này.
+Bây giờ thì tôi đã thay đổi cái gì mà nó không đưa ra bản dịch đúng trong một giai đoạn nào đấy chúng ta chia ra, làm phân tích sâu và chia ra một là ý nghĩa từ vựng.
+Tức là, cái từ đấy có cái gì?
+Sau đó thì cái gọi là "formem" mà nó xác định cách, giới từ và vân vân.
+Cho mỗi một từ thì ta cố phiên dịch cái thông tin này riêng.
+Và chúng ta có một vài cái từ ứng cử.
+Tôi đã có ở đấy bẩy cái từ ứng cử và tôi đã sắp xếp nó theo ngữ cảnh xung quanh.
+Rồi tôi đã mắc cái lỗi lập trình cơ bản là đáng lẽ phải so sánh các từ từ cái có xác suất cao nhất đến cái thấp nhất thì tôi lại làm ngược lại.
+Đáng lẽ phải dùng từ có ý nghĩa từ vựng có xác suất cao nhất thì tôi lại dùng cái thấp nhất.
+Ví dụ như là "čelist".
+Chắc là đấy được dịch từ cái từ "bit".
+Rồi lại một đề bài khác.
+Một đồng nghiệp nữ của chúng tôi là sinh viên tốt nghiệp và đang làm trong một công ty mà họ thuê các công ty khác để phân tích thư từ của công ty để họ kiểm tra xem có ai tham nhũng không.
+Xem là có ai nhận tiền đút lót không.
+Cho cái việc bất hợp pháp này thì thường họ sử dụng mã ngữ.
+Ví dụ cá chép và vân vân.
+Và có những phương pháp của ngôn ngữ học máy tính mà nó nhận dạng được những văn bản như này, tìm ra được những dấu hiệu.
+Tất nhiên là sau đó thi phải có ai đấy đánh giá xem là có đúng là việc đấy đã xảy ra hay không.
+Nó sự dụng những phương pháp giống trong sentiment analysis khi mà chúng ta muốn xem xem là bài phê bình là tốt hay không và người ta thích hay không thích cái gì ở sản phẩm đấy.
+Tôi sẽ tiếp tục đến cái áp dụng khác.
+Lại là một trong những cái kinh điển cho cái nghành của chúng tôi.
+Và đó là phân tích câu.
+Chắc là có vài người ở đây đã bị bắt phải làm việc đấy ở trường tiểu học hoặc là trường trung cấp.
+Và ở đây chúng tôi lại có địa chỉ, dụng cụ mà nó phân tích được câu cho đến tận năm mươi ngôn ngữ.
+Tỏ ra là đấy là một bài tập khá là khó.
+Có thể là khó hơn cả cái phiên dịch bằng máy.
+Và lý do mà chúng ta cần phân tích câu ư?
+Nếu như không phải là để trẻ con nó chép bài ở trường thì là tại vì nó giúp ta trong cái phiên dịch bằng máy.
+Một lúc nữa tôi sẽ nói đến việc đấy.
+Nhưng mà thỉnh thoảng thì tôi dùng nó khi mà tôi gặp một ngôn ngữ như là tiếng Nhật mà tôi không hiểu một tý nào.
+Tôi có thể để dịch nó ra nhưng mà tôi muốn hiểu sâu hơn là cái câu đấy nó nói gì.
+Ví dụ như nó chính nghĩa là gì thì nếu như tôi thành thạo với những cái ký tự đấy thì có thể là cái phân tích câu sẽ giúp tôi.
+Gìơ tôi lại chuyển đi hẳn chỗ khác.
+Tôi cho là tất cả mọi người ở đây đều biết cộng trừ số.
+Nhưng mà các bạn có biết cộng những từ hoặc là ảnh không?
+Tôi nghĩ là các đồng nghiệp ở cái quầy đấy lại có một vài minh hoạ về vấn đề đấy.
+Và đây là cái chắc là nổi tiếng nhất, nó cũng là đầu đề của cái bài báo đấy.
+Cái gì sẽ xảy ra khi mà chúng ta trừ đàn ông từ vua và cộng đàn bà vào.
+Nào, có ai không ngượng thử đoán không?
+Hoàng hậu, đúng rồi.
+Thế nó hoạt động như thế nào?
+Chúng ta có thể gắn cho mỗi từ một cái véc-tơ số thực.
+Ví dụ ba trăm chiều hoặc là nghìn.
+Sau đó thì chúng ta có thể cộng hoặc trừ những véc-tơ này.
+Chúng ta sẽ tính ra một kết quả nào đấy.
+Rồi chúng ta xem xem cái từ nào nằm gần nhất cái kết quả đấy.
+Cái dụng cụ Word To Vec nó hoạt động theo nguyên tắc gắn những véc-tơ này, được Tomáš Mikolov phát triển ra và sau đó anh ý đã làm việc cho nhiều công ty lớn.
+Hiện nay thỉnh thoảng các bạn có thể nhìn thấy anh ta ở đay ở Praha.
+Và dần dần thì đã được tìm ra là cái cách đại diện này nó rất thuận lợi cho nhiều áp dụng khác.
+Ở đây tôi chỉ chỉ ra một vài tính chất của những cái embedding thôi.
+Ví dụ khi chúng ta đưa lên những embedding của từ Trung Quốc và Peking và những quốc gia khác và những thủ đô của nó và chúng ta làm thế nào đấy để vẽ lên hai chiều thôi từ cái ba trăm chiều đấy.
+Thì chúng ta nhìn ra là cái véc-tơ đấy nó rất giống nhau giữa thành phố giữa quốc gia và thủ đô của nó.
+Tức là chỉ dùng những embedding này thôi thì chúng ta có thể giải được đề bài tìm ra thủ đô.
+Cái đáng chú ý là chúng tôi làm thế nào để tập những cái embedding đấy?
+Để làm việc đấy thì chúng tôi đã cần một số lượng văn bản lớn.
+Không thêm chú giải ngữ học nào hết, ví dụ như là ai đấy nó cho: đây là thành phố.
+Đây là con người.
+Và vân vân.
+Nó tự học tất cả theo cách không có giám sát unsupervised.
+Nó còn biết giải những bài khác.
+Ví dụ ở đây là những câu trả lời đã được sắp xếp.
+Ví dụ như ở Séc dùng đồng tiền gì, những hãng hàng không của nước đấy?
+Tất nhiên thỉnh thoảng bạn có thể thấy lỗi nhưng mà tôi lưu ý là đây không hề là việc mà cái hệ thống này được luyện để làm.
+Tất cả nó đều tự-
+Cái thông tin này được mã hoá trong ba trăm cái số mà nó đại diện cho từng từ một.
+Y như vậy chúng ta có thể gắn embedding cho từng cái ảnh.
+Trong trường hợp này thì đấy là những bức ảnh của các con số được viết bằng tay thì chúng ta có thể dùng để nhận dạng các con số.
+Nhưng dùng những phương pháp tương tự thì chúng ta gắn embedding cho các tranh và ảnh.
+Và bây giờ thi tôi lại quay lại cái mà tôi đã nói đến lúc trước.
+Đến phiên dịch bằng máy.
+Ở đây thì tôi có cái phân tích đã di tích rồi.
+Năm nào cũng có cuộc thi trong phiên dịch bằng máy tên là Shared Task và những hội viên học viện và những công ty có thể gửi cái máy phiên dịch của họ đến.
+Và sau đó thì rất nhiều người, cả những người tình nguyện và cả những người phiên dịch chuyên gia đều đánh giá là họ thích cái máy phiên dịch nà nhất.
+Những máy phiên dịch đều được ẩn danh nên tôi chỉ nhìn thấy những bản dịch và đánh giá nó thôi.
+Khi cuộc thi nay bắt đầu được tổ chức từ khoảng năm hai nghìn linh sáu thì trong hướng từ tiếng Anh sang tiếng Séc thì cái máy dịch mang tên PC Translator thắng nhiều lần.
+Tôi không biết là có ai ở đây biết nó không nhưng mà hồi đấy thật sự là nó được dùng đến khi mà có người cần dịch sang tiếng Séc trên máy tính.
+Nó thắng trong ba năm đầu tiên.
+Tôi đã vẽ cái tỷ lệ thành công của cái máy dịch đấy lên cái đồ thị này, là cái hệ thống tốt nhất thì được điểm một.
+Và cái kém nhất trong cuộc thi đấy thì được điểm không.
+Cho đơn giản hơn thì ở đây chỉ có một vài cái máy dịch thôi.
+Cái máy dịch mà tôi làm có tên là Tecto MT.
+Và hồi đầu thì chúng tôi đứng cuối nhưng mà sau đó thì chúng tôi đã cải thiện được nó và như này.
+Dĩ nhiên ở đây bạn có thể nhìn thấy là chất lượng của cả hai cái máy dịch bị giảm xuống.
+Nó chỉ có vẻ như vậy thôi.
+Ví dụ cái PC Translator vẫn chính là cái phiên bản đấy.
+Nhưng nó nghĩa là gì?
+Những máy phiên dịch tốt hơn đã xuất hiện và trong cái hiển thị tương đối này thì chất lượng của cái PC Translator đã sụp xuống cuối.
+Chúng tôi có cải thiện cái máy dịch Tecto MT nhưng mà kể cả thế thì các cái máy dịch khác đã được cải thiện nhanh hơn.
+Nó là những cái nào?
+Ví dụ như là cái máy dịch Mouses, nó là đại diện máy dịch nổi tiếng nhất và nó dựa theo cách dịch máy thống kê.
+Nói đơn giản là cái câu được chia ra từng những từ và cụm từ, ví dụ đến bốn, năm từ và từng những cụm từ được dịch riêng ra.
+Nó có một vài sự lưạ chọn.
+Rất nhiều.
+Nó có điểm của nó.
+Sau đó thì nó tìm kiếm trong một không gian trạng thái khổng lồ.
+Hậu quả là gì?
+Là nhiều khi khi tôi nhìn vào nhóm ba hoặc bốn từ thì nó có vẻ là đúng.
+Vâng, cụm bốm từ này đúng là có trong tiếng Séc.
+Nhưng xong nếu tôi nhìn vào đầu hay cuối câu thì nó không hề có nghĩa gì.
+Nó không thể hoặc là có vấn đề lớn trong những máy dịch cách thống kê để giữ sự phụ thuộc giữa những cụm từ qua một khoảng cách lớn hơn là độ dài của các cụm từ.
+Chúng tôi đã thử làm gì?
+Ừ, cái đấy tôi sẽ nói đến sau.
+Bây giờ.
+À mà có khi các bạn tò mò đến những máy dịch của các công ty online hoặc các công ty mà có máy dịch online.
+Tôi nghĩ là cuối cùng thì cái tốt nhất lúc nào cũng là Google.
+Tức là có một thời gian nó toàn thắng.
+Nhưng xong thì lại có những cái máy dịch tốt hơn xuất hiện lên.
+Chúng tôi đã thử làm gì?
+Chúng tôi đã tạo ra một cái máy phiên dịch mà chúng tôi đặt tên là Chiméra và nó phối hợp cái máy dịch Mouses và máy dịch Tecto MT.
+Tức là chúng tôi đã kếp hợp những ưu điểm của dịch máy thống kê và của cái dịch Tecto MT mà được dựa theo phân tích câu.
+Nên mặc dù cái máy dịch Tecto MT nó ở đâu ở phần dữa đến phần kém hơn thì khi mà kết hợp vào thì chúng tôi đã thắng được cái cuộc thi đấy một vài năm.
+Có thể các bạn tò mò là vài năm vừa rồi thì có gì xảy ra.
+Đã có một mẫu hình hoàn toàn mới xuất hiện-
+Dịch máy bằng nơ-ron, Neural MT.
+Và những năm vừa rồi thì nói chung là tất cả các máy dịch trong cuộc thi đấy, kể cả Google, đều dựa theo phiên dịch nơ-ron này.
+Hai năm vừa rồi thì tôi cũng chuyển sang cái mẫu hình mấy này.
+Và cái máy mà tôi gửi đến cuộc thi đấy trong hai năm vừa rôi mà nó thắng cuộc thì nó tốt hơn những cái máy dịch khác rất nhiều.
+Bây giờ thì tôi chỉ qua là cái máy dịch Tecto MT mà nó sử dụng phân tích câu thì nó hoạt động như nào.
+Nó có tầm một trăm bước để dần dần phân tích câu tiếng Anh và tìm ra-
+Đầu tiên-
+Đây là một phân tích câu mà giống kiểu chúng ta làm ở trường tiểu học và trung cấp.
+Nhưng chúng tôi còn muốn cái phân tích trừu tượng hơn để tìm ra được ý nghĩa của cái câu đấy.
+Để có một cái cách đại diện chính thức cho ý nghĩa của câu.
+Sau đấy thì chúng tôi dịch nó sang cách đại diện đấy trong tiếng Séc.
+Các bước tiếp theo là để chuyển cái cách đại diện trừu tượng này về cấp bề mặt.
+Như là chúng ta nói cái câu đấy trong tiếng Séc.
+Nó biết ưu điểm là gì.
+Ở cái cấp trừu tượng này chúng tôi có nhiều cách để mô phỏng những hiện tượng vào đấy.
+Khuyết điểm là cái đường này dài hơn và cái hệ thống đấy rất phức tạp.
+Ở cái câu này thì tôi muốn chỉa ra cái câu hỏi là từ nail thì nên dịch là cái đinh hay là móng tay.
+Nó là một đoạn từ một bài hát nên là chúng ta không thể biết được.
+Nhưng cái đáng chú ý là.
+Chúng tôi đã luyện một mô hình maximum entropy mà có nhiều đặc điểm khác nhau.
+Và cái đáng chú ý là cái đặc điểm nào nó khiến nó dịch là cái định và đặc điểm nào khiến nó dịch là móng tay.
+Tối có thể đoán cái gì đấy.
+Ví dụ như nếu từ trước là búa thì rất có thể nó sẽ dịch là cái đinh.
+Nhưng mà tôi đã phát hiện ra một thứ về ngôn ngữ mà tôi không hề biết.
+Ví dụ nó có phụ thuộc vào là trong cái cây mà đại diện cái phân tích của câu đấy thì cái từ nail đứng trước hay sau nút cha của nó.
+Cái đấy có liên quan đến.
+Ví dụ là đến việc đấy là chủ ngữ hay là tân ngữ, hoặc nó phụ thuộc vào là đấy là động từ cập vật hay là bất cập vật.
+Bây giờ thì lại thay đổi.
+Cứ cho là để giải chí.
+Một câu đố.
+Có ai thử đoán xem trong bức ảnh này là cái gì không?
+Ai đấy mà chưa bao giờ nhìn thấy nó.
+Thử đoán xem.
+Một máy chủ nào đấy?
+Vâng, vâng.
+Đây là cái máy chủ, đúng hơn là vài cái máy chủ trong tủ, mà chúng tôi dùng cho cái phiên dịch nơ-ron đấy.
+Đây là những cái card đồ họa.
+Tôi còn không cả nói là cái loại này hết bao nhiêu khi mà chúng tôi có bốn mươi cái.
+Và đấy là một trong những lý do vì sao cái cách dịch nơ-ron mới được củng cố trong vài năm gần đây.
+Người ta đã có ý tưởng này từ trước rồi nhưng cái điều kiện cơ bản là sức mạnh xử lý lớn cần thiết để luyện tập những cái mô hình đấy.
+Nhất là.
+Sau đấy khi mà chúng ta muốn dùng những mô hình đấy ở đây.
+Tại sao tôi lại cho xem cái bức tranh này?
+Tại sao nó lại sắc mầu thế?
+Nó có một câu chuyện.
+Còn ít thời gian nhưng tôi cứ thử kể xem.
+Chúng tôi phát hiện ra là một cái card đấy bị hỏng.
+Thế là chúng tôi hỏi nhà sản xuất Nvidia.
+Làm thế nào để tìm ra cái card nào nó hỏng để chúng tôi rút nó ra khi mà chúng tôi có số của nó.
+Họ trả lời là: bạn không thể tìm ra được.
+Cứ thử rút từng cái một ra rồi bao giờ rút đúng thì biết.
+Nhưng mà các đồng nghiệp của tôi đang sử dụng đến tất cả các card đấy nên chúng tôi không muốn ngắt việc của họ.
+May ra admin của chúng tôi có một ý tưởng hay.
+Lấy máy ảnh nhiệt ra và nhìn vào xem những cái card nào nó đang tính toán và cái bị hỏng nó sẽ tối mầu hơn.
+Cái đấy nó không tính toán.
+Thế là chúng tôi đã giải quyết được mà không cần đến Nvidia không cần đến phương pháp chính thức của họ.
+Rồi còn ở tên gọi của cuộc trình bày này thì tôi có cả trí tuệ nhân tạo.
+Nên là chỉ rất ngắn gọn thôi.
+Cái thuật ngữ này bắt đầu được dùng từ tầm năm năm mươi.
+Sau đấy thì có một lĩnh vực đã được tách ra và nó được gọi là học máy machine learning, vào khoảng năm tám mươi.
+Và tầm năm hai nghìn linh mười thì lại có linh vực học sâu deep learning tách ra.
+Ngày nay thì nó được coi là hai lĩnh vực hoàn toàn khác nhau nhưng mà nó nảy sinh ra như vậy.
+Nó vẫn liên quan chặt chẽ đến nhau.
+Nếu như tôi phải nói thì trong trí tuệ nhân tạo thì thường chỉ là ai đấy viết ra một thuật toán, những điều luật chính xác-
+If then else, cách tiến hành thế nào.
+Trong học máy thì ta vẫn cần đến con người.
+Nhưng người ta chỉ thiết kế lên những đặc điểm thôi.
+Cho là tôi muốn nhận dạng là trên bức ảnh có cái ôtô hay không thì tôi thiết kế là ví dụ có bao nhiêu hình tròn và đường thẳng hoặc thêm cái gì đấy phức tạp hơn.
+Và từ những đặc điểm này thì luyện lên một mạng nơ-ron mà đầu tiên chỉ có một vài lớp ẩn thôi.
+Nó khác học sâu thế nào?
+Là cả cái bài này cũng đã được mô hình tính toán làm.
+Nó nhận được những pixel ở đầu vào, đỏ, xanh và vân vân.
+Và ở đây có nhiều lớp ẩn của mạng nơ-ron hơn.
+Nên là nó tự tìm ra được là những đặc điểm nào là quan trọng cho bài này.
+Tôi không có thời gian để đi vào những chi tiết.
+Những mạng đấy nó có nhiều kiến trúc khác nhau.
+Đây là kiến trúc của cái mạng mà tôi dùng để phiên dịch.
+Cái kiến trúc này không phải là tôi phát minh ra.
+Những tác giả từ Google đã phát minh ra nó.
+Họ đặt tên nó là Transformer.
+Sau đấy thì tôi cải thiện cách mà cái mạng đấy được luyện tập.
+Ở đây còn có minh họa.
+Đây là cái kiến trúc đấy và nó gồm có hai phần.
+Cái gọi là encoder mà nó mã hoá cái câu ở đầu vào.
+Đầu tiên nó chuyển sang.
+Ở đây là những cái embedding của các từ.
+Và sau đó đây có N lớp mà có cà những lớp dưới nữa.
+Tôi nghĩ là tôi dùng sáu lớp.
+Và nó vẫn cứ tạo ra cách đại diện trừu tượng hơn nữa.
+Đương nhiên khác với cái Tecto MT thì ở đây nó được dựa theo các cái véc-tơ.
+Và rất khó để hiểu là thực ra nó làm gì trong đấy.
+Và phần thứ hai gọi là decoder.
+Từ cái cách đại diện trừu tượng này nó lại dần dần đi từng lớp một và cuối cùng tìm ra cái từ trong từ điển.
+Tôi nghĩ là ở đây tôi có một cái lớp ở giữa và bạn có thể nhìn thấy cái mẹo cơ bản của cái mô hình Transformer đấy.
+Và nó là self attention, khi mà tôi luyện đến cái lớp tiếp theo-
+Tôi chọn những véc-tơ là cái tổn có trọng số từ cái lớp trước.
+Và đây là những cái trọng số.
+Và cái đáng chú ý là-
+Ở đấy nó có một vào cái đầu mà nó làm cái self attention.
+Và có những cái đầu ta có thể hiểu theo cách ngôn ngữ học.
+Ví dụ ở đây thì ta có thể nhìn thấy cái giống như trong phân tích các câu.
+Ở đây thì mình lại nhìn thấy trong câu: The law will never be perfect but its application và vân vân.
+Cái its nó nối với từ law.
+Trong ngôn ngữ học thì cái đấy gọi là coreference.
+Và cái mạng nơ-ron nó đã học được điều đấy.
+Một trong những cái đầu nó tập trung vào cái coreference và nó đã học được cách tự động nhận dạng việc này.
+Thế đấy.
+Cuối cùng thì còn một thứ nữa.
+Vào năm hai nghìn không trăm mười tám thì người ta còn làm một việc là người ta cho thêm cả bản dịch được chuyên gia dịch vào.
+Và tôi đã rất ngạc nhiên khi mà cái hệ thống của tôi thắng cuộc thi này.
+Nó tốt hơn nhiều so với hệ thống của trường đại học ở Edinburg và hệ thống Google Translate và vân vân.
+Nhưng đáng ngạc nhiên là nó được đánh già là tốt hơn cả cái bản dịch của con người.
+Lúc đầu tôi không tin được nên là tôi nghiên cứu thêm.
+Ở đây thì tôi sẽ không kịp nói ra cả cái câu trả lời.
+Nhưng mà một trong những vấn đề là cái này người ta chỉ chấm điểm từng câu một thôi chứ không phải là cả cái văn bản trung.
+Nên là trong cái đánh giá đấy thì người ta không tính đến tất cả các lỗi sai của cái máy dịch.
+Sau đấy thì tôi thử nghiên cứu và tôi cố để không đánh giá cả văn bản trung.
+Và tôi cũng đạt được kết quả là nó cũng đủ sức cạnh tranh.
+Có những chỗ còn tốt hơn là cái bản dịch của con người.
+Và hẳn cuốt cùng.
+Mặc dù chất lượng của phiên dịch máy rất cao cho những ngôn ngữ mà chúng ta có đủ dữ liệu luyện tập thì-
+Thì vẫn có những rủi ro.
+Ví dụ vài năm trước một anh người Palestine đã chụp ảnh mình đứng cạnh cái máy ủi đất và đưa lên Facebook với dòng chữ trong tiếng A-rập là "Xin chào buổi sáng".
+Một ông cảnh sát nhìn thấy nhưng ông ý không biết tiếng A-rập mà chỉ biết tiếng Hebrew, tiếng Anh.
+Ông ý thử dùng máy dịch.
+Facebook có cái chức năng phiên dịch đấy và nó dịch là: "Hãy tấn công họ."
+Thế là họ bắt giữ cái anh Palestine đấy.
+Họ thẩm vấn anh ý mất mấy tiếng.
+Sau đấy may là họ được giải thích là bị lỗi sai trong bản dịch.
+Hình như ở đấy người ta lại dùng cái loại tiếng A-rập để nói chứ không phải loại viết.
+Nhưng chắc là các bạn có thể suy ra là nó đã có thể có hậu quả tồi tề hơn nhiều chỉ vì cái lỗi sai trong bản dịch máy thôi.
+Và câu hỏi là ai phải chịu trách nhiệm khi mà con người dần dần tin vào cái phiên dịch máy.
+Nên là một trong những lý do mà tôi chỉ cho các bạn cái DEMO này là để các bạn nhìn thấy là chúng ta không thể tin cậy vào nó nhiều lắm.
+Tôi xin cảm ơn vì sự chú ý của các bạn.
+Ở đây còn một vài ví dụ bản dịch nữa.
+Giờ thì có thời gian cho những câu hỏi.
+Tôi còn giải thích những cái Google và vân vân kia thì chúng ta biết rồi.
+Còn đây là hai nghìn linh chín, đấy là cái máy dịch Tecto MT khi mà tôi bắt đầu làm đến nó.
+Và đây là phiên bản cuối cùng của cái máy dịch đấy.
+Và Transformer là cái máy dịch nơ-ron mới của tôi.
+Vâng, có câu hỏi.
+Vâng.
+Sang tiếng Anh thì dịch đúng bằng cái Transformer này.
+Sang những tiếng khác thì cũng là kiến trúc của cái Transformer nhưng mà luyện bằng dữ liệu khác.
+Tôi nghĩ là tiếng nào thì chúng tôi cũng đầu tiên dịch sang tiếng Anh và sau đó thì dịch tiếp sang tiếng khác.
+Nó là-
+À.
+Vâng, vâng.
+Đấy là một xu hướng nữa, là chúng ta cố làm một cái mô hình mà biết dịch được sang tất cả các ngôn ngữ.
+Và dùng kỹ thuật này thì thỉnh thoảng chúng ta có được những kết quả tốt hơn là khi-
+Khi chúng ta luyện mô hình riêng cho từng ngôn ngữ.
+Những câu hỏi tiếp theo.
+Vâng.
+Vâng.
+Một câu hỏi rất hay.
+Những năm đầu thì lúc nào ở đấy cũng có cái gọi là bản dịch mẫu từ chuyên gia.
+Và những người chấm điểm chỉ cần chấm là cái bản dịch máy nó có giống cái bản mẫu nhiều không.
+Nên là nếu chấm theo cách này thì không ai có thể vượt qua được cái bản dịch của con người.
+Tại vì không cải gì có thể giống nhiều hơn được.
+Chỉ nếu như chúng ta thuê hai người chuyên nghiệp và tất nhiên mỗi người dịch khác nhau.
+Nhưng trong năm hai nghìn mười tám thì chúng tôi đã thử lần đầu tiên là không đưa ra cái bản dịch mẫu.
+Chúng tôi chỉ đưa ra cái câu gốc trong tiếng Anh thôi.
+Nên là tất nhiên chúng tôi đã phải thuê những người chấm điểm mà giỏi cả tiếng Séc và tiếng Anh.
+Vì thế mà chúng tôi mới có thể trộn lẫn cái bản dịch của con người vào những cái máy dịch.
+Những người chấm điểm đã chấm là bản dịch của từng câu nó có giữ ý nghĩa cũ của cái câu tiếng Anh không.
+Đồng thời nó có lưu loát không.
+Rồi trong cái nghiên cứu mà tôi làm sau này thì tôi đã phân biệt hai cái khía cạnh này của chất lượng.
+Vâng.
+Người này-
+Đấy là cái công ty phiên dịch chuyên nghiệp.
+Tôi không biết là đấy là một người hay là nhiều người và ai đã dịch ra nhưng mà một văn bản là được một người dịch.
+Và vâng.
+Dĩ nhiên.
+Đấy là một luận điểm tốt.
+Cái việc mà chúng ta được điểm tốt hơn là một công ty phiên dịch nào đấy thì không nghĩa là không có ai dịch được tốt hơn.
+Cái lời khẳng định như thế, nếu như mà tôi khẳng định như thế thì cũng không thể chứng tỏ được vì không có ai xác định được là bản dịch đấy tốt hơn nếu như không có ai dịch ra được tốt hơn.
+Không ai làm được cả.
+Nhưng cái chính là.
+À mà có thể là làm thế nào mà lại như thế?
+Ví dụ cái máy dịch nó có dữ liệu luyện tập mà trong đấy có sáu mươi triệu đôi câu và một lượng lớn những dữ liệu khác nữa trong từng ngôn ngữ.
+Thì trong đấy nó có rất nhiều những lĩnh vực sinh hoạt của con người.
+Bóng rổ và vân vân, chính trị.
+Mà một người phiên dịch bình thường không biết đến nhiều như thế.
+Họ có thể phải tìm ra.
+Vậy.
+Chúng ta kết thúc.
+Nếu các bạn còn những câu hỏi nữa.
+Tôi sẽ ở ngoài hành lang để giờ giảng tiếp theo còn được chuẩn bị.
+Xin cảm ơn.
