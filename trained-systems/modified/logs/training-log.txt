@@ -1,0 +1,905 @@
+[2022-07-04 19:22:02] [marian] Marian v1.10.27; b64e258b 2022-01-18 12:59:37 +0000
+[2022-07-04 19:22:02] [marian] Running on glados3.cerit-sc.cz as process 37574 with command line:
+[2022-07-04 19:22:02] [marian] /storage/brno3-cerit/home/kwan/marian-installation/marian/build-CUDA-10.1-CPU-sse2-ssse3-avx-avx2/marian --devices 0 1 --model /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz --type transformer --sync-sgd --train-sets /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/trainsets/sentences-converted-puncnormalized.tokenized.truecased.bpe.cs /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/trainsets/sentences-puncnormalized.tokenized.truecased.bpe.vi --max-length 50 --mini-batch-fit --maxi-batch 1000 --workspace 6000 --vocabs /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/vocabs/vocab-36k.csvi.yml /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/vocabs/vocab-36k.csvi.yml --valid-sets /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/testset/newstest2013-first1500sentences-puncnormalized.tokenized.truecased.bpe.cs /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/testset/newstest2013-first1500sentences-puncnormalized.tokenized.truecased.bpe.vi --valid-metrics bleu --valid-freq 5000 --valid-mini-batch 64 --valid-translation-output '/storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/validation/valid-{E}.out' --valid-log /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/validation/valid-log.txt --save-freq 5000 --disp-freq 5000 --log /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/logs/training-log.txt --beam-size 6 --enc-depth 6 --dec-depth 6 --transformer-heads 8 --transformer-postprocess-emb d --transformer-postprocess dan --transformer-dropout 0.1 --label-smoothing 0.1 --exponential-smoothing --learn-rate 0.0005 --lr-warmup 16000 --lr-decay-inv-sqrt 16000 --lr-report --optimizer-params 0.9 0.98 1e-09 --clip-norm 5 --tied-embeddings-all --seed 690
+[2022-07-04 19:22:02] [config] after: 0e
+[2022-07-04 19:22:02] [config] after-batches: 0
+[2022-07-04 19:22:02] [config] after-epochs: 0
+[2022-07-04 19:22:02] [config] all-caps-every: 0
+[2022-07-04 19:22:02] [config] allow-unk: false
+[2022-07-04 19:22:02] [config] authors: false
+[2022-07-04 19:22:02] [config] beam-size: 6
+[2022-07-04 19:22:02] [config] bert-class-symbol: "[CLS]"
+[2022-07-04 19:22:02] [config] bert-mask-symbol: "[MASK]"
+[2022-07-04 19:22:02] [config] bert-masking-fraction: 0.15
+[2022-07-04 19:22:02] [config] bert-sep-symbol: "[SEP]"
+[2022-07-04 19:22:02] [config] bert-train-type-embeddings: true
+[2022-07-04 19:22:02] [config] bert-type-vocab-size: 2
+[2022-07-04 19:22:02] [config] build-info: ""
+[2022-07-04 19:22:02] [config] check-gradient-nan: false
+[2022-07-04 19:22:02] [config] check-nan: false
+[2022-07-04 19:22:02] [config] cite: false
+[2022-07-04 19:22:02] [config] clip-norm: 5
+[2022-07-04 19:22:02] [config] cost-scaling:
+[2022-07-04 19:22:02] [config]   []
+[2022-07-04 19:22:02] [config] cost-type: ce-sum
+[2022-07-04 19:22:02] [config] cpu-threads: 0
+[2022-07-04 19:22:02] [config] data-weighting: ""
+[2022-07-04 19:22:02] [config] data-weighting-type: sentence
+[2022-07-04 19:22:02] [config] dec-cell: gru
+[2022-07-04 19:22:02] [config] dec-cell-base-depth: 2
+[2022-07-04 19:22:02] [config] dec-cell-high-depth: 1
+[2022-07-04 19:22:02] [config] dec-depth: 6
+[2022-07-04 19:22:02] [config] devices:
+[2022-07-04 19:22:02] [config]   - 0
+[2022-07-04 19:22:02] [config]   - 1
+[2022-07-04 19:22:02] [config] dim-emb: 512
+[2022-07-04 19:22:02] [config] dim-rnn: 1024
+[2022-07-04 19:22:02] [config] dim-vocabs:
+[2022-07-04 19:22:02] [config]   - 0
+[2022-07-04 19:22:02] [config]   - 0
+[2022-07-04 19:22:02] [config] disp-first: 0
+[2022-07-04 19:22:02] [config] disp-freq: 5000
+[2022-07-04 19:22:02] [config] disp-label-counts: true
+[2022-07-04 19:22:02] [config] dropout-rnn: 0
+[2022-07-04 19:22:02] [config] dropout-src: 0
+[2022-07-04 19:22:02] [config] dropout-trg: 0
+[2022-07-04 19:22:02] [config] dump-config: ""
+[2022-07-04 19:22:02] [config] dynamic-gradient-scaling:
+[2022-07-04 19:22:02] [config]   []
+[2022-07-04 19:22:02] [config] early-stopping: 10
+[2022-07-04 19:22:02] [config] early-stopping-on: first
+[2022-07-04 19:22:02] [config] embedding-fix-src: false
+[2022-07-04 19:22:02] [config] embedding-fix-trg: false
+[2022-07-04 19:22:02] [config] embedding-normalization: false
+[2022-07-04 19:22:02] [config] embedding-vectors:
+[2022-07-04 19:22:02] [config]   []
+[2022-07-04 19:22:02] [config] enc-cell: gru
+[2022-07-04 19:22:02] [config] enc-cell-depth: 1
+[2022-07-04 19:22:02] [config] enc-depth: 6
+[2022-07-04 19:22:02] [config] enc-type: bidirectional
+[2022-07-04 19:22:02] [config] english-title-case-every: 0
+[2022-07-04 19:22:02] [config] exponential-smoothing: 0.0001
+[2022-07-04 19:22:02] [config] factor-weight: 1
+[2022-07-04 19:22:02] [config] factors-combine: sum
+[2022-07-04 19:22:02] [config] factors-dim-emb: 0
+[2022-07-04 19:22:02] [config] gradient-checkpointing: false
+[2022-07-04 19:22:02] [config] gradient-norm-average-window: 100
+[2022-07-04 19:22:02] [config] guided-alignment: none
+[2022-07-04 19:22:02] [config] guided-alignment-cost: mse
+[2022-07-04 19:22:02] [config] guided-alignment-weight: 0.1
+[2022-07-04 19:22:02] [config] ignore-model-config: false
+[2022-07-04 19:22:02] [config] input-types:
+[2022-07-04 19:22:02] [config]   []
+[2022-07-04 19:22:02] [config] interpolate-env-vars: false
+[2022-07-04 19:22:02] [config] keep-best: false
+[2022-07-04 19:22:02] [config] label-smoothing: 0.1
+[2022-07-04 19:22:02] [config] layer-normalization: false
+[2022-07-04 19:22:02] [config] learn-rate: 0.0005
+[2022-07-04 19:22:02] [config] lemma-dependency: ""
+[2022-07-04 19:22:02] [config] lemma-dim-emb: 0
+[2022-07-04 19:22:02] [config] log: /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/logs/training-log.txt
+[2022-07-04 19:22:02] [config] log-level: info
+[2022-07-04 19:22:02] [config] log-time-zone: ""
+[2022-07-04 19:22:02] [config] logical-epoch:
+[2022-07-04 19:22:02] [config]   - 1e
+[2022-07-04 19:22:02] [config]   - 0
+[2022-07-04 19:22:02] [config] lr-decay: 0
+[2022-07-04 19:22:02] [config] lr-decay-freq: 50000
+[2022-07-04 19:22:02] [config] lr-decay-inv-sqrt:
+[2022-07-04 19:22:02] [config]   - 16000
+[2022-07-04 19:22:02] [config] lr-decay-repeat-warmup: false
+[2022-07-04 19:22:02] [config] lr-decay-reset-optimizer: false
+[2022-07-04 19:22:02] [config] lr-decay-start:
+[2022-07-04 19:22:02] [config]   - 10
+[2022-07-04 19:22:02] [config]   - 1
+[2022-07-04 19:22:02] [config] lr-decay-strategy: epoch+stalled
+[2022-07-04 19:22:02] [config] lr-report: true
+[2022-07-04 19:22:02] [config] lr-warmup: 16000
+[2022-07-04 19:22:02] [config] lr-warmup-at-reload: false
+[2022-07-04 19:22:02] [config] lr-warmup-cycle: false
+[2022-07-04 19:22:02] [config] lr-warmup-start-rate: 0
+[2022-07-04 19:22:02] [config] max-length: 50
+[2022-07-04 19:22:02] [config] max-length-crop: false
+[2022-07-04 19:22:02] [config] max-length-factor: 3
+[2022-07-04 19:22:02] [config] maxi-batch: 1000
+[2022-07-04 19:22:02] [config] maxi-batch-sort: trg
+[2022-07-04 19:22:02] [config] mini-batch: 64
+[2022-07-04 19:22:02] [config] mini-batch-fit: true
+[2022-07-04 19:22:02] [config] mini-batch-fit-step: 10
+[2022-07-04 19:22:02] [config] mini-batch-round-up: true
+[2022-07-04 19:22:02] [config] mini-batch-track-lr: false
+[2022-07-04 19:22:02] [config] mini-batch-warmup: 0
+[2022-07-04 19:22:02] [config] mini-batch-words: 0
+[2022-07-04 19:22:02] [config] mini-batch-words-ref: 0
+[2022-07-04 19:22:02] [config] model: /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 19:22:02] [config] multi-loss-type: sum
+[2022-07-04 19:22:02] [config] n-best: false
+[2022-07-04 19:22:02] [config] no-nccl: false
+[2022-07-04 19:22:02] [config] no-reload: false
+[2022-07-04 19:22:02] [config] no-restore-corpus: false
+[2022-07-04 19:22:02] [config] normalize: 0
+[2022-07-04 19:22:02] [config] normalize-gradient: false
+[2022-07-04 19:22:02] [config] num-devices: 0
+[2022-07-04 19:22:02] [config] optimizer: adam
+[2022-07-04 19:22:02] [config] optimizer-delay: 1
+[2022-07-04 19:22:02] [config] optimizer-params:
+[2022-07-04 19:22:02] [config]   - 0.9
+[2022-07-04 19:22:02] [config]   - 0.98
+[2022-07-04 19:22:02] [config]   - 1e-09
+[2022-07-04 19:22:02] [config] output-omit-bias: false
+[2022-07-04 19:22:02] [config] overwrite: false
+[2022-07-04 19:22:02] [config] precision:
+[2022-07-04 19:22:02] [config]   - float32
+[2022-07-04 19:22:02] [config]   - float32
+[2022-07-04 19:22:02] [config] pretrained-model: ""
+[2022-07-04 19:22:02] [config] quantize-biases: false
+[2022-07-04 19:22:02] [config] quantize-bits: 0
+[2022-07-04 19:22:02] [config] quantize-log-based: false
+[2022-07-04 19:22:02] [config] quantize-optimization-steps: 0
+[2022-07-04 19:22:02] [config] quiet: false
+[2022-07-04 19:22:02] [config] quiet-translation: false
+[2022-07-04 19:22:02] [config] relative-paths: false
+[2022-07-04 19:22:02] [config] right-left: false
+[2022-07-04 19:22:02] [config] save-freq: 5000
+[2022-07-04 19:22:02] [config] seed: 690
+[2022-07-04 19:22:02] [config] sentencepiece-alphas:
+[2022-07-04 19:22:02] [config]   []
+[2022-07-04 19:22:02] [config] sentencepiece-max-lines: 2000000
+[2022-07-04 19:22:02] [config] sentencepiece-options: ""
+[2022-07-04 19:22:02] [config] sharding: global
+[2022-07-04 19:22:02] [config] shuffle: data
+[2022-07-04 19:22:02] [config] shuffle-in-ram: false
+[2022-07-04 19:22:02] [config] sigterm: save-and-exit
+[2022-07-04 19:22:02] [config] skip: false
+[2022-07-04 19:22:02] [config] sqlite: ""
+[2022-07-04 19:22:02] [config] sqlite-drop: false
+[2022-07-04 19:22:02] [config] sync-freq: 200u
+[2022-07-04 19:22:02] [config] sync-sgd: true
+[2022-07-04 19:22:02] [config] tempdir: /tmp
+[2022-07-04 19:22:02] [config] tied-embeddings: false
+[2022-07-04 19:22:02] [config] tied-embeddings-all: true
+[2022-07-04 19:22:02] [config] tied-embeddings-src: false
+[2022-07-04 19:22:02] [config] train-embedder-rank:
+[2022-07-04 19:22:02] [config]   []
+[2022-07-04 19:22:02] [config] train-sets:
+[2022-07-04 19:22:02] [config]   - /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/trainsets/sentences-converted-puncnormalized.tokenized.truecased.bpe.cs
+[2022-07-04 19:22:02] [config]   - /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/trainsets/sentences-puncnormalized.tokenized.truecased.bpe.vi
+[2022-07-04 19:22:02] [config] transformer-aan-activation: swish
+[2022-07-04 19:22:02] [config] transformer-aan-depth: 2
+[2022-07-04 19:22:02] [config] transformer-aan-nogate: false
+[2022-07-04 19:22:02] [config] transformer-decoder-autoreg: self-attention
+[2022-07-04 19:22:02] [config] transformer-depth-scaling: false
+[2022-07-04 19:22:02] [config] transformer-dim-aan: 2048
+[2022-07-04 19:22:02] [config] transformer-dim-ffn: 2048
+[2022-07-04 19:22:02] [config] transformer-dropout: 0.1
+[2022-07-04 19:22:02] [config] transformer-dropout-attention: 0
+[2022-07-04 19:22:02] [config] transformer-dropout-ffn: 0
+[2022-07-04 19:22:02] [config] transformer-ffn-activation: swish
+[2022-07-04 19:22:02] [config] transformer-ffn-depth: 2
+[2022-07-04 19:22:02] [config] transformer-guided-alignment-layer: last
+[2022-07-04 19:22:02] [config] transformer-heads: 8
+[2022-07-04 19:22:02] [config] transformer-no-projection: false
+[2022-07-04 19:22:02] [config] transformer-pool: false
+[2022-07-04 19:22:02] [config] transformer-postprocess: dan
+[2022-07-04 19:22:02] [config] transformer-postprocess-emb: d
+[2022-07-04 19:22:02] [config] transformer-postprocess-top: ""
+[2022-07-04 19:22:02] [config] transformer-preprocess: ""
+[2022-07-04 19:22:02] [config] transformer-tied-layers:
+[2022-07-04 19:22:02] [config]   []
+[2022-07-04 19:22:02] [config] transformer-train-position-embeddings: false
+[2022-07-04 19:22:02] [config] tsv: false
+[2022-07-04 19:22:02] [config] tsv-fields: 0
+[2022-07-04 19:22:02] [config] type: transformer
+[2022-07-04 19:22:02] [config] ulr: false
+[2022-07-04 19:22:02] [config] ulr-dim-emb: 0
+[2022-07-04 19:22:02] [config] ulr-dropout: 0
+[2022-07-04 19:22:02] [config] ulr-keys-vectors: ""
+[2022-07-04 19:22:02] [config] ulr-query-vectors: ""
+[2022-07-04 19:22:02] [config] ulr-softmax-temperature: 1
+[2022-07-04 19:22:02] [config] ulr-trainable-transformation: false
+[2022-07-04 19:22:02] [config] unlikelihood-loss: false
+[2022-07-04 19:22:02] [config] valid-freq: 5000
+[2022-07-04 19:22:02] [config] valid-log: /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/validation/valid-log.txt
+[2022-07-04 19:22:02] [config] valid-max-length: 1000
+[2022-07-04 19:22:02] [config] valid-metrics:
+[2022-07-04 19:22:02] [config]   - bleu
+[2022-07-04 19:22:02] [config] valid-mini-batch: 64
+[2022-07-04 19:22:02] [config] valid-reset-stalled: false
+[2022-07-04 19:22:02] [config] valid-script-args:
+[2022-07-04 19:22:02] [config]   []
+[2022-07-04 19:22:02] [config] valid-script-path: ""
+[2022-07-04 19:22:02] [config] valid-sets:
+[2022-07-04 19:22:02] [config]   - /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/testset/newstest2013-first1500sentences-puncnormalized.tokenized.truecased.bpe.cs
+[2022-07-04 19:22:02] [config]   - /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/testset/newstest2013-first1500sentences-puncnormalized.tokenized.truecased.bpe.vi
+[2022-07-04 19:22:02] [config] valid-translation-output: /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/validation/valid-{E}.out
+[2022-07-04 19:22:02] [config] vocabs:
+[2022-07-04 19:22:02] [config]   - /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/vocabs/vocab-36k.csvi.yml
+[2022-07-04 19:22:02] [config]   - /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/vocabs/vocab-36k.csvi.yml
+[2022-07-04 19:22:02] [config] word-penalty: 0
+[2022-07-04 19:22:02] [config] word-scores: false
+[2022-07-04 19:22:02] [config] workspace: 6000
+[2022-07-04 19:22:02] [config] Model is being created with Marian v1.10.27; b64e258b 2022-01-18 12:59:37 +0000
+[2022-07-04 19:22:02] Using synchronous SGD
+[2022-07-04 19:22:02] [comm] Compiled without MPI support. Running as a single process on glados3.cerit-sc.cz
+[2022-07-04 19:22:02] Synced seed 690
+[2022-07-04 19:22:02] [data] Loading vocabulary from JSON/Yaml file /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/vocabs/vocab-36k.csvi.yml
+[2022-07-04 19:22:02] [data] Setting vocabulary size for input 0 to 32,204
+[2022-07-04 19:22:02] [data] Loading vocabulary from JSON/Yaml file /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/vocabs/vocab-36k.csvi.yml
+[2022-07-04 19:22:03] [data] Setting vocabulary size for input 1 to 32,204
+[2022-07-04 19:22:03] [batching] Collecting statistics for batch fitting with step size 10
+[2022-07-04 19:22:05] [memory] Extending reserved space to 6016 MB (device gpu0)
+[2022-07-04 19:22:05] [memory] Extending reserved space to 6016 MB (device gpu1)
+[2022-07-04 19:22:05] [comm] Using NCCL 2.8.3 for GPU communication
+[2022-07-04 19:22:05] [comm] Using global sharding
+[2022-07-04 19:22:06] [comm] NCCLCommunicators constructed successfully
+[2022-07-04 19:22:06] [training] Using 2 GPUs
+[2022-07-04 19:22:06] [logits] Applying loss function for 1 factor(s)
+[2022-07-04 19:22:06] [memory] Reserving 231 MB, device gpu0
+[2022-07-04 19:22:11] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2022-07-04 19:22:11] [memory] Reserving 231 MB, device gpu0
+[2022-07-04 19:22:19] [batching] Done. Typical MB size is 11,000 target words
+[2022-07-04 19:22:19] [memory] Extending reserved space to 6016 MB (device gpu0)
+[2022-07-04 19:22:19] [memory] Extending reserved space to 6016 MB (device gpu1)
+[2022-07-04 19:22:19] [comm] Using NCCL 2.8.3 for GPU communication
+[2022-07-04 19:22:19] [comm] Using global sharding
+[2022-07-04 19:22:19] [comm] NCCLCommunicators constructed successfully
+[2022-07-04 19:22:19] [training] Using 2 GPUs
+[2022-07-04 19:22:19] Training started
+[2022-07-04 19:22:19] [data] Shuffling data
+[2022-07-04 19:22:19] [data] Done reading 1,091,058 sentences
+[2022-07-04 19:22:24] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 19:22:25] [training] Batches are processed as 1 process(es) x 2 devices/process
+[2022-07-04 19:22:25] [memory] Reserving 231 MB, device gpu0
+[2022-07-04 19:22:25] [memory] Reserving 231 MB, device gpu1
+[2022-07-04 19:22:25] [memory] Reserving 231 MB, device gpu0
+[2022-07-04 19:22:26] [memory] Reserving 231 MB, device gpu1
+[2022-07-04 19:22:26] Allocating memory for general optimizer shards
+[2022-07-04 19:22:26] Parameter type float32, optimization type float32, casting types false
+[2022-07-04 19:22:26] [memory] Reserving 115 MB, device gpu1
+[2022-07-04 19:22:26] [memory] Reserving 115 MB, device gpu0
+[2022-07-04 19:22:26] Allocating memory for Adam-specific shards
+[2022-07-04 19:22:26] [memory] Reserving 231 MB, device gpu1
+[2022-07-04 19:22:26] [memory] Reserving 231 MB, device gpu0
+[2022-07-04 19:29:57] Seen 1,090,865 samples
+[2022-07-04 19:29:57] Starting data epoch 2 in logical epoch 2
+[2022-07-04 19:29:57] [data] Shuffling data
+[2022-07-04 19:29:58] [data] Done reading 1,091,058 sentences
+[2022-07-04 19:30:03] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 19:37:37] Seen 1,090,865 samples
+[2022-07-04 19:37:37] Starting data epoch 3 in logical epoch 3
+[2022-07-04 19:37:37] [data] Shuffling data
+[2022-07-04 19:37:37] [data] Done reading 1,091,058 sentences
+[2022-07-04 19:37:42] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 19:45:15] Seen 1,090,865 samples
+[2022-07-04 19:45:15] Starting data epoch 4 in logical epoch 4
+[2022-07-04 19:45:15] [data] Shuffling data
+[2022-07-04 19:45:16] [data] Done reading 1,091,058 sentences
+[2022-07-04 19:45:21] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 19:46:09] Ep. 4 : Up. 5000 : Sen. 114,999 : Cost 5.74385786 * 30,061,430 @ 6,696 after 30,061,449 : Time 1430.31s : 21017.39 words/s : gNorm 1.3988 : L.r. 1.5625e-04
+[2022-07-04 19:46:09] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter5000.npz
+[2022-07-04 19:46:11] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 19:46:14] Saving Adam parameters
+[2022-07-04 19:46:17] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 19:46:22] Translating validation set...
+[2022-07-04 19:46:23] [valid] First sentence's tokens as scored:
+[2022-07-04 19:46:23] [valid] DefaultVocab keeps original segments for scoring
+[2022-07-04 19:46:23] [valid]   Hyp: nhưng nếu bạn có một chiếc xe , thì nó sẽ có một chiếc xe .
+[2022-07-04 19:46:23] [valid]   Ref: tiền cho chuyến đi , tốt nhất_là mang US@@ D ( không nên mang euro ) vì có_thể dễ_dàng đổi ra s@@ iếc - l@@ ơ ( hiện 1 đô_la = 3,@@ 8 s@@ iếc - l@@ ơ ) .
+[2022-07-04 19:46:23] [valid] References contain unknown word, metric scores may be inaccurate
+[2022-07-04 19:46:27] Best translation 0 : ông ấy là một người đàn_ông đã bị bắt
+[2022-07-04 19:46:27] Best translation 1 : những người đã được tạo ra bởi người Mỹ .
+[2022-07-04 19:46:27] Best translation 2 : nhưng những người này đã bị bắt bởi những người khác .
+[2022-07-04 19:46:27] Best translation 3 : chỉ có 5 năm trước .
+[2022-07-04 19:46:27] Best translation 4 : nó sẽ có một sự khác_biệt .
+[2022-07-04 19:46:27] Best translation 5 : đây là một trong những ý_tưởng này .
+[2022-07-04 19:46:27] Best translation 10 : những người nói rằng họ cần phải tạo ra sự giúp_đỡ .
+[2022-07-04 19:46:27] Best translation 20 : chỉ có 1 triệu đô .
+[2022-07-04 19:46:27] Best translation 40 : một trong những người có những người khác , những người khác .
+[2022-07-04 19:46:27] Best translation 80 : những người đã được tạo ra bởi những người Mỹ .
+[2022-07-04 19:46:27] Best translation 160 : ông ấy nói rằng một người phụ_nữ có một trong những người phụ_nữ .
+[2022-07-04 19:46:27] Best translation 320 : và đó là một điều tuyệt_vời .
+[2022-07-04 19:46:31] Best translation 640 : để tạo ra những người Mỹ .
+[2022-07-04 19:46:32] Best translation 1280 : một trong những người có một người phụ_nữ .
+[2022-07-04 19:46:34] Total translation time: 12.34284s
+[2022-07-04 19:46:34] [valid] Ep. 4 : Up. 5000 : bleu : 0.743521 : new best
+[2022-07-04 19:53:17] Seen 1,090,865 samples
+[2022-07-04 19:53:17] Starting data epoch 5 in logical epoch 5
+[2022-07-04 19:53:17] [data] Shuffling data
+[2022-07-04 19:53:18] [data] Done reading 1,091,058 sentences
+[2022-07-04 19:53:23] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:00:55] Seen 1,090,865 samples
+[2022-07-04 20:00:55] Starting data epoch 6 in logical epoch 6
+[2022-07-04 20:00:55] [data] Shuffling data
+[2022-07-04 20:00:55] [data] Done reading 1,091,058 sentences
+[2022-07-04 20:01:00] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:08:33] Seen 1,090,865 samples
+[2022-07-04 20:08:33] Starting data epoch 7 in logical epoch 7
+[2022-07-04 20:08:33] [data] Shuffling data
+[2022-07-04 20:08:33] [data] Done reading 1,091,058 sentences
+[2022-07-04 20:08:38] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:10:17] Ep. 7 : Up. 10000 : Sen. 235,839 : Cost 4.25371742 * 30,096,980 @ 5,336 after 60,158,425 : Time 1447.50s : 20792.44 words/s : gNorm 1.0960 : L.r. 3.1250e-04
+[2022-07-04 20:10:17] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter10000.npz
+[2022-07-04 20:10:19] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 20:10:21] Saving Adam parameters
+[2022-07-04 20:10:24] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 20:10:29] Translating validation set...
+[2022-07-04 20:10:34] Best translation 0 : một cuộc cách_mạng hòa bình chống lại O@@ ba@@ d
+[2022-07-04 20:10:34] Best translation 1 : nền dân_chủ đã tạo ra một chính_sách chống lại chính_trị .
+[2022-07-04 20:10:34] Best translation 2 : nhưng Brenda được gửi đến với những kẻ thua cuộc .
+[2022-07-04 20:10:34] Best translation 3 : trong suốt 10 năm qua .
+[2022-07-04 20:10:34] Best translation 4 : một trong số đó có ảnh_hưởng gì đến sự xung_đột .
+[2022-07-04 20:10:34] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ .
+[2022-07-04 20:10:34] Best translation 10 : theo luật , yêu_cầu các bản báo_cáo của người Mỹ .
+[2022-07-04 20:10:35] Best translation 20 : tôi cần thêm 100 đô .
+[2022-07-04 20:10:35] Best translation 40 : phía bên kia , những người da trắng đã tạo ra 6@@ 76 % .
+[2022-07-04 20:10:35] Best translation 80 : thuốc_lá tốn 85 % ung_thư .
+[2022-07-04 20:10:35] Best translation 160 : trong cuộc_sống của một người đàn_ông được dạy rằng , Pierre , một nhà tâm_lý_học .
+[2022-07-04 20:10:35] Best translation 320 : điều đó có_nghĩa_là I@@ hi@@ hi@@ r rất mạnh và rất mạnh .
+[2022-07-04 20:10:38] Best translation 640 : một đề_nghị về luật_pháp Nga .
+[2022-07-04 20:10:40] Best translation 1280 : cuối_cùng , Ste@@ anti@@ ne là một người phụ_nữ không quan_tâm đến lợi_ích .
+[2022-07-04 20:10:44] Total translation time: 14.26713s
+[2022-07-04 20:10:44] [valid] Ep. 7 : Up. 10000 : bleu : 3.51487 : new best
+[2022-07-04 20:16:37] Seen 1,090,865 samples
+[2022-07-04 20:16:37] Starting data epoch 8 in logical epoch 8
+[2022-07-04 20:16:37] [data] Shuffling data
+[2022-07-04 20:16:37] [data] Done reading 1,091,058 sentences
+[2022-07-04 20:16:42] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:24:14] Seen 1,090,865 samples
+[2022-07-04 20:24:14] Starting data epoch 9 in logical epoch 9
+[2022-07-04 20:24:14] [data] Shuffling data
+[2022-07-04 20:24:15] [data] Done reading 1,091,058 sentences
+[2022-07-04 20:24:20] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:31:52] Seen 1,090,865 samples
+[2022-07-04 20:31:52] Starting data epoch 10 in logical epoch 10
+[2022-07-04 20:31:52] [data] Shuffling data
+[2022-07-04 20:31:52] [data] Done reading 1,091,058 sentences
+[2022-07-04 20:31:57] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:34:26] Ep. 10 : Up. 15000 : Sen. 360,544 : Cost 3.75370049 * 30,143,314 @ 8,032 after 90,301,725 : Time 1449.60s : 20794.16 words/s : gNorm 0.9227 : L.r. 4.6875e-04
+[2022-07-04 20:34:26] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter15000.npz
+[2022-07-04 20:34:28] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 20:34:31] Saving Adam parameters
+[2022-07-04 20:34:34] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 20:34:39] Translating validation set...
+[2022-07-04 20:34:44] Best translation 0 : chiến_lược của Cộng_@@ hòa chống lại O@@ ba@@ di
+[2022-07-04 20:34:44] Best translation 1 : các nhà Cộng_@@ hòa đã làm chính_sách chống lại bọn lừa_đảo .
+[2022-07-04 20:34:44] Best translation 2 : nhưng Thẩm_@@ Giai_@@ D@@ ịch Bren@@ nan@@ bi@@ an cho rằng sự lừa_đảo sẽ ít hơn là gian_lận ở Mỹ .
+[2022-07-04 20:34:44] Best translation 3 : một luật_sư Cộng_@@ hòa trong 10 năm qua chỉ có 300 trường_hợp lừa_đảo ở Mỹ .
+[2022-07-04 20:34:44] Best translation 4 : một trong số đó là : cuộc vận_động mới này sẽ có ảnh_hưởng tiêu_cực .
+[2022-07-04 20:34:44] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ .
+[2022-07-04 20:34:44] Best translation 10 : luật bầu_cử yêu_cầu thẻ căn_cước của Mỹ và người Mỹ .
+[2022-07-04 20:34:44] Best translation 20 : theo lệnh của bộ chỉ_huy thì thường đáng_giá hơn 100 đô .
+[2022-07-04 20:34:44] Best translation 40 : mặt_khác , những người da trắng đã giới_thiệu 76 % những người đã tạo ra 46 % .
+[2022-07-04 20:34:44] Best translation 80 : thuốc_lá tốn 85 % ung_thư phổi .
+[2022-07-04 20:34:44] Best translation 160 : trong cuộc_sống của gia_đình , người_ta học rằng những chàng trai của Pierre là một nhà tâm_lý_học .
+[2022-07-04 20:34:44] Best translation 320 : điều đó có_nghĩa_là người I@@ bra@@ hi@@ sh là một người rất giỏi , và nó sẽ cho ta một cái bàn .
+[2022-07-04 20:34:50] Best translation 640 : chính_phủ Nga cho phép thiết_kế vũ_khí dân_sự .
+[2022-07-04 20:34:51] Best translation 1280 : kết_luận của Ste@@ anti@@ ne ngày_nay là một xã_hội có lợi cho xã_hội .
+[2022-07-04 20:34:53] Total translation time: 13.58172s
+[2022-07-04 20:34:53] [valid] Ep. 10 : Up. 15000 : bleu : 6.02757 : new best
+[2022-07-04 20:39:55] Seen 1,090,865 samples
+[2022-07-04 20:39:55] Starting data epoch 11 in logical epoch 11
+[2022-07-04 20:39:55] [data] Shuffling data
+[2022-07-04 20:39:55] [data] Done reading 1,091,058 sentences
+[2022-07-04 20:40:00] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:47:32] Seen 1,090,865 samples
+[2022-07-04 20:47:32] Starting data epoch 12 in logical epoch 12
+[2022-07-04 20:47:32] [data] Shuffling data
+[2022-07-04 20:47:34] [data] Done reading 1,091,058 sentences
+[2022-07-04 20:47:39] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:55:11] Seen 1,090,865 samples
+[2022-07-04 20:55:11] Starting data epoch 13 in logical epoch 13
+[2022-07-04 20:55:11] [data] Shuffling data
+[2022-07-04 20:55:11] [data] Done reading 1,091,058 sentences
+[2022-07-04 20:55:16] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 20:58:36] Ep. 13 : Up. 20000 : Sen. 483,173 : Cost 3.55150938 * 30,104,322 @ 9,088 after 120,406,046 : Time 1449.81s : 20764.36 words/s : gNorm 0.9654 : L.r. 4.4721e-04
+[2022-07-04 20:58:36] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter20000.npz
+[2022-07-04 20:58:38] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 20:58:41] Saving Adam parameters
+[2022-07-04 20:58:43] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 20:58:49] Translating validation set...
+[2022-07-04 20:58:53] Best translation 0 : chiến_lược Cộng_@@ hòa chống O@@ ba@@ ma
+[2022-07-04 20:58:53] Best translation 1 : các nhà Cộng_@@ hòa đã từ_bỏ chính_sách chống gian_lận .
+[2022-07-04 20:58:53] Best translation 2 : nhưng Bren@@ nan@@ den gọi đó là sự dối_trá về việc lừa_đảo ở Mỹ ít hơn số người bị_thương .
+[2022-07-04 20:58:53] Best translation 3 : trong 10 năm qua , luật Cộng_@@ hòa chỉ có 300 vụ lừa_đảo ở Mỹ .
+[2022-07-04 20:58:53] Best translation 4 : một : sự can_thiệp mới này sẽ ảnh_hưởng xấu đến sự tham_gia .
+[2022-07-04 20:58:54] Best translation 5 : theo cách này , một phần của hệ_thống dân_chủ Mỹ .
+[2022-07-04 20:58:54] Best translation 10 : luật mới yêu_cầu thẻ căn_cước bầu_cử và thẻ căn_cước của Mỹ .
+[2022-07-04 20:58:54] Best translation 20 : cần phải có thêm 100 đô_la .
+[2022-07-04 20:58:54] Best translation 40 : mặt_khác , những người da trắng đã đưa ra 76 % những người bầu_cử .
+[2022-07-04 20:58:54] Best translation 80 : thuốc_lá giá 85 % phổi .
+[2022-07-04 20:58:54] Best translation 160 : đây là một nhà tâm_lý_học .
+[2022-07-04 20:58:54] Best translation 320 : điều đó có_nghĩa_là người I@@ bra@@ hi@@ ter rất hiệu_quả và đưa ra nhiều câu_đố .
+[2022-07-04 20:58:59] Best translation 640 : M@@ V@@ D sẽ đưa ra một đề_nghị pháp_lý trong mối quan_hệ của công_dân .
+[2022-07-04 20:59:00] Best translation 1280 : cuối_cùng , Steve là một xã_hội có lợi cho xã_hội .
+[2022-07-04 20:59:01] Total translation time: 11.78191s
+[2022-07-04 20:59:01] [valid] Ep. 13 : Up. 20000 : bleu : 7.80871 : new best
+[2022-07-04 21:03:12] Seen 1,090,865 samples
+[2022-07-04 21:03:12] Starting data epoch 14 in logical epoch 14
+[2022-07-04 21:03:12] [data] Shuffling data
+[2022-07-04 21:03:13] [data] Done reading 1,091,058 sentences
+[2022-07-04 21:03:17] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 21:10:50] Seen 1,090,865 samples
+[2022-07-04 21:10:50] Starting data epoch 15 in logical epoch 15
+[2022-07-04 21:10:50] [data] Shuffling data
+[2022-07-04 21:10:50] [data] Done reading 1,091,058 sentences
+[2022-07-04 21:10:55] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 21:18:27] Seen 1,090,865 samples
+[2022-07-04 21:18:27] Starting data epoch 16 in logical epoch 16
+[2022-07-04 21:18:27] [data] Shuffling data
+[2022-07-04 21:18:28] [data] Done reading 1,091,058 sentences
+[2022-07-04 21:18:33] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 21:22:42] Ep. 16 : Up. 25000 : Sen. 603,396 : Cost 3.35874510 * 30,096,986 @ 6,138 after 150,503,020 : Time 1445.77s : 20817.31 words/s : gNorm 0.9189 : L.r. 4.0000e-04
+[2022-07-04 21:22:42] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter25000.npz
+[2022-07-04 21:23:39] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 21:24:16] Saving Adam parameters
+[2022-07-04 21:24:18] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 21:24:24] Translating validation set...
+[2022-07-04 21:24:28] Best translation 0 : chiến_lược của Cộng_@@ hòa chống lại O@@ ba@@ ma_@@ Hou@@ ji
+[2022-07-04 21:24:28] Best translation 1 : bọn Cộng_@@ hòa đã đưa ra chính_sách chống gian_lận .
+[2022-07-04 21:24:28] Best translation 2 : nhưng sự lừa_đảo ở đây cho thấy sự lừa_đảo của nước Mỹ ít hơn là một sự lừa_đảo ít khi bị tấn_công .
+[2022-07-04 21:24:28] Best translation 3 : trong vòng 10 năm qua , luật Cộng_@@ hòa chỉ là 300 vụ lừa_đảo ở Mỹ .
+[2022-07-04 21:24:28] Best translation 4 : một điều nữa là : sự can_thiệp mới này sẽ ảnh_hưởng xấu đến sự tham_gia .
+[2022-07-04 21:24:28] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ .
+[2022-07-04 21:24:28] Best translation 10 : luật mới yêu_cầu bỏ_phiếu cho các bức ảnh và người Mỹ .
+[2022-07-04 21:24:28] Best translation 20 : việc quản_lý hiện_trường thường tốn hơn 100 đô .
+[2022-07-04 21:24:28] Best translation 40 : mặt_khác , 76 % những người da trắng chỉ có 46 % những người bầu_cử .
+[2022-07-04 21:24:28] Best translation 80 : thuốc_lá tốn 85 % phổi .
+[2022-07-04 21:24:28] Best translation 160 : đây là nơi mà mọi người đã học được trong đời mình rằng những người đàn_ông này là Pierre Bro@@ de@@ _@@ Bro@@ de@@ ba@@ r , nói rằng .
+[2022-07-04 21:24:28] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ff là một người rất hiệu_quả và đang ghi_@@ bàn .
+[2022-07-04 21:24:32] Best translation 640 : M@@ V@@ D sẽ đưa ra một đề_nghị của luật_pháp trong mối quan_hệ giữa các công_dân .
+[2022-07-04 21:24:34] Best translation 1280 : kết_luận của Steve là xã_hội hiện_tại dựa trên những lợi_ích xã_hội của chính họ .
+[2022-07-04 21:24:35] Total translation time: 11.19303s
+[2022-07-04 21:24:35] [valid] Ep. 16 : Up. 25000 : bleu : 8.38172 : new best
+[2022-07-04 21:27:58] Seen 1,090,865 samples
+[2022-07-04 21:27:58] Starting data epoch 17 in logical epoch 17
+[2022-07-04 21:27:58] [data] Shuffling data
+[2022-07-04 21:27:59] [data] Done reading 1,091,058 sentences
+[2022-07-04 21:28:03] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 21:35:35] Seen 1,090,865 samples
+[2022-07-04 21:35:35] Starting data epoch 18 in logical epoch 18
+[2022-07-04 21:35:35] [data] Shuffling data
+[2022-07-04 21:35:36] [data] Done reading 1,091,058 sentences
+[2022-07-04 21:35:40] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 21:43:12] Seen 1,090,865 samples
+[2022-07-04 21:43:12] Starting data epoch 19 in logical epoch 19
+[2022-07-04 21:43:12] [data] Shuffling data
+[2022-07-04 21:43:13] [data] Done reading 1,091,058 sentences
+[2022-07-04 21:43:18] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 21:48:15] Ep. 19 : Up. 30000 : Sen. 714,666 : Cost 3.21438384 * 30,032,920 @ 9,088 after 180,535,955 : Time 1532.87s : 19592.56 words/s : gNorm 0.9149 : L.r. 3.6515e-04
+[2022-07-04 21:48:15] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter30000.npz
+[2022-07-04 21:48:17] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 21:48:20] Saving Adam parameters
+[2022-07-04 21:48:22] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 21:48:27] Translating validation set...
+[2022-07-04 21:48:31] Best translation 0 : chiến_thuật cộng hòa chống lại tổ_chức O@@ ba@@ e@@ t_@@ Cove
+[2022-07-04 21:48:31] Best translation 1 : bọn Cộng_@@ hòa đã từ_bỏ chính_sách chống gian_lận .
+[2022-07-04 21:48:31] Best translation 2 : nhưng trung_tâm điều_hành cho rằng sự lừa_dối ở Mỹ ít hơn so với số người bị_thương .
+[2022-07-04 21:48:31] Best translation 3 : trong vòng 10 năm qua , luật cộng hòa chỉ có 300 vụ lừa_đảo ở Mỹ .
+[2022-07-04 21:48:31] Best translation 4 : điều này là : sự can_thiệp mới này sẽ gây ảnh_hưởng xấu đến oxytocin .
+[2022-07-04 21:48:31] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ đang hoạt_động .
+[2022-07-04 21:48:31] Best translation 10 : luật mới của chúng_tôi yêu_cầu họ đưa ra thẻ căn_cước và thẻ căn_cước của Mỹ .
+[2022-07-04 21:48:31] Best translation 20 : cần phải có thêm 100 đô_la .
+[2022-07-04 21:48:31] Best translation 40 : mặt_khác , người da trắng đã đưa ra 76 % những người bầu_cử chỉ có 46 % số người bầu_cử .
+[2022-07-04 21:48:31] Best translation 80 : thuốc_lá tốn 85 % số ca ung_thư phổi .
+[2022-07-04 21:48:31] Best translation 160 : Cotton đã học được rằng những người đàn_ông trong cuộc_đời là người chỉ_huy , Pierre Bro@@ u@@ r nói rằng .
+[2022-07-04 21:48:31] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ c là một người rất hiệu_quả và đang ghi_@@ bàn .
+[2022-07-04 21:48:36] Best translation 640 : M@@ V@@ D sẽ đưa ra một đề_nghị của luật_pháp trong mối quan_hệ giữa các công_dân .
+[2022-07-04 21:48:37] Best translation 1280 : kết_luận của Ste@@ zo là một xã_hội hiện_đại được thành_lập trên không có sự quan_tâm xã_hội .
+[2022-07-04 21:48:39] Total translation time: 11.27923s
+[2022-07-04 21:48:39] [valid] Ep. 19 : Up. 30000 : bleu : 8.59635 : new best
+[2022-07-04 21:51:14] Seen 1,090,865 samples
+[2022-07-04 21:51:14] Starting data epoch 20 in logical epoch 20
+[2022-07-04 21:51:14] [data] Shuffling data
+[2022-07-04 21:51:15] [data] Done reading 1,091,058 sentences
+[2022-07-04 21:51:20] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 21:58:52] Seen 1,090,865 samples
+[2022-07-04 21:58:52] Starting data epoch 21 in logical epoch 21
+[2022-07-04 21:58:52] [data] Shuffling data
+[2022-07-04 21:58:53] [data] Done reading 1,091,058 sentences
+[2022-07-04 21:58:58] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 22:06:30] Seen 1,090,865 samples
+[2022-07-04 22:06:30] Starting data epoch 22 in logical epoch 22
+[2022-07-04 22:06:30] [data] Shuffling data
+[2022-07-04 22:06:31] [data] Done reading 1,091,058 sentences
+[2022-07-04 22:06:36] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 22:12:21] Ep. 22 : Up. 35000 : Sen. 833,136 : Cost 3.09879518 * 30,077,658 @ 5,680 after 210,613,617 : Time 1446.04s : 20799.98 words/s : gNorm 1.0019 : L.r. 3.3806e-04
+[2022-07-04 22:12:21] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter35000.npz
+[2022-07-04 22:12:23] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 22:12:26] Saving Adam parameters
+[2022-07-04 22:12:28] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 22:12:34] Translating validation set...
+[2022-07-04 22:12:37] Best translation 0 : chiến_lược của cộng hòa chống lại Obama
+[2022-07-04 22:12:37] Best translation 1 : những người Cộng_@@ hòa đã từ_bỏ chính_sách chống lại Moriarty .
+[2022-07-04 22:12:37] Best translation 2 : nhưng trung_tâm của Bren@@ nan@@ bri@@ c cho rằng trò lừa_đảo này ít hơn so với số người bị tấn_công .
+[2022-07-04 22:12:37] Best translation 3 : trong vòng 10 năm qua , các luật_sư hòa bình của nước Mỹ chỉ có 300 vụ lừa_đảo ở Mỹ .
+[2022-07-04 22:12:37] Best translation 4 : điều này không quan_trọng : sự can_thiệp mới này sẽ gây ảnh_hưởng xấu đến cuộc tham_gia của Bourne .
+[2022-07-04 22:12:37] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ đang hoạt_động .
+[2022-07-04 22:12:37] Best translation 10 : luật khoa_học mới yêu_cầu người bầu_cử phải có giấy_tờ và thẻ căn_cước của người Mỹ .
+[2022-07-04 22:12:38] Best translation 20 : cần phải có thêm 100 đô .
+[2022-07-04 22:12:38] Best translation 40 : mặt_khác , những người da trắng đưa ra 76 % những người bầu_cử chỉ có 46 % số người bầu_cử .
+[2022-07-04 22:12:38] Best translation 80 : thuốc_lá tốn 85 % các ca ung_thư phổi .
+[2022-07-04 22:12:38] Best translation 160 : là Pierre Bro@@ de@@ r kể chuyện về một nhà tâm_lý_học .
+[2022-07-04 22:12:38] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ c rất hiệu_quả và đưa ra rất nhiều câu_đố .
+[2022-07-04 22:12:42] Best translation 640 : M@@ V@@ D đề_nghị đưa ra luật pháp_lý trong mối quan_hệ giữa các công_dân .
+[2022-07-04 22:12:43] Best translation 1280 : kết_luận của Ste@@ c là một xã_hội hiện_đại được thành_lập dựa trên những lợi_ích xã_hội không quan_tâm đến lợi_ích xã_hội .
+[2022-07-04 22:12:46] Total translation time: 11.99464s
+[2022-07-04 22:12:46] [valid] Ep. 22 : Up. 35000 : bleu : 8.81188 : new best
+[2022-07-04 22:14:33] Seen 1,090,865 samples
+[2022-07-04 22:14:33] Starting data epoch 23 in logical epoch 23
+[2022-07-04 22:14:33] [data] Shuffling data
+[2022-07-04 22:14:34] [data] Done reading 1,091,058 sentences
+[2022-07-04 22:14:39] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 22:22:11] Seen 1,090,865 samples
+[2022-07-04 22:22:11] Starting data epoch 24 in logical epoch 24
+[2022-07-04 22:22:11] [data] Shuffling data
+[2022-07-04 22:22:11] [data] Done reading 1,091,058 sentences
+[2022-07-04 22:22:16] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 22:29:48] Seen 1,090,865 samples
+[2022-07-04 22:29:48] Starting data epoch 25 in logical epoch 25
+[2022-07-04 22:29:48] [data] Shuffling data
+[2022-07-04 22:29:48] [data] Done reading 1,091,058 sentences
+[2022-07-04 22:29:53] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 22:36:28] Ep. 25 : Up. 40000 : Sen. 952,844 : Cost 3.00262117 * 30,100,474 @ 6,816 after 240,714,100 : Time 1447.31s : 20797.60 words/s : gNorm 1.0283 : L.r. 3.1623e-04
+[2022-07-04 22:36:28] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter40000.npz
+[2022-07-04 22:36:30] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 22:36:33] Saving Adam parameters
+[2022-07-04 22:36:36] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 22:36:41] Translating validation set...
+[2022-07-04 22:36:45] Best translation 0 : chiến_lược cộng hòa chống lại O@@ ba@@ si@@ e_@@ Maryann
+[2022-07-04 22:36:45] Best translation 1 : bọn Cộng_@@ hòa đã phá vỡ chính_sách chống gian_lận của họ .
+[2022-07-04 22:36:45] Best translation 2 : nhưng đài chỉ_huy thì cho rằng trò lừa_đảo ở Mỹ ít hơn so với số người bị tấn_công .
+[2022-07-04 22:36:45] Best translation 3 : luật_sư Cộng_@@ hòa chỉ trong vòng 10 năm qua .
+[2022-07-04 22:36:45] Best translation 4 : một điều là : sự điều_chỉnh này sẽ gây ảnh_hưởng xấu đến sự tham_gia của Bourne .
+[2022-07-04 22:36:45] Best translation 5 : theo cách này , hệ_thống dân_chủ Hoa_Kỳ đang hoạt_động .
+[2022-07-04 22:36:45] Best translation 10 : luật mới yêu_cầu người bầu_cử phải có thẻ căn_cước và giấy_tờ chính_thức của người Mỹ về Inter@@ pol .
+[2022-07-04 22:36:45] Best translation 20 : cần phải có thêm 100 đô .
+[2022-07-04 22:36:45] Best translation 40 : mặt_khác , những người da trắng đưa ra 76 % những cử@@ _tr@@ i chỉ có 46 % những người bầu_cử .
+[2022-07-04 22:36:45] Best translation 80 : thuốc_lá tốn 85 % các ca ung_thư phổi .
+[2022-07-04 22:36:45] Best translation 160 : là Pierre Bro@@ de@@ r , một nhà tâm_lý_học ở Ga@@ d@@ tor .
+[2022-07-04 22:36:45] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ c rất hiệu_quả và đưa ra rất nhiều ghi_@@ bàn .
+[2022-07-04 22:36:49] Best translation 640 : M@@ V@@ D đề_nghị đưa ra luật pháp_lý trong mối quan_hệ của các công_dân .
+[2022-07-04 22:36:50] Best translation 1280 : kết_luận của Ste@@ c là một xã_hội hiện_đại được thành_lập dựa trên lợi_ích của Shipwre@@ ck_@@ Cove .
+[2022-07-04 22:36:53] Total translation time: 11.78453s
+[2022-07-04 22:36:53] [valid] Ep. 25 : Up. 40000 : bleu : 8.6319 : stalled 1 times (last best: 8.81188)
+[2022-07-04 22:37:51] Seen 1,090,865 samples
+[2022-07-04 22:37:51] Starting data epoch 26 in logical epoch 26
+[2022-07-04 22:37:51] [data] Shuffling data
+[2022-07-04 22:37:52] [data] Done reading 1,091,058 sentences
+[2022-07-04 22:37:56] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 22:45:28] Seen 1,090,865 samples
+[2022-07-04 22:45:28] Starting data epoch 27 in logical epoch 27
+[2022-07-04 22:45:28] [data] Shuffling data
+[2022-07-04 22:45:29] [data] Done reading 1,091,058 sentences
+[2022-07-04 22:45:34] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 22:53:07] Seen 1,090,865 samples
+[2022-07-04 22:53:07] Starting data epoch 28 in logical epoch 28
+[2022-07-04 22:53:07] [data] Shuffling data
+[2022-07-04 22:53:08] [data] Done reading 1,091,058 sentences
+[2022-07-04 22:53:13] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 23:00:34] Ep. 28 : Up. 45000 : Sen. 1,067,025 : Cost 2.92155814 * 30,050,170 @ 11,360 after 270,764,270 : Time 1446.29s : 20777.48 words/s : gNorm 1.0126 : L.r. 2.9814e-04
+[2022-07-04 23:00:34] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter45000.npz
+[2022-07-04 23:00:37] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 23:00:39] Saving Adam parameters
+[2022-07-04 23:00:41] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 23:00:47] Translating validation set...
+[2022-07-04 23:00:50] Best translation 0 : chiến_lược cộng hòa chống lại O@@ ba@@ si@@ e_@@ Hou@@ dini
+[2022-07-04 23:00:50] Best translation 1 : bọn Cộng_@@ hòa đã khu@@ ấy_@@ động chính_sách chống lại Moriarty .
+[2022-07-04 23:00:50] Best translation 2 : nhưng phòng_@@ chống khủng_bố thì cho rằng sự lừa_đảo ở Mỹ ít hơn so với số người bị tấn_công .
+[2022-07-04 23:00:50] Best translation 3 : luật_sư Cộng_@@ hòa , trong 10 năm qua , chỉ có 300 vụ lừa_đảo ở Mỹ .
+[2022-07-04 23:00:50] Best translation 4 : một điều nữa : sự u@@ ốn_@@ khúc mới này sẽ có ảnh_hưởng xấu tới sự tham_gia .
+[2022-07-04 23:00:50] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ đang hoạt_động .
+[2022-07-04 23:00:50] Best translation 10 : những luật mới yêu_cầu các cử@@ _tr@@ i phải có một thẻ căn_cước và thẻ căn_cước của Mỹ về người Mỹ .
+[2022-07-04 23:00:51] Best translation 20 : cần có thêm 100 đô_la để đưa ra địa_chỉ .
+[2022-07-04 23:00:51] Best translation 40 : mặt_khác , những người da trắng đưa ra 76 % số cử@@ _tr@@ i chỉ chiếm 46 % số người bầu_cử .
+[2022-07-04 23:00:51] Best translation 80 : thuốc_lá tốn 85 % ca ung_thư phổi .
+[2022-07-04 23:00:51] Best translation 160 : là Pierre Bro@@ de@@ r , một nhà tâm_lý_học ở Ga@@ d@@ tor .
+[2022-07-04 23:00:51] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ce rất hiệu_quả và rất giỏi ghi_@@ điểm .
+[2022-07-04 23:00:55] Best translation 640 : M@@ V@@ D đề_nghị đưa ra một đề_nghị khởi_@@ tố trong mối quan_hệ giữa các công_dân .
+[2022-07-04 23:00:56] Best translation 1280 : kết_luận của Ste@@ c là xã_hội hiện_tại dựa trên sự quan_tâm của Colo@@ ne@@ l_@@ Cove .
+[2022-07-04 23:00:59] Total translation time: 11.86624s
+[2022-07-04 23:00:59] [valid] Ep. 28 : Up. 45000 : bleu : 8.62982 : stalled 2 times (last best: 8.81188)
+[2022-07-04 23:01:09] Seen 1,090,865 samples
+[2022-07-04 23:01:09] Starting data epoch 29 in logical epoch 29
+[2022-07-04 23:01:09] [data] Shuffling data
+[2022-07-04 23:01:10] [data] Done reading 1,091,058 sentences
+[2022-07-04 23:01:15] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 23:08:46] Seen 1,090,865 samples
+[2022-07-04 23:08:46] Starting data epoch 30 in logical epoch 30
+[2022-07-04 23:08:46] [data] Shuffling data
+[2022-07-04 23:08:47] [data] Done reading 1,091,058 sentences
+[2022-07-04 23:08:52] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 23:16:24] Seen 1,090,865 samples
+[2022-07-04 23:16:24] Starting data epoch 31 in logical epoch 31
+[2022-07-04 23:16:24] [data] Shuffling data
+[2022-07-04 23:16:25] [data] Done reading 1,091,058 sentences
+[2022-07-04 23:16:29] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 23:24:01] Seen 1,090,865 samples
+[2022-07-04 23:24:01] Starting data epoch 32 in logical epoch 32
+[2022-07-04 23:24:01] [data] Shuffling data
+[2022-07-04 23:24:02] [data] Done reading 1,091,058 sentences
+[2022-07-04 23:24:07] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 23:24:47] Ep. 32 : Up. 50000 : Sen. 92,333 : Cost 2.84702635 * 30,088,080 @ 5,580 after 300,852,330 : Time 1452.52s : 20714.41 words/s : gNorm 1.0586 : L.r. 2.8284e-04
+[2022-07-04 23:24:47] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter50000.npz
+[2022-07-04 23:24:49] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 23:24:52] Saving Adam parameters
+[2022-07-04 23:24:54] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 23:25:00] Translating validation set...
+[2022-07-04 23:25:03] Best translation 0 : chiến_lược cộng hòa chống lại Obama
+[2022-07-04 23:25:03] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã phê_@@ chuẩn chính_sách của họ chống lại những kẻ lừa_đảo .
+[2022-07-04 23:25:03] Best translation 2 : nhưng Brenda , trung_tâm điều_hành cho rằng trò lừa_đảo này ít hơn so với số người Mỹ đã chết sau khi bị tấn_công .
+[2022-07-04 23:25:03] Best translation 3 : luật Đ@@ ảng_@@ Cộng_@@ hòa , trong 10 năm qua , chỉ có 300 vụ lừa_đảo ở Mỹ .
+[2022-07-04 23:25:03] Best translation 4 : một điều là : sự can_thiệp mới này sẽ gây ảnh_hưởng xấu đến sự tham_gia .
+[2022-07-04 23:25:03] Best translation 5 : theo cách này , hệ_thống dân_chủ Hoa_Kỳ đang hành_động .
+[2022-07-04 23:25:03] Best translation 10 : những điều_luật mới yêu_cầu các cử@@ _tr@@ i phải cấp thẻ căn_cước và thẻ căn_cước của Mỹ .
+[2022-07-04 23:25:03] Best translation 20 : cần có thêm 100 đô_la để đưa ra địa_chỉ .
+[2022-07-04 23:25:03] Best translation 40 : mặt_khác , người da trắng thể_hiện 76 % số cử@@ _tr@@ i mà chỉ có 46 % số người chọn trước bầu_cử .
+[2022-07-04 23:25:03] Best translation 80 : thuốc_lá tốn 85 % ca ung_thư phổi .
+[2022-07-04 23:25:03] Best translation 160 : đoán xem , Louis Bro@@ de@@ r là một nhà tâm_lý_học ở Ga@@ d@@ tor .
+[2022-07-04 23:25:03] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ce rất hiệu_quả và đưa ra rất nhiều đ@@ ốm .
+[2022-07-04 23:25:08] Best translation 640 : M@@ V@@ D đề_nghị đưa ra một đề_nghị chi_tiết về quyền công_dân của quốc_gia .
+[2022-07-04 23:25:10] Best translation 1280 : kết_luận của Ste@@ c là một xã_hội hiện_đại dựa trên sự quan_tâm của Colo@@ ne@@ l_@@ Gates .
+[2022-07-04 23:25:12] Total translation time: 11.92361s
+[2022-07-04 23:25:12] [valid] Ep. 32 : Up. 50000 : bleu : 8.38804 : stalled 3 times (last best: 8.81188)
+[2022-07-04 23:32:04] Seen 1,090,865 samples
+[2022-07-04 23:32:04] Starting data epoch 33 in logical epoch 33
+[2022-07-04 23:32:04] [data] Shuffling data
+[2022-07-04 23:32:05] [data] Done reading 1,091,058 sentences
+[2022-07-04 23:32:10] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 23:39:43] Seen 1,090,865 samples
+[2022-07-04 23:39:43] Starting data epoch 34 in logical epoch 34
+[2022-07-04 23:39:43] [data] Shuffling data
+[2022-07-04 23:39:43] [data] Done reading 1,091,058 sentences
+[2022-07-04 23:39:50] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 23:47:22] Seen 1,090,865 samples
+[2022-07-04 23:47:22] Starting data epoch 35 in logical epoch 35
+[2022-07-04 23:47:22] [data] Shuffling data
+[2022-07-04 23:47:22] [data] Done reading 1,091,058 sentences
+[2022-07-04 23:47:27] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-04 23:48:55] Ep. 35 : Up. 55000 : Sen. 211,201 : Cost 2.78331828 * 30,069,182 @ 1,498 after 330,921,532 : Time 1448.12s : 20764.32 words/s : gNorm 1.0093 : L.r. 2.6968e-04
+[2022-07-04 23:48:55] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter55000.npz
+[2022-07-04 23:48:57] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-04 23:49:00] Saving Adam parameters
+[2022-07-04 23:49:02] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-04 23:49:08] Translating validation set...
+[2022-07-04 23:49:11] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống O@@ ba@@ sby
+[2022-07-04 23:49:11] Best translation 1 : nhân_dân Cộng_@@ hòa đã đưa ra chính_sách cần_thiết cho cuộc_chiến chống gian_lận .
+[2022-07-04 23:49:11] Best translation 2 : nhưng Brenda , trung_tâm điều_hành cho rằng trò lừa_đảo này là huyền_thoại về mưu_@@ đồ lừa_đảo ít hơn so với số người Mỹ đã chết sau khi bị tấn_công .
+[2022-07-04 23:49:11] Best translation 3 : luật Đ@@ ảng_@@ Cộng_@@ hòa , trong 10 năm qua , chỉ có 300 vụ lừa_đảo ở Mỹ .
+[2022-07-04 23:49:11] Best translation 4 : một điều là : sự can_thiệp mới này sẽ ảnh_hưởng xấu đến sự tham_gia .
+[2022-07-04 23:49:11] Best translation 5 : theo cách này , hệ_thống dân_chủ của Mỹ .
+[2022-07-04 23:49:11] Best translation 10 : luật mới yêu_cầu người bầu_cử phải có giấy_tờ chứng_minh và giấy_tờ của Mỹ .
+[2022-07-04 23:49:11] Best translation 20 : quản_lý thậm_chí còn tốn hơn 100 .
+[2022-07-04 23:49:11] Best translation 40 : mặt_khác , những người da trắng đưa ra 76 % số cử@@ _tr@@ i chỉ có 46 % số người chọn trước .
+[2022-07-04 23:49:11] Best translation 80 : thuốc_lá tốn 85 % ca ung_thư phổi .
+[2022-07-04 23:49:11] Best translation 160 : đoán xem , Louis Bro@@ de@@ r là một nhà tâm_lý_học ở Ga@@ d@@ tor .
+[2022-07-04 23:49:11] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ce rất hiệu_quả và đưa ra rất nhiều đ@@ ốm .
+[2022-07-04 23:49:16] Best translation 640 : M@@ V@@ D đề_nghị một đề_nghị có liên_quan đến quyền sở_hữu vũ_khí dân_sự .
+[2022-07-04 23:49:17] Best translation 1280 : kết_luận của Steve là xã_hội hiện_tại dựa trên sự quan_tâm của Pampi@@ nea về xã_hội .
+[2022-07-04 23:49:19] Total translation time: 11.54386s
+[2022-07-04 23:49:19] [valid] Ep. 35 : Up. 55000 : bleu : 8.31347 : stalled 4 times (last best: 8.81188)
+[2022-07-04 23:55:23] Seen 1,090,865 samples
+[2022-07-04 23:55:23] Starting data epoch 36 in logical epoch 36
+[2022-07-04 23:55:23] [data] Shuffling data
+[2022-07-04 23:55:24] [data] Done reading 1,091,058 sentences
+[2022-07-04 23:55:29] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 00:03:01] Seen 1,090,865 samples
+[2022-07-05 00:03:01] Starting data epoch 37 in logical epoch 37
+[2022-07-05 00:03:01] [data] Shuffling data
+[2022-07-05 00:03:02] [data] Done reading 1,091,058 sentences
+[2022-07-05 00:03:07] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 00:10:40] Seen 1,090,865 samples
+[2022-07-05 00:10:40] Starting data epoch 38 in logical epoch 38
+[2022-07-05 00:10:40] [data] Shuffling data
+[2022-07-05 00:10:41] [data] Done reading 1,091,058 sentences
+[2022-07-05 00:10:45] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 00:13:02] Ep. 38 : Up. 60000 : Sen. 326,491 : Cost 2.73046136 * 30,062,032 @ 5,434 after 360,983,561 : Time 1447.41s : 20769.58 words/s : gNorm 1.1416 : L.r. 2.5820e-04
+[2022-07-05 00:13:02] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter60000.npz
+[2022-07-05 00:13:05] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-05 00:13:07] Saving Adam parameters
+[2022-07-05 00:13:10] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-05 00:13:15] Translating validation set...
+[2022-07-05 00:13:19] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại O@@ ba@@ sby
+[2022-07-05 00:13:19] Best translation 1 : Cộng_@@ hòa Cộng_@@ hòa đã đưa ra chính_sách cần_thiết để chống lại họ .
+[2022-07-05 00:13:19] Best translation 2 : nhưng thông_điệp của trung_tâm cho rằng trò lừa_đảo này có vẻ như ít hơn so với số người Mỹ đã chết sau khi chúng tấn_công .
+[2022-07-05 00:13:19] Best translation 3 : luật của cộng hòa trong 10 năm qua chỉ có 300 vụ gian_lận tại Mỹ .
+[2022-07-05 00:13:19] Best translation 4 : điều quan_trọng là : sự can_thiệp mới này sẽ có ảnh_hưởng xấu tới sự tham_gia .
+[2022-07-05 00:13:19] Best translation 5 : theo cách này , hệ_thống dân_chủ của Mỹ .
+[2022-07-05 00:13:19] Best translation 10 : những điều_luật mới yêu_cầu các cử@@ _tr@@ i phải cấp giấy_tờ nhận_dạng và tiền_@@ án của Mỹ .
+[2022-07-05 00:13:19] Best translation 20 : quản_lý thậm_chí còn tốn hơn 100 .
+[2022-07-05 00:13:19] Best translation 40 : mặt_khác , những người da trắng mang đến 76 % số cử@@ _tr@@ i chỉ có 46 % số người được chọn trước .
+[2022-07-05 00:13:19] Best translation 80 : thuốc_lá tốn 85 % các ca ung_thư phổi .
+[2022-07-05 00:13:19] Best translation 160 : đang có một người đàn_ông tên là Pier@@ re_@@ Bro@@ de@@ u@@ r , trong thiết_bị Ga@@ d@@ tor .
+[2022-07-05 00:13:19] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ce rất giỏi và đưa ra rất nhiều đ@@ ốm .
+[2022-07-05 00:13:23] Best translation 640 : M@@ V@@ D đề_xuất rằng sự công_bằng trong mối quan_hệ giữa các công_dân .
+[2022-07-05 00:13:25] Best translation 1280 : kết_luận của Ste@@ in là xã_hội hiện_tại dựa trên sự quan_tâm của Kahlan về xã_hội .
+[2022-07-05 00:13:28] Total translation time: 12.74532s
+[2022-07-05 00:13:28] [valid] Ep. 38 : Up. 60000 : bleu : 8.2355 : stalled 5 times (last best: 8.81188)
+[2022-07-05 00:18:44] Seen 1,090,865 samples
+[2022-07-05 00:18:44] Starting data epoch 39 in logical epoch 39
+[2022-07-05 00:18:44] [data] Shuffling data
+[2022-07-05 00:18:44] [data] Done reading 1,091,058 sentences
+[2022-07-05 00:18:49] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 00:26:23] Seen 1,090,865 samples
+[2022-07-05 00:26:23] Starting data epoch 40 in logical epoch 40
+[2022-07-05 00:26:23] [data] Shuffling data
+[2022-07-05 00:26:23] [data] Done reading 1,091,058 sentences
+[2022-07-05 00:26:28] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 00:34:02] Seen 1,090,865 samples
+[2022-07-05 00:34:02] Starting data epoch 41 in logical epoch 41
+[2022-07-05 00:34:02] [data] Shuffling data
+[2022-07-05 00:34:03] [data] Done reading 1,091,058 sentences
+[2022-07-05 00:34:08] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 00:37:13] Ep. 41 : Up. 65000 : Sen. 444,920 : Cost 2.68136477 * 30,059,784 @ 3,906 after 391,043,377 : Time 1450.68s : 20721.17 words/s : gNorm 1.1419 : L.r. 2.4807e-04
+[2022-07-05 00:37:13] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter65000.npz
+[2022-07-05 00:37:15] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-05 00:37:18] Saving Adam parameters
+[2022-07-05 00:37:20] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-05 00:37:26] Translating validation set...
+[2022-07-05 00:37:30] Best translation 0 : chiến_lược cộng hòa chống lại O@@ ba@@ ppe@@ ria
+[2022-07-05 00:37:30] Best translation 1 : những nhà Cộng_@@ hòa đã đẩy chính_sách của họ ra khỏi cuộc_chiến chống gian_lận .
+[2022-07-05 00:37:30] Best translation 2 : nhưng trung_tâm điều_hành cho rằng nói_dối là huyền_thoại về thuật lừa_đảo ở Mỹ ít hơn so với số người đã chết vì chúng .
+[2022-07-05 00:37:30] Best translation 3 : luật D@@ ân_@@ chủ của cộng hòa trong 10 năm qua chỉ có 300 vụ gian_lận ở Mỹ .
+[2022-07-05 00:37:30] Best translation 4 : một điều là : sự can_thiệp mới này sẽ có ảnh_hưởng xấu tới sự tham_gia .
+[2022-07-05 00:37:30] Best translation 5 : theo ý_nghĩa này , hệ_thống dân_chủ của Mỹ .
+[2022-07-05 00:37:30] Best translation 10 : những luật mới yêu_cầu các cử@@ _tr@@ i phải có giấy_tờ chứng_minh và giấy_tờ của Mỹ .
+[2022-07-05 00:37:30] Best translation 20 : có hơn 100 đô .
+[2022-07-05 00:37:30] Best translation 40 : mặt_khác , những người da trắng có_thể tưởng_tượng ra 76 % số cử@@ _tr@@ i chỉ có 46 phần_trăm số người được chọn trước .
+[2022-07-05 00:37:30] Best translation 80 : thuốc_lá tốn 85 % các ca ung_thư phổi .
+[2022-07-05 00:37:30] Best translation 160 : có một người đàn_ông tên là Pier@@ re_@@ Bro@@ de@@ u@@ r , một nhà tâm_lý_học ở Ga@@ d@@ tor .
+[2022-07-05 00:37:30] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ce rất giỏi và đưa ra rất nhiều đ@@ ốm .
+[2022-07-05 00:37:34] Best translation 640 : M@@ V@@ D đề_xuất rằng sự công_bằng trong mối quan_hệ giữa các quyền công_dân .
+[2022-07-05 00:37:35] Best translation 1280 : kết_luận của Ste@@ than là một công_ty hiện_tại dựa trên lợi_ích của Kahlan không quan_tâm đến lợi_ích xã_hội .
+[2022-07-05 00:37:38] Total translation time: 12.51842s
+[2022-07-05 00:37:38] [valid] Ep. 41 : Up. 65000 : bleu : 8.16511 : stalled 6 times (last best: 8.81188)
+[2022-07-05 00:42:07] Seen 1,090,865 samples
+[2022-07-05 00:42:07] Starting data epoch 42 in logical epoch 42
+[2022-07-05 00:42:07] [data] Shuffling data
+[2022-07-05 00:42:07] [data] Done reading 1,091,058 sentences
+[2022-07-05 00:42:12] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 00:49:45] Seen 1,090,865 samples
+[2022-07-05 00:49:45] Starting data epoch 43 in logical epoch 43
+[2022-07-05 00:49:45] [data] Shuffling data
+[2022-07-05 00:49:46] [data] Done reading 1,091,058 sentences
+[2022-07-05 00:49:51] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 00:57:23] Seen 1,090,865 samples
+[2022-07-05 00:57:24] Starting data epoch 44 in logical epoch 44
+[2022-07-05 00:57:24] [data] Shuffling data
+[2022-07-05 00:57:24] [data] Done reading 1,091,058 sentences
+[2022-07-05 00:57:29] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 01:01:21] Ep. 44 : Up. 70000 : Sen. 558,702 : Cost 2.63870478 * 30,049,632 @ 3,408 after 421,092,987 : Time 1448.44s : 20746.15 words/s : gNorm 1.1635 : L.r. 2.3905e-04
+[2022-07-05 01:01:22] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter70000.npz
+[2022-07-05 01:01:24] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-05 01:01:27] Saving Adam parameters
+[2022-07-05 01:01:29] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-05 01:01:34] Translating validation set...
+[2022-07-05 01:01:38] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại O@@ ba@@ ppe@@ la
+[2022-07-05 01:01:38] Best translation 1 : đảng Cộng_@@ hòa đã đẩy chính_sách của họ ra khỏi cuộc_chiến chống gian_lận .
+[2022-07-05 01:01:38] Best translation 2 : nhưng trung_tâm điều_hành thì cho rằng trò lừa_đảo này có ít hơn so với số người Mỹ đã chết sau khi chúng tấn_công .
+[2022-07-05 01:01:38] Best translation 3 : Lu@@ ật_@@ sư cộng hòa trong 10 năm qua chỉ có 300 vụ gian_lận ở Mỹ .
+[2022-07-05 01:01:38] Best translation 4 : một điều là : sự can_thiệp mới này sẽ có ảnh_hưởng xấu tới sự tham_gia .
+[2022-07-05 01:01:38] Best translation 5 : theo ý_nghĩa này , hệ_thống dân_chủ của Mỹ .
+[2022-07-05 01:01:38] Best translation 10 : những luật mới yêu_cầu các cử@@ _tr@@ i cần phải có bằng_chứng danh_tính và giấy_tờ cá_nhân của Mỹ .
+[2022-07-05 01:01:38] Best translation 20 : có hơn 100 .
+[2022-07-05 01:01:38] Best translation 40 : mặt_khác , những người da trắng giới_thiệu 76 % số cử@@ _tr@@ i chỉ có 46 % những người chọn ngoại quốc .
+[2022-07-05 01:01:38] Best translation 80 : thuốc_lá tốn 85 % các ca bệnh ung_thư phổi .
+[2022-07-05 01:01:38] Best translation 160 : có một người đàn_ông tên là Pier@@ re_@@ Bro@@ de@@ u@@ r , một nhà tâm_lý_học ở Ga@@ d@@ da@@ tor .
+[2022-07-05 01:01:38] Best translation 320 : nghĩa_là I@@ bra@@ hi@@ ce rất có hiệu_quả và đưa ra rất nhiều đ@@ ốm .
+[2022-07-05 01:01:42] Best translation 640 : M@@ V@@ D đề_nghị rằng sự cống_hiến trong quyền công_dân của quốc_gia .
+[2022-07-05 01:01:43] Best translation 1280 : kết_luận của Steve là một xã_hội hiện_tại dựa trên sự quan_tâm của Echelon đến xã_hội .
+[2022-07-05 01:01:46] Total translation time: 11.97426s
+[2022-07-05 01:01:46] [valid] Ep. 44 : Up. 70000 : bleu : 8.03112 : stalled 7 times (last best: 8.81188)
+[2022-07-05 01:05:27] Seen 1,090,865 samples
+[2022-07-05 01:05:27] Starting data epoch 45 in logical epoch 45
+[2022-07-05 01:05:27] [data] Shuffling data
+[2022-07-05 01:05:27] [data] Done reading 1,091,058 sentences
+[2022-07-05 01:05:32] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 01:13:05] Seen 1,090,865 samples
+[2022-07-05 01:13:05] Starting data epoch 46 in logical epoch 46
+[2022-07-05 01:13:05] [data] Shuffling data
+[2022-07-05 01:13:05] [data] Done reading 1,091,058 sentences
+[2022-07-05 01:13:10] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 01:20:42] Seen 1,090,865 samples
+[2022-07-05 01:20:42] Starting data epoch 47 in logical epoch 47
+[2022-07-05 01:20:42] [data] Shuffling data
+[2022-07-05 01:20:43] [data] Done reading 1,091,058 sentences
+[2022-07-05 01:20:48] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 01:25:27] Ep. 47 : Up. 75000 : Sen. 673,323 : Cost 2.59804058 * 30,045,316 @ 7,952 after 451,138,302 : Time 1445.69s : 20782.71 words/s : gNorm 1.2269 : L.r. 2.3094e-04
+[2022-07-05 01:25:27] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter75000.npz
+[2022-07-05 01:25:29] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-05 01:25:32] Saving Adam parameters
+[2022-07-05 01:25:35] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-05 01:25:40] Translating validation set...
+[2022-07-05 01:25:43] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống O@@ ba@@ ppe@@ _@@ Burrows
+[2022-07-05 01:25:43] Best translation 1 : đảng Cộng_@@ hòa đã đẩy chính_sách của họ ra khỏi cuộc_chiến chống gian_lận .
+[2022-07-05 01:25:43] Best translation 2 : nhưng đài Tư_@@ pháp của chúng_tôi cho rằng chuyện dối_trá này là huyền_thoại về thuật gian_lận ở Mỹ ít hơn so với số người đã chết sau khi chúng tấn_công .
+[2022-07-05 01:25:43] Best translation 3 : Lu@@ ật_@@ sư cộng hòa trong 10 năm qua chỉ có 300 vụ gian_lận ở Mỹ .
+[2022-07-05 01:25:43] Best translation 4 : một điều là : sự can_thiệp mới này sẽ gây ảnh_hưởng xấu đến mức kết_nối .
+[2022-07-05 01:25:43] Best translation 5 : theo ý_nghĩa đó , hệ_thống dân_chủ của Mỹ đang sụp_đổ .
+[2022-07-05 01:25:43] Best translation 10 : những luật mới yêu_cầu họ cấp thẻ căn_cước và thẻ căn_cước của Mỹ .
+[2022-07-05 01:25:44] Best translation 20 : có hơn 100 .
+[2022-07-05 01:25:44] Best translation 40 : mặt_khác , những người da trắng giới_thiệu 76 % số cử@@ _tr@@ i chỉ có 46 % những người chọn ngoại quốc .
+[2022-07-05 01:25:44] Best translation 80 : thuốc_lá tốn 85 % các ca bệnh ung_thư phổi .
+[2022-07-05 01:25:44] Best translation 160 : có một người tên là Pier@@ re_@@ Bro@@ de@@ u@@ r , nhà tâm_lý_học ở Ga@@ d@@ gla@@ ss .
+[2022-07-05 01:25:44] Best translation 320 : nghĩa_là I@@ bra@@ hi@@ ce rất có hiệu_quả và đưa ra rất nhiều điểm .
+[2022-07-05 01:25:47] Best translation 640 : M@@ V@@ D đề_xuất rằng sự tham_@@ vấn về quyền sở_hữu vũ_khí dân_sự .
+[2022-07-05 01:25:49] Best translation 1280 : kết_luận của Ste@@ el@@ y_@@ gắn với xã_hội không quan_tâm đến lợi_ích xã_hội .
+[2022-07-05 01:25:51] Total translation time: 11.59448s
+[2022-07-05 01:25:51] [valid] Ep. 47 : Up. 75000 : bleu : 8.1156 : stalled 8 times (last best: 8.81188)
+[2022-07-05 01:28:44] Seen 1,090,865 samples
+[2022-07-05 01:28:44] Starting data epoch 48 in logical epoch 48
+[2022-07-05 01:28:44] [data] Shuffling data
+[2022-07-05 01:28:44] [data] Done reading 1,091,058 sentences
+[2022-07-05 01:28:49] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 01:36:22] Seen 1,090,865 samples
+[2022-07-05 01:36:22] Starting data epoch 49 in logical epoch 49
+[2022-07-05 01:36:22] [data] Shuffling data
+[2022-07-05 01:36:23] [data] Done reading 1,091,058 sentences
+[2022-07-05 01:36:27] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 01:44:00] Seen 1,090,865 samples
+[2022-07-05 01:44:00] Starting data epoch 50 in logical epoch 50
+[2022-07-05 01:44:00] [data] Shuffling data
+[2022-07-05 01:44:00] [data] Done reading 1,091,058 sentences
+[2022-07-05 01:44:05] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 01:49:32] Ep. 50 : Up. 80000 : Sen. 791,016 : Cost 2.56233549 * 30,053,806 @ 5,022 after 481,192,108 : Time 1444.59s : 20804.37 words/s : gNorm 1.1921 : L.r. 2.2361e-04
+[2022-07-05 01:49:32] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter80000.npz
+[2022-07-05 01:49:34] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-05 01:49:37] Saving Adam parameters
+[2022-07-05 01:49:39] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-05 01:49:44] Translating validation set...
+[2022-07-05 01:49:48] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại O@@ ba@@ ris
+[2022-07-05 01:49:48] Best translation 1 : đảng Cộng_@@ hòa đã đưa ra chính_sách cần_thiết để chống lại bọn lừa_đảo .
+[2022-07-05 01:49:48] Best translation 2 : nhưng trung_tâm điều_hành cho rằng trò lừa_đảo này có vẻ như ít hơn so với số người đã chết vì chúng .
+[2022-07-05 01:49:48] Best translation 3 : Lu@@ ật_@@ sư cộng hòa trong 10 năm qua chỉ có 300 vụ gian_lận ở Mỹ .
+[2022-07-05 01:49:48] Best translation 4 : một điều là : sự can_thiệp mới này sẽ gây ảnh_hưởng xấu đến mức kết_nối .
+[2022-07-05 01:49:48] Best translation 5 : theo ý_nghĩa đó , hệ_thống dân_chủ của Mỹ đang sụp_đổ .
+[2022-07-05 01:49:48] Best translation 10 : những điều_luật mới yêu_cầu họ cấp thẻ căn_cước và thẻ căn_cước của Mỹ .
+[2022-07-05 01:49:48] Best translation 20 : có hơn 100 .
+[2022-07-05 01:49:48] Best translation 40 : mặt_khác , những người da trắng giới_thiệu cho họ 76 % số cử@@ _hành , chỉ có 46 % những người bầu_cử .
+[2022-07-05 01:49:48] Best translation 80 : thuốc_lá giá 85 % các ca bệnh ung_thư phổi .
+[2022-07-05 01:49:48] Best translation 160 : có một người tên là Pier@@ re_@@ Bro@@ de@@ u@@ r , nhà tâm_lý_học ở Ga@@ d@@ gla@@ ss .
+[2022-07-05 01:49:48] Best translation 320 : nghĩa_là I@@ bra@@ hi@@ ce rất hiệu_quả và đưa ra rất nhiều điểm .
+[2022-07-05 01:49:52] Best translation 640 : M@@ V@@ D đề_xuất rằng sự ủng_hộ của luật chống lại những vũ_khí dân_sự .
+[2022-07-05 01:49:53] Best translation 1280 : kết_luận của Ste@@ el@@ y_@@ gắn với xã_hội .
+[2022-07-05 01:49:56] Total translation time: 11.43519s
+[2022-07-05 01:49:56] [valid] Ep. 50 : Up. 80000 : bleu : 7.7211 : stalled 9 times (last best: 8.81188)
+[2022-07-05 01:52:02] Seen 1,090,865 samples
+[2022-07-05 01:52:02] Starting data epoch 51 in logical epoch 51
+[2022-07-05 01:52:02] [data] Shuffling data
+[2022-07-05 01:52:02] [data] Done reading 1,091,058 sentences
+[2022-07-05 01:52:07] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 01:59:40] Seen 1,090,865 samples
+[2022-07-05 01:59:40] Starting data epoch 52 in logical epoch 52
+[2022-07-05 01:59:40] [data] Shuffling data
+[2022-07-05 01:59:41] [data] Done reading 1,091,058 sentences
+[2022-07-05 01:59:45] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 02:07:18] Seen 1,090,865 samples
+[2022-07-05 02:07:18] Starting data epoch 53 in logical epoch 53
+[2022-07-05 02:07:18] [data] Shuffling data
+[2022-07-05 02:07:18] [data] Done reading 1,091,058 sentences
+[2022-07-05 02:07:23] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-07-05 02:13:35] Ep. 53 : Up. 85000 : Sen. 899,569 : Cost 2.53080177 * 30,016,348 @ 6,588 after 511,208,453 : Time 1443.31s : 20796.90 words/s : gNorm 1.2649 : L.r. 2.1693e-04
+[2022-07-05 02:13:35] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.iter85000.npz
+[2022-07-05 02:13:37] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-05 02:13:40] Saving Adam parameters
+[2022-07-05 02:13:43] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz
+[2022-07-05 02:13:48] Translating validation set...
+[2022-07-05 02:13:52] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại O@@ ba@@ ris
+[2022-07-05 02:13:52] Best translation 1 : đảng Cộng_@@ hòa đã đưa ra chính_sách cần_thiết để chống lại họ .
+[2022-07-05 02:13:52] Best translation 2 : nhưng tổ_chức phòng_@@ chống lừa_đảo này cho thấy huyền_thoại rằng trò lừa_đảo cờ_bạc ở Mỹ ít hơn là những người đã chết vì chúng .
+[2022-07-05 02:13:52] Best translation 3 : Lu@@ ật_@@ sư cộng hòa trong 10 năm qua , chỉ có 300 vụ gian_lận ở Mỹ .
+[2022-07-05 02:13:52] Best translation 4 : một điều là : sự can_thiệp mới này sẽ gây ảnh_hưởng xấu đến mức kết_nối .
+[2022-07-05 02:13:52] Best translation 5 : và trong ý_nghĩa đó , những hệ_thống dân_chủ của Mỹ .
+[2022-07-05 02:13:52] Best translation 10 : những điều_luật mới yêu_cầu họ cấp giấy_tờ chứng_minh danh_tính và thẻ căn_cước của người Mỹ .
+[2022-07-05 02:13:52] Best translation 20 : quản_lý thậm_chí còn tốn hơn 100 .
+[2022-07-05 02:13:52] Best translation 40 : mặt_khác , những người da trắng giới_thiệu cho họ 76 % số dân địa_phương chỉ có 46 phần_trăm số người chọn trước những người bầu_cử .
+[2022-07-05 02:13:52] Best translation 80 : thuốc_lá tiêu tốn 85 % các ca bệnh ung_thư phổi .
+[2022-07-05 02:13:52] Best translation 160 : đang có một người đàn_ông tên là Pier@@ re_@@ Bro@@ de@@ u@@ r , một nhà tâm_lý_học ở Ga@@ d@@ gla@@ ss .
+[2022-07-05 02:13:52] Best translation 320 : nghĩa_là I@@ bra@@ hi@@ ce rất giỏi và đưa ra rất nhiều điểm .
+[2022-07-05 02:13:56] Best translation 640 : M@@ V@@ D cho thấy rằng sự ủng_hộ của luật chống lại những vũ_khí dân_sự .
+[2022-07-05 02:13:57] Best translation 1280 : kết_luận của Ste@@ el@@ y_@@ gắn với xã_hội .
+[2022-07-05 02:13:59] Total translation time: 10.61245s
+[2022-07-05 02:13:59] [valid] Ep. 53 : Up. 85000 : bleu : 8.02506 : stalled 10 times (last best: 8.81188)
+[2022-07-05 02:13:59] Training finished
+[2022-07-05 02:13:59] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz
+[2022-07-05 02:14:01] Saving Adam parameters
+[2022-07-05 02:14:04] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz and /storage/brno3-cerit/home/kwan/marian-training/final-runs/modified/models/marian/model.npz.optimizer.npz

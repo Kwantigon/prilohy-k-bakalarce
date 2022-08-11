@@ -1,0 +1,863 @@
+[2022-06-24 19:54:36] [marian] Marian v1.10.27; b64e258b 2022-01-18 12:59:37 +0000
+[2022-06-24 19:54:36] [marian] Running on glados3.cerit-sc.cz as process 19244 with command line:
+[2022-06-24 19:54:36] [marian] /storage/brno3-cerit/home/kwan/marian-installation/marian/build-CUDA-10.1-CPU-sse2-ssse3-avx-avx2/marian --devices 0 1 --model /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.npz --type transformer --sync-sgd --train-sets /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/data/sentences.tokenized.truecased.32kcsvibpe.cs /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/data/sentences.pyvi-tokenized.truecased.32kcsvibpe.vi --max-length 100 --mini-batch-fit --maxi-batch 1000 --workspace 6000 --vocabs /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/vocabs/vocab-36k.csvi.yml /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/vocabs/vocab-36k.csvi.yml --valid-sets /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/data/newstest2013.tokenized.truecased.32kcsvibpe.cs /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/data/newstest2013.pyvi-tokenized.truecased.32kcsvibpe.vi --valid-metrics bleu --valid-freq 5000 --valid-mini-batch 64 --valid-translation-output '/storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/validation/valid-{E}.out' --valid-log /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/validation/valid-log.txt --save-freq 50000 --disp-freq 5000 --early-stopping 10 --log /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/logs/training-log.txt --beam-size 6 --enc-depth 6 --dec-depth 6 --transformer-heads 8 --transformer-postprocess-emb d --transformer-postprocess dan --transformer-dropout 0.1 --label-smoothing 0.1 --exponential-smoothing --learn-rate 0.0003 --lr-warmup 16000 --lr-decay-inv-sqrt 16000 --lr-report --optimizer-params 0.9 0.98 1e-09 --clip-norm 5 --tied-embeddings-all --seed 42
+[2022-06-24 19:54:36] [config] after: 0e
+[2022-06-24 19:54:36] [config] after-batches: 0
+[2022-06-24 19:54:36] [config] after-epochs: 0
+[2022-06-24 19:54:36] [config] all-caps-every: 0
+[2022-06-24 19:54:36] [config] allow-unk: false
+[2022-06-24 19:54:36] [config] authors: false
+[2022-06-24 19:54:36] [config] beam-size: 6
+[2022-06-24 19:54:36] [config] bert-class-symbol: "[CLS]"
+[2022-06-24 19:54:36] [config] bert-mask-symbol: "[MASK]"
+[2022-06-24 19:54:36] [config] bert-masking-fraction: 0.15
+[2022-06-24 19:54:36] [config] bert-sep-symbol: "[SEP]"
+[2022-06-24 19:54:36] [config] bert-train-type-embeddings: true
+[2022-06-24 19:54:36] [config] bert-type-vocab-size: 2
+[2022-06-24 19:54:36] [config] build-info: ""
+[2022-06-24 19:54:36] [config] check-gradient-nan: false
+[2022-06-24 19:54:36] [config] check-nan: false
+[2022-06-24 19:54:36] [config] cite: false
+[2022-06-24 19:54:36] [config] clip-norm: 5
+[2022-06-24 19:54:36] [config] cost-scaling:
+[2022-06-24 19:54:36] [config]   []
+[2022-06-24 19:54:36] [config] cost-type: ce-sum
+[2022-06-24 19:54:36] [config] cpu-threads: 0
+[2022-06-24 19:54:36] [config] data-weighting: ""
+[2022-06-24 19:54:36] [config] data-weighting-type: sentence
+[2022-06-24 19:54:36] [config] dec-cell: gru
+[2022-06-24 19:54:36] [config] dec-cell-base-depth: 2
+[2022-06-24 19:54:36] [config] dec-cell-high-depth: 1
+[2022-06-24 19:54:36] [config] dec-depth: 6
+[2022-06-24 19:54:36] [config] devices:
+[2022-06-24 19:54:36] [config]   - 0
+[2022-06-24 19:54:36] [config]   - 1
+[2022-06-24 19:54:36] [config] dim-emb: 512
+[2022-06-24 19:54:36] [config] dim-rnn: 1024
+[2022-06-24 19:54:36] [config] dim-vocabs:
+[2022-06-24 19:54:36] [config]   - 0
+[2022-06-24 19:54:36] [config]   - 0
+[2022-06-24 19:54:36] [config] disp-first: 0
+[2022-06-24 19:54:36] [config] disp-freq: 5000
+[2022-06-24 19:54:36] [config] disp-label-counts: true
+[2022-06-24 19:54:36] [config] dropout-rnn: 0
+[2022-06-24 19:54:36] [config] dropout-src: 0
+[2022-06-24 19:54:36] [config] dropout-trg: 0
+[2022-06-24 19:54:36] [config] dump-config: ""
+[2022-06-24 19:54:36] [config] dynamic-gradient-scaling:
+[2022-06-24 19:54:36] [config]   []
+[2022-06-24 19:54:36] [config] early-stopping: 10
+[2022-06-24 19:54:36] [config] early-stopping-on: first
+[2022-06-24 19:54:36] [config] embedding-fix-src: false
+[2022-06-24 19:54:36] [config] embedding-fix-trg: false
+[2022-06-24 19:54:36] [config] embedding-normalization: false
+[2022-06-24 19:54:36] [config] embedding-vectors:
+[2022-06-24 19:54:36] [config]   []
+[2022-06-24 19:54:36] [config] enc-cell: gru
+[2022-06-24 19:54:36] [config] enc-cell-depth: 1
+[2022-06-24 19:54:36] [config] enc-depth: 6
+[2022-06-24 19:54:36] [config] enc-type: bidirectional
+[2022-06-24 19:54:36] [config] english-title-case-every: 0
+[2022-06-24 19:54:36] [config] exponential-smoothing: 0.0001
+[2022-06-24 19:54:36] [config] factor-weight: 1
+[2022-06-24 19:54:36] [config] factors-combine: sum
+[2022-06-24 19:54:36] [config] factors-dim-emb: 0
+[2022-06-24 19:54:36] [config] gradient-checkpointing: false
+[2022-06-24 19:54:36] [config] gradient-norm-average-window: 100
+[2022-06-24 19:54:36] [config] guided-alignment: none
+[2022-06-24 19:54:36] [config] guided-alignment-cost: mse
+[2022-06-24 19:54:36] [config] guided-alignment-weight: 0.1
+[2022-06-24 19:54:36] [config] ignore-model-config: false
+[2022-06-24 19:54:36] [config] input-types:
+[2022-06-24 19:54:36] [config]   []
+[2022-06-24 19:54:36] [config] interpolate-env-vars: false
+[2022-06-24 19:54:36] [config] keep-best: false
+[2022-06-24 19:54:36] [config] label-smoothing: 0.1
+[2022-06-24 19:54:36] [config] layer-normalization: false
+[2022-06-24 19:54:36] [config] learn-rate: 0.0003
+[2022-06-24 19:54:36] [config] lemma-dependency: ""
+[2022-06-24 19:54:36] [config] lemma-dim-emb: 0
+[2022-06-24 19:54:36] [config] log: /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/logs/training-log.txt
+[2022-06-24 19:54:36] [config] log-level: info
+[2022-06-24 19:54:36] [config] log-time-zone: ""
+[2022-06-24 19:54:36] [config] logical-epoch:
+[2022-06-24 19:54:36] [config]   - 1e
+[2022-06-24 19:54:36] [config]   - 0
+[2022-06-24 19:54:36] [config] lr-decay: 0
+[2022-06-24 19:54:36] [config] lr-decay-freq: 50000
+[2022-06-24 19:54:36] [config] lr-decay-inv-sqrt:
+[2022-06-24 19:54:36] [config]   - 16000
+[2022-06-24 19:54:36] [config] lr-decay-repeat-warmup: false
+[2022-06-24 19:54:36] [config] lr-decay-reset-optimizer: false
+[2022-06-24 19:54:36] [config] lr-decay-start:
+[2022-06-24 19:54:36] [config]   - 10
+[2022-06-24 19:54:36] [config]   - 1
+[2022-06-24 19:54:36] [config] lr-decay-strategy: epoch+stalled
+[2022-06-24 19:54:36] [config] lr-report: true
+[2022-06-24 19:54:36] [config] lr-warmup: 16000
+[2022-06-24 19:54:36] [config] lr-warmup-at-reload: false
+[2022-06-24 19:54:36] [config] lr-warmup-cycle: false
+[2022-06-24 19:54:36] [config] lr-warmup-start-rate: 0
+[2022-06-24 19:54:36] [config] max-length: 100
+[2022-06-24 19:54:36] [config] max-length-crop: false
+[2022-06-24 19:54:36] [config] max-length-factor: 3
+[2022-06-24 19:54:36] [config] maxi-batch: 1000
+[2022-06-24 19:54:36] [config] maxi-batch-sort: trg
+[2022-06-24 19:54:36] [config] mini-batch: 64
+[2022-06-24 19:54:36] [config] mini-batch-fit: true
+[2022-06-24 19:54:36] [config] mini-batch-fit-step: 10
+[2022-06-24 19:54:36] [config] mini-batch-round-up: true
+[2022-06-24 19:54:36] [config] mini-batch-track-lr: false
+[2022-06-24 19:54:36] [config] mini-batch-warmup: 0
+[2022-06-24 19:54:36] [config] mini-batch-words: 0
+[2022-06-24 19:54:36] [config] mini-batch-words-ref: 0
+[2022-06-24 19:54:36] [config] model: /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.npz
+[2022-06-24 19:54:36] [config] multi-loss-type: sum
+[2022-06-24 19:54:36] [config] n-best: false
+[2022-06-24 19:54:36] [config] no-nccl: false
+[2022-06-24 19:54:36] [config] no-reload: false
+[2022-06-24 19:54:36] [config] no-restore-corpus: false
+[2022-06-24 19:54:36] [config] normalize: 0
+[2022-06-24 19:54:36] [config] normalize-gradient: false
+[2022-06-24 19:54:36] [config] num-devices: 0
+[2022-06-24 19:54:36] [config] optimizer: adam
+[2022-06-24 19:54:36] [config] optimizer-delay: 1
+[2022-06-24 19:54:36] [config] optimizer-params:
+[2022-06-24 19:54:36] [config]   - 0.9
+[2022-06-24 19:54:36] [config]   - 0.98
+[2022-06-24 19:54:36] [config]   - 1e-09
+[2022-06-24 19:54:36] [config] output-omit-bias: false
+[2022-06-24 19:54:36] [config] overwrite: false
+[2022-06-24 19:54:36] [config] precision:
+[2022-06-24 19:54:36] [config]   - float32
+[2022-06-24 19:54:36] [config]   - float32
+[2022-06-24 19:54:36] [config] pretrained-model: ""
+[2022-06-24 19:54:36] [config] quantize-biases: false
+[2022-06-24 19:54:36] [config] quantize-bits: 0
+[2022-06-24 19:54:36] [config] quantize-log-based: false
+[2022-06-24 19:54:36] [config] quantize-optimization-steps: 0
+[2022-06-24 19:54:36] [config] quiet: false
+[2022-06-24 19:54:36] [config] quiet-translation: false
+[2022-06-24 19:54:36] [config] relative-paths: false
+[2022-06-24 19:54:36] [config] right-left: false
+[2022-06-24 19:54:36] [config] save-freq: 50000
+[2022-06-24 19:54:36] [config] seed: 42
+[2022-06-24 19:54:36] [config] sentencepiece-alphas:
+[2022-06-24 19:54:36] [config]   []
+[2022-06-24 19:54:36] [config] sentencepiece-max-lines: 2000000
+[2022-06-24 19:54:36] [config] sentencepiece-options: ""
+[2022-06-24 19:54:36] [config] sharding: global
+[2022-06-24 19:54:36] [config] shuffle: data
+[2022-06-24 19:54:36] [config] shuffle-in-ram: false
+[2022-06-24 19:54:36] [config] sigterm: save-and-exit
+[2022-06-24 19:54:36] [config] skip: false
+[2022-06-24 19:54:36] [config] sqlite: ""
+[2022-06-24 19:54:36] [config] sqlite-drop: false
+[2022-06-24 19:54:36] [config] sync-freq: 200u
+[2022-06-24 19:54:36] [config] sync-sgd: true
+[2022-06-24 19:54:36] [config] tempdir: /tmp
+[2022-06-24 19:54:36] [config] tied-embeddings: false
+[2022-06-24 19:54:36] [config] tied-embeddings-all: true
+[2022-06-24 19:54:36] [config] tied-embeddings-src: false
+[2022-06-24 19:54:36] [config] train-embedder-rank:
+[2022-06-24 19:54:36] [config]   []
+[2022-06-24 19:54:36] [config] train-sets:
+[2022-06-24 19:54:36] [config]   - /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/data/sentences.tokenized.truecased.32kcsvibpe.cs
+[2022-06-24 19:54:36] [config]   - /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/data/sentences.pyvi-tokenized.truecased.32kcsvibpe.vi
+[2022-06-24 19:54:36] [config] transformer-aan-activation: swish
+[2022-06-24 19:54:36] [config] transformer-aan-depth: 2
+[2022-06-24 19:54:36] [config] transformer-aan-nogate: false
+[2022-06-24 19:54:36] [config] transformer-decoder-autoreg: self-attention
+[2022-06-24 19:54:36] [config] transformer-depth-scaling: false
+[2022-06-24 19:54:36] [config] transformer-dim-aan: 2048
+[2022-06-24 19:54:36] [config] transformer-dim-ffn: 2048
+[2022-06-24 19:54:36] [config] transformer-dropout: 0.1
+[2022-06-24 19:54:36] [config] transformer-dropout-attention: 0
+[2022-06-24 19:54:36] [config] transformer-dropout-ffn: 0
+[2022-06-24 19:54:36] [config] transformer-ffn-activation: swish
+[2022-06-24 19:54:36] [config] transformer-ffn-depth: 2
+[2022-06-24 19:54:36] [config] transformer-guided-alignment-layer: last
+[2022-06-24 19:54:36] [config] transformer-heads: 8
+[2022-06-24 19:54:36] [config] transformer-no-projection: false
+[2022-06-24 19:54:36] [config] transformer-pool: false
+[2022-06-24 19:54:36] [config] transformer-postprocess: dan
+[2022-06-24 19:54:36] [config] transformer-postprocess-emb: d
+[2022-06-24 19:54:36] [config] transformer-postprocess-top: ""
+[2022-06-24 19:54:36] [config] transformer-preprocess: ""
+[2022-06-24 19:54:36] [config] transformer-tied-layers:
+[2022-06-24 19:54:36] [config]   []
+[2022-06-24 19:54:36] [config] transformer-train-position-embeddings: false
+[2022-06-24 19:54:36] [config] tsv: false
+[2022-06-24 19:54:36] [config] tsv-fields: 0
+[2022-06-24 19:54:36] [config] type: transformer
+[2022-06-24 19:54:36] [config] ulr: false
+[2022-06-24 19:54:36] [config] ulr-dim-emb: 0
+[2022-06-24 19:54:36] [config] ulr-dropout: 0
+[2022-06-24 19:54:36] [config] ulr-keys-vectors: ""
+[2022-06-24 19:54:36] [config] ulr-query-vectors: ""
+[2022-06-24 19:54:36] [config] ulr-softmax-temperature: 1
+[2022-06-24 19:54:36] [config] ulr-trainable-transformation: false
+[2022-06-24 19:54:36] [config] unlikelihood-loss: false
+[2022-06-24 19:54:36] [config] valid-freq: 5000
+[2022-06-24 19:54:36] [config] valid-log: /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/validation/valid-log.txt
+[2022-06-24 19:54:36] [config] valid-max-length: 1000
+[2022-06-24 19:54:36] [config] valid-metrics:
+[2022-06-24 19:54:36] [config]   - bleu
+[2022-06-24 19:54:36] [config] valid-mini-batch: 64
+[2022-06-24 19:54:36] [config] valid-reset-stalled: false
+[2022-06-24 19:54:36] [config] valid-script-args:
+[2022-06-24 19:54:36] [config]   []
+[2022-06-24 19:54:36] [config] valid-script-path: ""
+[2022-06-24 19:54:36] [config] valid-sets:
+[2022-06-24 19:54:36] [config]   - /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/data/newstest2013.tokenized.truecased.32kcsvibpe.cs
+[2022-06-24 19:54:36] [config]   - /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/data/newstest2013.pyvi-tokenized.truecased.32kcsvibpe.vi
+[2022-06-24 19:54:36] [config] valid-translation-output: /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/validation/valid-{E}.out
+[2022-06-24 19:54:36] [config] vocabs:
+[2022-06-24 19:54:36] [config]   - /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/vocabs/vocab-36k.csvi.yml
+[2022-06-24 19:54:36] [config]   - /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/vocabs/vocab-36k.csvi.yml
+[2022-06-24 19:54:36] [config] word-penalty: 0
+[2022-06-24 19:54:36] [config] word-scores: false
+[2022-06-24 19:54:36] [config] workspace: 6000
+[2022-06-24 19:54:36] [config] Model is being created with Marian v1.10.27; b64e258b 2022-01-18 12:59:37 +0000
+[2022-06-24 19:54:36] Using synchronous SGD
+[2022-06-24 19:54:36] [comm] Compiled without MPI support. Running as a single process on glados3.cerit-sc.cz
+[2022-06-24 19:54:36] Synced seed 42
+[2022-06-24 19:54:36] [data] Loading vocabulary from JSON/Yaml file /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/vocabs/vocab-36k.csvi.yml
+[2022-06-24 19:54:36] [data] Setting vocabulary size for input 0 to 32,197
+[2022-06-24 19:54:36] [data] Loading vocabulary from JSON/Yaml file /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/vocabs/vocab-36k.csvi.yml
+[2022-06-24 19:54:36] [data] Setting vocabulary size for input 1 to 32,197
+[2022-06-24 19:54:36] [batching] Collecting statistics for batch fitting with step size 10
+[2022-06-24 19:54:38] [memory] Extending reserved space to 6016 MB (device gpu0)
+[2022-06-24 19:54:39] [memory] Extending reserved space to 6016 MB (device gpu1)
+[2022-06-24 19:54:39] [comm] Using NCCL 2.8.3 for GPU communication
+[2022-06-24 19:54:39] [comm] Using global sharding
+[2022-06-24 19:54:39] [comm] NCCLCommunicators constructed successfully
+[2022-06-24 19:54:39] [training] Using 2 GPUs
+[2022-06-24 19:54:39] [logits] Applying loss function for 1 factor(s)
+[2022-06-24 19:54:39] [memory] Reserving 231 MB, device gpu0
+[2022-06-24 19:54:44] [gpu] 16-bit TensorCores enabled for float32 matrix operations
+[2022-06-24 19:54:44] [memory] Reserving 231 MB, device gpu0
+[2022-06-24 19:55:00] [batching] Done. Typical MB size is 10,596 target words
+[2022-06-24 19:55:00] [memory] Extending reserved space to 6016 MB (device gpu0)
+[2022-06-24 19:55:00] [memory] Extending reserved space to 6016 MB (device gpu1)
+[2022-06-24 19:55:00] [comm] Using NCCL 2.8.3 for GPU communication
+[2022-06-24 19:55:00] [comm] Using global sharding
+[2022-06-24 19:55:00] [comm] NCCLCommunicators constructed successfully
+[2022-06-24 19:55:00] [training] Using 2 GPUs
+[2022-06-24 19:55:00] Training started
+[2022-06-24 19:55:00] [data] Shuffling data
+[2022-06-24 19:55:01] [data] Done reading 1,091,058 sentences
+[2022-06-24 19:55:06] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 19:55:07] [training] Batches are processed as 1 process(es) x 2 devices/process
+[2022-06-24 19:55:07] [memory] Reserving 231 MB, device gpu1
+[2022-06-24 19:55:07] [memory] Reserving 231 MB, device gpu0
+[2022-06-24 19:55:07] [memory] Reserving 231 MB, device gpu0
+[2022-06-24 19:55:07] [memory] Reserving 231 MB, device gpu1
+[2022-06-24 19:55:07] Allocating memory for general optimizer shards
+[2022-06-24 19:55:07] Parameter type float32, optimization type float32, casting types false
+[2022-06-24 19:55:07] [memory] Reserving 115 MB, device gpu1
+[2022-06-24 19:55:07] [memory] Reserving 115 MB, device gpu0
+[2022-06-24 19:55:07] Allocating memory for Adam-specific shards
+[2022-06-24 19:55:07] [memory] Reserving 231 MB, device gpu1
+[2022-06-24 19:55:07] [memory] Reserving 231 MB, device gpu0
+[2022-06-24 20:02:24] Seen 1,091,056 samples
+[2022-06-24 20:02:24] Starting data epoch 2 in logical epoch 2
+[2022-06-24 20:02:24] [data] Shuffling data
+[2022-06-24 20:02:26] [data] Done reading 1,091,058 sentences
+[2022-06-24 20:02:31] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 20:09:48] Seen 1,091,056 samples
+[2022-06-24 20:09:48] Starting data epoch 3 in logical epoch 3
+[2022-06-24 20:09:48] [data] Shuffling data
+[2022-06-24 20:09:49] [data] Done reading 1,091,058 sentences
+[2022-06-24 20:09:53] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 20:17:11] Seen 1,091,056 samples
+[2022-06-24 20:17:11] Starting data epoch 4 in logical epoch 4
+[2022-06-24 20:17:11] [data] Shuffling data
+[2022-06-24 20:17:11] [data] Done reading 1,091,058 sentences
+[2022-06-24 20:17:16] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 20:18:31] Ep. 4 : Up. 5000 : Sen. 186,486 : Cost 5.95352221 * 30,701,452 @ 7,952 after 30,701,442 : Time 1410.83s : 21761.29 words/s : gNorm 1.6686 : L.r. 9.3750e-05
+[2022-06-24 20:18:31] Translating validation set...
+[2022-06-24 20:18:33] [valid] First sentence's tokens as scored:
+[2022-06-24 20:18:33] [valid] DefaultVocab keeps original segments for scoring
+[2022-06-24 20:18:33] [valid]   Hyp: nhưng nếu không có nhiều thời_gian , nó sẽ không có nhiều thời_gian để làm được .
+[2022-06-24 20:18:33] [valid]   Ref: tiền cho chuyến đi , tốt nhất_là mang US@@ D ( không nên mang euro ) vì có_thể dễ_dàng đổi ra s@@ iếc - l@@ ơ ( hiện 1 đô_la = 3,@@ 8 s@@ iếc - l@@ ơ ) .
+[2022-06-24 20:18:38] [valid] References contain unknown word, metric scores may be inaccurate
+[2022-06-24 20:18:39] Best translation 0 : những người này đã bị giết
+[2022-06-24 20:18:39] Best translation 1 : những người đã tạo ra những người khác .
+[2022-06-24 20:18:39] Best translation 2 : có nhiều người đã được tạo ra những người khác .
+[2022-06-24 20:18:39] Best translation 3 : một năm sau đó , trong những năm trước .
+[2022-06-24 20:18:39] Best translation 4 : đó là cách mà chúng_ta có một người khác .
+[2022-06-24 20:18:39] Best translation 5 : và trong một thế_giới .
+[2022-06-24 20:18:39] Best translation 10 : với những người khác , và những người khác đã tạo ra những người khác .
+[2022-06-24 20:18:39] Best translation 20 : hơn nhiều năm trước .
+[2022-06-24 20:18:40] Best translation 40 : chỉ có những người có những người trong những người Mỹ .
+[2022-06-24 20:18:40] Best translation 80 : trong những năm trước .
+[2022-06-24 20:18:40] Best translation 160 : có một người trong những người đàn_ông trong những người đàn_ông này .
+[2022-06-24 20:18:40] Best translation 320 : và đó là một điều rất quan_trọng .
+[2022-06-24 20:18:47] Best translation 640 : có một trong những người đàn_ông trong những người Mỹ .
+[2022-06-24 20:18:51] Best translation 1280 : một trong những người phụ_nữ như một người phụ_nữ .
+[2022-06-24 20:19:15] Best translation 2560 : và sau đó , sau đó , sau đó là những gì họ đã làm .
+[2022-06-24 20:19:19] Total translation time: 48.00186s
+[2022-06-24 20:19:19] [valid] Ep. 4 : Up. 5000 : bleu : 0.958359 : new best
+[2022-06-24 20:25:22] Seen 1,091,056 samples
+[2022-06-24 20:25:22] Starting data epoch 5 in logical epoch 5
+[2022-06-24 20:25:22] [data] Shuffling data
+[2022-06-24 20:25:22] [data] Done reading 1,091,058 sentences
+[2022-06-24 20:25:27] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 20:32:44] Seen 1,091,056 samples
+[2022-06-24 20:32:44] Starting data epoch 6 in logical epoch 6
+[2022-06-24 20:32:44] [data] Shuffling data
+[2022-06-24 20:32:45] [data] Done reading 1,091,058 sentences
+[2022-06-24 20:32:49] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 20:40:06] Seen 1,091,056 samples
+[2022-06-24 20:40:06] Starting data epoch 7 in logical epoch 7
+[2022-06-24 20:40:06] [data] Shuffling data
+[2022-06-24 20:40:07] [data] Done reading 1,091,058 sentences
+[2022-06-24 20:40:11] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 20:42:39] Ep. 7 : Up. 10000 : Sen. 369,328 : Cost 4.47745085 * 30,675,640 @ 4,335 after 61,377,078 : Time 1448.08s : 21183.68 words/s : gNorm 1.2607 : L.r. 1.8750e-04
+[2022-06-24 20:42:39] Translating validation set...
+[2022-06-24 20:42:46] Best translation 0 : một cuộc cách_mạng chống lại chính_phủ
+[2022-06-24 20:42:46] Best translation 1 : những nhà lãnh_đạo của chính_phủ .
+[2022-06-24 20:42:46] Best translation 2 : nhưng nếu không phải là một nhà lãnh_đạo của chính_phủ , thì những người đã bị buộc_tội .
+[2022-06-24 20:42:46] Best translation 3 : chính_phủ Mỹ đã đưa ra hàng trăm năm trước .
+[2022-06-24 20:42:46] Best translation 4 : một điều nữa , một trong những kết_quả này sẽ có ảnh_hưởng .
+[2022-06-24 20:42:46] Best translation 5 : trong trường_hợp này , nền dân_chủ Mỹ .
+[2022-06-24 20:42:46] Best translation 10 : một nhà lãnh_đạo mới để cung_cấp thông_tin cho các công_ty .
+[2022-06-24 20:42:46] Best translation 20 : tôi muốn nói rằng nó có nhiều giá_trị hơn nhiều .
+[2022-06-24 20:42:46] Best translation 40 : mặt_khác , những người da trắng đã được gửi đến 25 % phần_trăm .
+[2022-06-24 20:42:46] Best translation 80 : thuốc_lá của 85 % ung_thư .
+[2022-06-24 20:42:46] Best translation 160 : trong suốt đời , người_ta nói rằng các bạn là một nhà khoa_học tên là Ga@@ mi@@ o .
+[2022-06-24 20:42:46] Best translation 320 : có_nghĩa_là I@@ I@@ I@@ I@@ I@@ I@@ I@@ I@@ I@@ I@@ I@@ S là một phần của sự kết_hợp .
+[2022-06-24 20:42:53] Best translation 640 : người Nga đã ra_lệnh cho chính_phủ .
+[2022-06-24 20:42:56] Best translation 1280 : và cuối_cùng , Ste@@ d_@@ Ste@@ n_@@ Ste@@ na@@ d là một mối quan_hệ xã_hội .
+[2022-06-24 20:43:15] Best translation 2560 : sau khi những con vật được đưa đến gần 2 tháng .
+[2022-06-24 20:43:17] Total translation time: 38.18977s
+[2022-06-24 20:43:17] [valid] Ep. 7 : Up. 10000 : bleu : 2.60508 : new best
+[2022-06-24 20:48:07] Seen 1,091,056 samples
+[2022-06-24 20:48:07] Starting data epoch 8 in logical epoch 8
+[2022-06-24 20:48:07] [data] Shuffling data
+[2022-06-24 20:48:07] [data] Done reading 1,091,058 sentences
+[2022-06-24 20:48:12] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 20:55:28] Seen 1,091,056 samples
+[2022-06-24 20:55:29] Starting data epoch 9 in logical epoch 9
+[2022-06-24 20:55:29] [data] Shuffling data
+[2022-06-24 20:55:29] [data] Done reading 1,091,058 sentences
+[2022-06-24 20:55:34] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 21:02:51] Seen 1,091,056 samples
+[2022-06-24 21:02:51] Starting data epoch 10 in logical epoch 10
+[2022-06-24 21:02:51] [data] Shuffling data
+[2022-06-24 21:02:51] [data] Done reading 1,091,058 sentences
+[2022-06-24 21:02:56] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 21:06:38] Ep. 10 : Up. 15000 : Sen. 555,147 : Cost 3.84449458 * 30,704,234 @ 9,088 after 92,081,317 : Time 1438.88s : 21339.00 words/s : gNorm 1.0721 : L.r. 2.8125e-04
+[2022-06-24 21:06:38] Translating validation set...
+[2022-06-24 21:06:43] Best translation 0 : chiến_thuật của Cộng_@@ hòa chống lại O@@ ba@@ f
+[2022-06-24 21:06:43] Best translation 1 : chế_độ Cộng_@@ hòa đã đưa ra chính_sách chống lại tội_phạm .
+[2022-06-24 21:06:43] Best translation 2 : nhưng một trung_tâm của Bren@@ t được gọi là một kẻ gian_lận ít hơn là những kẻ đã chết ở Mỹ .
+[2022-06-24 21:06:43] Best translation 3 : trong vòng 300 năm qua , luật_sư của Mỹ đã được ghi_nhận trong suốt 300 năm qua .
+[2022-06-24 21:06:43] Best translation 4 : một điều chắc_chắn : điều này sẽ gây ảnh_hưởng đến sự cạnh_tranh .
+[2022-06-24 21:06:43] Best translation 5 : trong trường_hợp này , một hệ_thống dân_chủ Mỹ .
+[2022-06-24 21:06:43] Best translation 10 : luật mới yêu_cầu họ đưa ra thẻ căn_cước của Mỹ .
+[2022-06-24 21:06:43] Best translation 20 : sự quản_lý được yêu_cầu nhiều hơn 100 đô .
+[2022-06-24 21:06:43] Best translation 40 : ở bên kia , những người da trắng được giới_thiệu với 76 % những người tạo ra .
+[2022-06-24 21:06:43] Best translation 80 : thuốc_lá trị_giá 85 % bệnh ung_thư .
+[2022-06-24 21:06:43] Best translation 160 : mọi người đều học được rằng những gã này là một nhà tâm_lý_học tên là Ga@@ de@@ r .
+[2022-06-24 21:06:43] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ hi@@ hi@@ hi@@ hi@@ s là một phần rất lớn .
+[2022-06-24 21:06:48] Best translation 640 : M@@ D Nga đề_nghị một bản báo_cáo về mối quan_hệ của họ .
+[2022-06-24 21:06:52] Best translation 1280 : cuối_cùng , Ste@@ anti@@ ne là một xã_hội vô_@@ tính .
+[2022-06-24 21:07:08] Best translation 2560 : sau khi những bức tường lớn lên tới 70 kg .
+[2022-06-24 21:07:10] Total translation time: 31.81099s
+[2022-06-24 21:07:10] [valid] Ep. 10 : Up. 15000 : bleu : 6.13856 : new best
+[2022-06-24 21:10:45] Seen 1,091,056 samples
+[2022-06-24 21:10:45] Starting data epoch 11 in logical epoch 11
+[2022-06-24 21:10:45] [data] Shuffling data
+[2022-06-24 21:10:45] [data] Done reading 1,091,058 sentences
+[2022-06-24 21:10:50] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 21:18:07] Seen 1,091,056 samples
+[2022-06-24 21:18:07] Starting data epoch 12 in logical epoch 12
+[2022-06-24 21:18:07] [data] Shuffling data
+[2022-06-24 21:18:07] [data] Done reading 1,091,058 sentences
+[2022-06-24 21:18:12] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 21:25:30] Seen 1,091,056 samples
+[2022-06-24 21:25:30] Starting data epoch 13 in logical epoch 13
+[2022-06-24 21:25:30] [data] Shuffling data
+[2022-06-24 21:25:31] [data] Done reading 1,091,058 sentences
+[2022-06-24 21:25:36] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 21:30:33] Ep. 13 : Up. 20000 : Sen. 740,107 : Cost 3.54613328 * 30,722,564 @ 7,664 after 122,803,857 : Time 1434.67s : 21414.37 words/s : gNorm 0.9902 : L.r. 2.6833e-04
+[2022-06-24 21:30:33] Translating validation set...
+[2022-06-24 21:30:37] Best translation 0 : chiến_lược Cộng_@@ hòa chống lại O@@ ba@@ th
+[2022-06-24 21:30:37] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã tuyên_bố chính_sách chống lại bọn tội_phạm .
+[2022-06-24 21:30:37] Best translation 2 : nhưng người dân của Bren@@ t gọi đó là sai_lầm về việc gian_lận ít hơn những kẻ đã chết ở Mỹ .
+[2022-06-24 21:30:37] Best translation 3 : các luật_sư Cộng_@@ hòa đã ghi_nhận 300 vụ gian_lận ở Mỹ trong suốt 10 năm qua .
+[2022-06-24 21:30:37] Best translation 4 : một điều chắc_chắn : những quy_định mới này sẽ gây ảnh_hưởng đến sự cạnh_tranh .
+[2022-06-24 21:30:37] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ .
+[2022-06-24 21:30:37] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa thẻ căn_cước và thẻ căn_cước của Mỹ .
+[2022-06-24 21:30:38] Best translation 20 : sự quản_lý có giá_trị hơn 100 đô .
+[2022-06-24 21:30:38] Best translation 40 : ở bên kia , những người da trắng giới_thiệu 76 % những người khác , chỉ có 46 % những người được tạo ra .
+[2022-06-24 21:30:38] Best translation 80 : thuốc_lá trị_giá 85 % ung_thư phổi .
+[2022-06-24 21:30:38] Best translation 160 : trong suốt cuộc_đời , người_ta học rằng những người đàn_ông là Pierre Bro@@ de@@ is , nhà tâm_lý_học .
+[2022-06-24 21:30:38] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ s là một công_việc rất hiệu_quả .
+[2022-06-24 21:30:42] Best translation 640 : M@@ D sẽ đưa ra một đề_nghị hợp_pháp trong mối quan_hệ dân_sự .
+[2022-06-24 21:30:46] Best translation 1280 : cuối_cùng , Ste@@ anti@@ ne là một xã_hội tự_do trong xã_hội .
+[2022-06-24 21:31:00] Best translation 2560 : sau khi những tòa nhà lớn , nặng hơn 70 kg để chở chúng lên những viên đá .
+[2022-06-24 21:31:02] Total translation time: 29.71102s
+[2022-06-24 21:31:02] [valid] Ep. 13 : Up. 20000 : bleu : 8.54203 : new best
+[2022-06-24 21:33:23] Seen 1,091,056 samples
+[2022-06-24 21:33:23] Starting data epoch 14 in logical epoch 14
+[2022-06-24 21:33:23] [data] Shuffling data
+[2022-06-24 21:33:23] [data] Done reading 1,091,058 sentences
+[2022-06-24 21:33:28] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 21:40:45] Seen 1,091,056 samples
+[2022-06-24 21:40:45] Starting data epoch 15 in logical epoch 15
+[2022-06-24 21:40:45] [data] Shuffling data
+[2022-06-24 21:40:46] [data] Done reading 1,091,058 sentences
+[2022-06-24 21:40:51] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 21:48:09] Seen 1,091,056 samples
+[2022-06-24 21:48:09] Starting data epoch 16 in logical epoch 16
+[2022-06-24 21:48:09] [data] Shuffling data
+[2022-06-24 21:48:09] [data] Done reading 1,091,058 sentences
+[2022-06-24 21:48:14] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 21:54:24] Ep. 16 : Up. 25000 : Sen. 920,949 : Cost 3.31937051 * 30,665,174 @ 6,160 after 153,469,030 : Time 1431.89s : 21415.81 words/s : gNorm 1.0413 : L.r. 2.4000e-04
+[2022-06-24 21:54:24] Translating validation set...
+[2022-06-24 21:54:29] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-24 21:54:29] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-24 21:54:29] Best translation 2 : nhưng cùng với những người đã bị lừa vì tội gian_lận ở Mỹ ít hơn những kẻ đã chết .
+[2022-06-24 21:54:29] Best translation 3 : các luật_sư Cộng_@@ hòa đã ghi_nhận được 300 vụ gian_lận ở Mỹ trong suốt 10 năm qua .
+[2022-06-24 21:54:29] Best translation 4 : một điều chắc_chắn : những quy_định mới này sẽ có ảnh_hưởng tiêu_cực đến sự tham_gia bầu_cử .
+[2022-06-24 21:54:29] Best translation 5 : trong trường_hợp này , hệ_thống dân_chủ Mỹ .
+[2022-06-24 21:54:29] Best translation 10 : luật bầu_cử mới đòi_hỏi phải có thẻ căn_cước và thẻ căn_cước Mỹ .
+[2022-06-24 21:54:30] Best translation 20 : việc lái_xe có liên_quan nhiều hơn 100 đô .
+[2022-06-24 21:54:30] Best translation 40 : mặt_khác , những người da trắng đưa ra 76 % các quyết_định , chỉ có 46 % những người được bầu ra .
+[2022-06-24 21:54:30] Best translation 80 : thuốc_lá đáng_giá 85 % ung_thư phổi .
+[2022-06-24 21:54:30] Best translation 160 : trong suốt cuộc_đời , người_ta đã học được rằng những người đàn_ông , " Pierre Bro@@ de@@ r , một nhà tâm_lý_học ở Ga@@ bo@@ ra .
+[2022-06-24 21:54:30] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ders là một chức_năng rất cao và nó cho rất nhiều bàn .
+[2022-06-24 21:54:35] Best translation 640 : M@@ V@@ D sẽ đưa ra lời đề_nghị về luật_pháp trong mối quan_hệ của công_dân .
+[2022-06-24 21:54:42] Best translation 1280 : cuối_cùng , Ste@@ anti@@ us là một xã_hội tự_do dựa trên lợi_ích chung .
+[2022-06-24 21:54:58] Best translation 2560 : sau khi anh ta lấy được những khối lớn , nặng tới 70 pound , anh ta đưa chúng lên thành hai viên đá .
+[2022-06-24 21:55:01] Total translation time: 36.24853s
+[2022-06-24 21:55:01] [valid] Ep. 16 : Up. 25000 : bleu : 9.84286 : new best
+[2022-06-24 21:56:09] Seen 1,091,056 samples
+[2022-06-24 21:56:09] Starting data epoch 17 in logical epoch 17
+[2022-06-24 21:56:09] [data] Shuffling data
+[2022-06-24 21:56:10] [data] Done reading 1,091,058 sentences
+[2022-06-24 21:56:14] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 22:03:33] Seen 1,091,056 samples
+[2022-06-24 22:03:33] Starting data epoch 18 in logical epoch 18
+[2022-06-24 22:03:33] [data] Shuffling data
+[2022-06-24 22:03:33] [data] Done reading 1,091,058 sentences
+[2022-06-24 22:03:38] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 22:10:56] Seen 1,091,056 samples
+[2022-06-24 22:10:56] Starting data epoch 19 in logical epoch 19
+[2022-06-24 22:10:56] [data] Shuffling data
+[2022-06-24 22:10:56] [data] Done reading 1,091,058 sentences
+[2022-06-24 22:11:01] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 22:18:19] Seen 1,091,056 samples
+[2022-06-24 22:18:19] Starting data epoch 20 in logical epoch 20
+[2022-06-24 22:18:19] [data] Shuffling data
+[2022-06-24 22:18:20] [data] Done reading 1,091,058 sentences
+[2022-06-24 22:18:25] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 22:18:30] Ep. 20 : Up. 30000 : Sen. 10,629 : Cost 3.15577435 * 30,648,824 @ 6,720 after 184,117,844 : Time 1446.06s : 21194.76 words/s : gNorm 1.0993 : L.r. 2.1909e-04
+[2022-06-24 22:18:31] Translating validation set...
+[2022-06-24 22:18:35] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-24 22:18:35] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-24 22:18:35] Best translation 2 : nhưng tại trụ_sở của Bren@@ nan@@ d được coi như một trò lừa_đảo với một sự bỏ_phiếu gian_lận ở Mỹ ít hơn những người đã chết .
+[2022-06-24 22:18:35] Best translation 3 : các luật_sư Cộng_@@ hòa đã ghi_nhận được 300 vụ gian_lận ở Mỹ trong suốt 10 năm qua .
+[2022-06-24 22:18:35] Best translation 4 : một điều chắc_chắn : những quy_định mới này sẽ có ảnh_hưởng tiêu_cực đến sự tham_gia bầu_cử .
+[2022-06-24 22:18:35] Best translation 5 : trong trường_hợp này , hệ_thống dân_chủ Mỹ .
+[2022-06-24 22:18:35] Best translation 10 : luật bầu_cử mới đòi_hỏi phải có thẻ căn_cước và thẻ căn_cước Mỹ .
+[2022-06-24 22:18:36] Best translation 20 : sự quản_lý có thẩm_quyền đòi_hỏi hơn 100 đô_la .
+[2022-06-24 22:18:36] Best translation 40 : mặt_khác , những người da trắng đưa ra 76 % các quyết_định , chỉ có 46 % những người được bầu ra .
+[2022-06-24 22:18:36] Best translation 80 : thuốc_lá trị_giá 85 % ung_thư phổi .
+[2022-06-24 22:18:36] Best translation 160 : trong đời , mọi người đều học được rằng " Pierre Bro@@ der Bro@@ de@@ r , nhà tâm_lý_học ở Victor .
+[2022-06-24 22:18:36] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ders là một chức_năng rất cao và nó cho rất nhiều ghi_@@ bàn .
+[2022-06-24 22:18:41] Best translation 640 : M@@ V@@ D sẽ đưa ra một đề_nghị trực_tiếp trong mối quan_hệ cá_nhân .
+[2022-06-24 22:18:45] Best translation 1280 : kết_luận của Steve là xã_hội ngày_nay được xây_dựng dựa trên sự tôn_trọng không mong_muốn về quyền_lợi xã_hội .
+[2022-06-24 22:19:00] Best translation 2560 : sau khi anh ta kéo những khối đá lớn nặng đến 70 kg , anh ta đưa chúng lên thành hai viên đá .
+[2022-06-24 22:19:03] Total translation time: 32.65019s
+[2022-06-24 22:19:03] [valid] Ep. 20 : Up. 30000 : bleu : 10.1938 : new best
+[2022-06-24 22:26:15] Seen 1,091,056 samples
+[2022-06-24 22:26:15] Starting data epoch 21 in logical epoch 21
+[2022-06-24 22:26:15] [data] Shuffling data
+[2022-06-24 22:26:15] [data] Done reading 1,091,058 sentences
+[2022-06-24 22:26:20] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 22:33:39] Seen 1,091,056 samples
+[2022-06-24 22:33:39] Starting data epoch 22 in logical epoch 22
+[2022-06-24 22:33:39] [data] Shuffling data
+[2022-06-24 22:33:40] [data] Done reading 1,091,058 sentences
+[2022-06-24 22:33:44] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 22:41:02] Seen 1,091,056 samples
+[2022-06-24 22:41:02] Starting data epoch 23 in logical epoch 23
+[2022-06-24 22:41:02] [data] Shuffling data
+[2022-06-24 22:41:03] [data] Done reading 1,091,058 sentences
+[2022-06-24 22:41:07] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 22:42:26] Ep. 23 : Up. 35000 : Sen. 194,709 : Cost 3.02271223 * 30,680,576 @ 8,960 after 214,798,410 : Time 1435.57s : 21371.63 words/s : gNorm 1.0857 : L.r. 2.0284e-04
+[2022-06-24 22:42:26] Translating validation set...
+[2022-06-24 22:42:31] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-24 22:42:31] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-24 22:42:31] Best translation 2 : nhưng tại trụ_sở của Bren@@ nan@@ d bị lừa vì gian_lận ở Mỹ ít hơn những người đã chết .
+[2022-06-24 22:42:31] Best translation 3 : các luật_sư cộng hòa đã ghi_nhận 300 vụ gian_lận tại Mỹ trong 10 năm qua .
+[2022-06-24 22:42:31] Best translation 4 : một điều chắc_chắn : những quy_định này sẽ có ảnh_hưởng tiêu_cực trong việc bầu_cử .
+[2022-06-24 22:42:31] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ .
+[2022-06-24 22:42:31] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa ra thẻ căn_cước và giấy_phép công_dân Mỹ .
+[2022-06-24 22:42:32] Best translation 20 : sự quản_lý có thẩm_quyền cần hơn 100 đô_la .
+[2022-06-24 22:42:32] Best translation 40 : tuy_nhiên , những người da trắng cho rằng 76 % những người bầu_cử , chỉ có 46 % người được bầu ra .
+[2022-06-24 22:42:32] Best translation 80 : thuốc_lá trị_giá 85 % ung_thư phổi .
+[2022-06-24 22:42:32] Best translation 160 : trong suốt cuộc_đời , mọi người đều học được rằng " Pierre Bro@@ der Bro@@ de@@ r , một nhà tâm_lý_học ở Victor .
+[2022-06-24 22:42:32] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ders là một hoạt_động rất hiệu_quả và nó đang ghi_@@ bàn rất nhiều .
+[2022-06-24 22:42:36] Best translation 640 : M@@ V@@ D sẽ đưa ra một đề_nghị trực_tiếp trong mối quan_hệ cá_nhân của họ .
+[2022-06-24 22:42:42] Best translation 1280 : cuối_cùng , với một xã_hội tự_do , ngày_nay , một xã_hội tự_do dựa trên sự quan_tâm của chính họ .
+[2022-06-24 22:42:55] Best translation 2560 : sau khi anh ấy lấy những khối đá lớn , nặng hơn 70 kg , anh ấy đưa chúng lên trên hai tảng đá .
+[2022-06-24 22:42:57] Total translation time: 30.85817s
+[2022-06-24 22:42:57] [valid] Ep. 23 : Up. 35000 : bleu : 10.2484 : new best
+[2022-06-24 22:48:56] Seen 1,091,056 samples
+[2022-06-24 22:48:56] Starting data epoch 24 in logical epoch 24
+[2022-06-24 22:48:56] [data] Shuffling data
+[2022-06-24 22:48:56] [data] Done reading 1,091,058 sentences
+[2022-06-24 22:49:01] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 22:56:19] Seen 1,091,056 samples
+[2022-06-24 22:56:19] Starting data epoch 25 in logical epoch 25
+[2022-06-24 22:56:19] [data] Shuffling data
+[2022-06-24 22:56:19] [data] Done reading 1,091,058 sentences
+[2022-06-24 22:56:24] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 23:03:42] Seen 1,091,056 samples
+[2022-06-24 23:03:42] Starting data epoch 26 in logical epoch 26
+[2022-06-24 23:03:42] [data] Shuffling data
+[2022-06-24 23:03:42] [data] Done reading 1,091,058 sentences
+[2022-06-24 23:03:47] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 23:06:20] Ep. 26 : Up. 40000 : Sen. 378,255 : Cost 2.91820002 * 30,693,150 @ 7,840 after 245,491,581 : Time 1433.87s : 21405.77 words/s : gNorm 1.1590 : L.r. 1.8974e-04
+[2022-06-24 23:06:20] Translating validation set...
+[2022-06-24 23:06:25] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-24 23:06:25] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-24 23:06:25] Best translation 2 : nhưng với tư_cách là một nhà ảo_thuật , việc bỏ_phiếu gian_lận ở Mỹ ít hơn những người thường chết .
+[2022-06-24 23:06:25] Best translation 3 : các luật_sư cộng hòa đã ghi_nhận trong 10 thập_@@ kỉ qua , chỉ còn có 300 vụ gian_lận trong bầu_cử tại Mỹ .
+[2022-06-24 23:06:25] Best translation 4 : một điều chắc_chắn : những quy_định này sẽ có ảnh_hưởng tiêu_cực trong việc bầu_cử .
+[2022-06-24 23:06:25] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ .
+[2022-06-24 23:06:25] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa ra thẻ căn_cước của người Mỹ và giấy_phép công_dân Mỹ .
+[2022-06-24 23:06:25] Best translation 20 : sự quản_lý có thẩm_quyền cần hơn 100 đô_la .
+[2022-06-24 23:06:25] Best translation 40 : tuy_nhiên , những người da trắng cho rằng 76 % những người bầu_cử , chỉ có 46 % những người dẫn_đầu .
+[2022-06-24 23:06:25] Best translation 80 : thuốc_lá đáng_giá $ 85 .
+[2022-06-24 23:06:25] Best translation 160 : trong suốt cuộc_đời , anh đã học được rằng đàn_ông là một nhà khoa_học Bro@@ z@@ ur@@ _@@ Bro@@ der , một nhà tâm_lý_học ở Victor .
+[2022-06-24 23:06:25] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ tch là một hoạt_động rất hiệu_quả và nó ghi_@@ bàn rất nhiều .
+[2022-06-24 23:06:29] Best translation 640 : chính_phủ Nga sẽ đưa ra một đề_nghị hợp_lý về mối quan_hệ cá_nhân của họ .
+[2022-06-24 23:06:34] Best translation 1280 : cuối_cùng , trong xã_hội ngày_nay , một xã_hội tự_do tự_do dựa trên những lợi_ích chung của chính họ .
+[2022-06-24 23:06:45] Best translation 2560 : sau khi ông ấy đưa những khối lớn lên , nặng hơn 70 pound so với hai viên đá .
+[2022-06-24 23:06:49] Total translation time: 28.62681s
+[2022-06-24 23:06:49] [valid] Ep. 26 : Up. 40000 : bleu : 9.90926 : stalled 1 times (last best: 10.2484)
+[2022-06-24 23:11:34] Seen 1,091,056 samples
+[2022-06-24 23:11:34] Starting data epoch 27 in logical epoch 27
+[2022-06-24 23:11:34] [data] Shuffling data
+[2022-06-24 23:11:35] [data] Done reading 1,091,058 sentences
+[2022-06-24 23:11:39] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 23:18:57] Seen 1,091,056 samples
+[2022-06-24 23:18:57] Starting data epoch 28 in logical epoch 28
+[2022-06-24 23:18:57] [data] Shuffling data
+[2022-06-24 23:18:57] [data] Done reading 1,091,058 sentences
+[2022-06-24 23:19:02] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 23:26:19] Seen 1,091,056 samples
+[2022-06-24 23:26:19] Starting data epoch 29 in logical epoch 29
+[2022-06-24 23:26:19] [data] Shuffling data
+[2022-06-24 23:26:20] [data] Done reading 1,091,058 sentences
+[2022-06-24 23:26:25] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 23:30:11] Ep. 29 : Up. 45000 : Sen. 566,804 : Cost 2.83073354 * 30,709,110 @ 4,026 after 276,200,690 : Time 1430.94s : 21460.74 words/s : gNorm 1.1761 : L.r. 1.7889e-04
+[2022-06-24 23:30:11] Translating validation set...
+[2022-06-24 23:30:15] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-24 23:30:15] Best translation 1 : các nhà lãnh_đạo cộng hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-24 23:30:15] Best translation 2 : nhưng với tư_cách là một thiên_tài về việc bỏ_phiếu gian_lận ở Mỹ ít hơn những người tham_gia .
+[2022-06-24 23:30:15] Best translation 3 : các luật_sư cộng hòa đã ghi_nhận trong 10 thập_@@ kỉ qua , chỉ có 300 vụ gian_lận trong cuộc bầu_cử tại Mỹ .
+[2022-06-24 23:30:15] Best translation 4 : một điều chắc_chắn : những quy_định này sẽ có ảnh_hưởng tiêu_cực trong việc bầu_cử .
+[2022-06-24 23:30:15] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ .
+[2022-06-24 23:30:15] Best translation 10 : những luật bầu_cử mới cần phải có thẻ căn_cước giả và quyền công_dân Mỹ .
+[2022-06-24 23:30:16] Best translation 20 : sự quản_lý có thẩm_quyền cần hơn 100 đô_la .
+[2022-06-24 23:30:16] Best translation 40 : tuy_nhiên , những người da trắng nghĩ rằng 76 % các cử@@ _tr@@ i mới chỉ tạo ra 46 % những người dẫn_đầu .
+[2022-06-24 23:30:16] Best translation 80 : thuốc_lá đáng_giá với 85 % ung_thư phổi .
+[2022-06-24 23:30:16] Best translation 160 : trong toàn_bộ cuộc_đời , người_ta đã học được rằng đàn_ông là một nhà khoa_học tên là Pierre Bro@@ z@@ ur@@ _@@ Bro@@ der , một nhà tâm_lý_học ở Victor .
+[2022-06-24 23:30:16] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ds là một hoạt_động rất hiệu_quả và nó ghi_@@ bàn rất nhiều .
+[2022-06-24 23:30:20] Best translation 640 : chính_phủ Nga sẽ đưa ra luật trong mối quan_hệ của họ .
+[2022-06-24 23:30:24] Best translation 1280 : cuối_cùng , trong xã_hội ngày_nay có một xã_hội tự_do dựa trên những lợi_ích chung , không quan_tâm đến lợi_ích chung .
+[2022-06-24 23:30:35] Best translation 2560 : sau khi đào được những khối lớn nặng đến 70 kg , nó đưa chúng lên trên hai tảng đá .
+[2022-06-24 23:30:40] Total translation time: 28.80237s
+[2022-06-24 23:30:40] [valid] Ep. 29 : Up. 45000 : bleu : 9.99593 : stalled 2 times (last best: 10.2484)
+[2022-06-24 23:34:11] Seen 1,091,056 samples
+[2022-06-24 23:34:11] Starting data epoch 30 in logical epoch 30
+[2022-06-24 23:34:11] [data] Shuffling data
+[2022-06-24 23:34:11] [data] Done reading 1,091,058 sentences
+[2022-06-24 23:34:16] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 23:41:33] Seen 1,091,056 samples
+[2022-06-24 23:41:33] Starting data epoch 31 in logical epoch 31
+[2022-06-24 23:41:33] [data] Shuffling data
+[2022-06-24 23:41:33] [data] Done reading 1,091,058 sentences
+[2022-06-24 23:41:38] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 23:48:55] Seen 1,091,056 samples
+[2022-06-24 23:48:55] Starting data epoch 32 in logical epoch 32
+[2022-06-24 23:48:55] [data] Shuffling data
+[2022-06-24 23:48:55] [data] Done reading 1,091,058 sentences
+[2022-06-24 23:49:00] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-24 23:54:01] Ep. 32 : Up. 50000 : Sen. 753,171 : Cost 2.75769234 * 30,718,380 @ 5,715 after 306,919,061 : Time 1430.22s : 21478.00 words/s : gNorm 1.1722 : L.r. 1.6971e-04
+[2022-06-24 23:54:01] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.iter50000.npz
+[2022-06-24 23:54:57] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.npz
+[2022-06-24 23:55:57] Saving Adam parameters
+[2022-06-24 23:55:59] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.npz and /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.npz.optimizer.npz
+[2022-06-24 23:56:54] Translating validation set...
+[2022-06-24 23:56:58] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-24 23:56:58] Best translation 1 : các nhà lãnh_đạo cộng hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-24 23:56:58] Best translation 2 : nhưng trung_tâm của Brenda được coi là một trò ảo_thuật với việc bỏ_phiếu gian_lận ở Mỹ ít hơn là những người bị giết vì tội gây thương_@@ thuyết .
+[2022-06-24 23:56:58] Best translation 3 : các luật_sư cộng hòa đã ghi_nhận trong 10 thập_@@ kỉ qua , chỉ có 300 vụ gian_lận trong cuộc bầu_cử ở Mỹ .
+[2022-06-24 23:56:58] Best translation 4 : một điều chắc_chắn : những điều_luật này sẽ dẫn đến ảnh_hưởng tiêu_cực trong việc bầu_cử .
+[2022-06-24 23:56:58] Best translation 5 : theo cách này , hệ_thống dân_chủ Mỹ .
+[2022-06-24 23:56:58] Best translation 10 : luật bầu_cử mới cần phải có thẻ căn_cước và căn_cước Mỹ .
+[2022-06-24 23:56:59] Best translation 20 : sự quản_lý có thẩm_quyền cần hơn 100 đô_la .
+[2022-06-24 23:56:59] Best translation 40 : tuy_nhiên , những người da trắng nghĩ về 76 % cử@@ _tr@@ i mới chỉ tạo ra 46 % những người dẫn_đầu .
+[2022-06-24 23:56:59] Best translation 80 : thuốc_lá đáng_giá với 85 % ung_thư phổi .
+[2022-06-24 23:56:59] Best translation 160 : trong toàn_bộ cuộc_đời , anh đã học được rằng đàn_ông là một nhà khoa_học tên là Pierre Bro@@ z@@ ur@@ _@@ Bro@@ der , một nhà tâm_lý_học ở Victor .
+[2022-06-24 23:56:59] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ds là một tay súng rất hiệu_quả .
+[2022-06-24 23:57:03] Best translation 640 : chính_quyền Nga sẽ đưa ra luật trong mối quan_hệ của họ .
+[2022-06-24 23:57:06] Best translation 1280 : cuối_cùng , trong xã_hội ngày_nay có một xã_hội tự_do dựa trên những lợi_ích chung , không quan_tâm đến lợi_ích chung .
+[2022-06-24 23:57:18] Best translation 2560 : sau khi kéo những khối đá lớn lên , nặng 70 kg , nó đưa chúng lên trên hai thân cây gỗ gỗ gỗ .
+[2022-06-24 23:57:22] Total translation time: 27.95603s
+[2022-06-24 23:57:22] [valid] Ep. 32 : Up. 50000 : bleu : 9.77609 : stalled 3 times (last best: 10.2484)
+[2022-06-24 23:59:38] Seen 1,091,056 samples
+[2022-06-24 23:59:38] Starting data epoch 33 in logical epoch 33
+[2022-06-24 23:59:38] [data] Shuffling data
+[2022-06-24 23:59:39] [data] Done reading 1,091,058 sentences
+[2022-06-24 23:59:44] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 00:07:01] Seen 1,091,056 samples
+[2022-06-25 00:07:01] Starting data epoch 34 in logical epoch 34
+[2022-06-25 00:07:01] [data] Shuffling data
+[2022-06-25 00:07:01] [data] Done reading 1,091,058 sentences
+[2022-06-25 00:07:06] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 00:14:24] Seen 1,091,056 samples
+[2022-06-25 00:14:24] Starting data epoch 35 in logical epoch 35
+[2022-06-25 00:14:24] [data] Shuffling data
+[2022-06-25 00:14:25] [data] Done reading 1,091,058 sentences
+[2022-06-25 00:14:30] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 00:20:46] Ep. 35 : Up. 55000 : Sen. 940,988 : Cost 2.69240689 * 30,708,258 @ 6,720 after 337,627,321 : Time 1604.43s : 19139.71 words/s : gNorm 1.2382 : L.r. 1.6181e-04
+[2022-06-25 00:20:46] Translating validation set...
+[2022-06-25 00:20:49] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-25 00:20:49] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-25 00:20:49] Best translation 2 : nhưng trung_tâm của Brenda bị lừa_gạt vì tội gian_lận ở Mỹ ít hơn những người tham_gia .
+[2022-06-25 00:20:49] Best translation 3 : trong 10 thập_@@ kỉ qua , các luật_sư đã lưu lại 300 lỗi gian_lận tại Mỹ .
+[2022-06-25 00:20:49] Best translation 4 : một điều chắc_chắn : những quy_định mới này sẽ có ảnh_hưởng tiêu_cực tới việc tham_gia bầu_cử .
+[2022-06-25 00:20:49] Best translation 5 : theo cách này , hệ_thống dân_chủ của Mỹ .
+[2022-06-25 00:20:49] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa ra thẻ căn_cước và thẻ căn_cước Mỹ .
+[2022-06-25 00:20:50] Best translation 20 : sự quản_lý có thẩm_quyền đòi_hỏi hơn 100 đô_la .
+[2022-06-25 00:20:50] Best translation 40 : tuy_nhiên , những người da trắng nghĩ 76 % các cử@@ _tr@@ i đều tạo ra 46 % những người dẫn_đầu .
+[2022-06-25 00:20:50] Best translation 80 : thuốc_lá đáng_giá với 85 % số ung_thư phổi .
+[2022-06-25 00:20:50] Best translation 160 : trong toàn_bộ cuộc_đời , anh đã học được rằng những người đàn_ông này là một nhà khoa_học tên là Pierre Bro@@ z@@ ur@@ _@@ Bro@@ der , một nhà tâm_lý_học ở Victor .
+[2022-06-25 00:20:50] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ds là một tác_phẩm rất hiệu_quả và nó thực_hiện rất nhiều ghi_@@ bàn .
+[2022-06-25 00:20:53] Best translation 640 : chính_phủ Nga sẽ đưa ra những gợi_ý cho luật của riêng họ .
+[2022-06-25 00:20:56] Best translation 1280 : kết_luận cho một xã_hội tự_do , hiện_nay là một xã_hội tự_do dựa trên những lợi_ích chung , không quan_tâm đến lợi_ích chung .
+[2022-06-25 00:21:08] Best translation 2560 : sau khi nó khâu những khối lớn , nặng đến 70 kg , nó đưa chúng lên trên hai miếng gỗ gỗ gỗ nhỏ .
+[2022-06-25 00:21:12] Total translation time: 26.07693s
+[2022-06-25 00:21:12] [valid] Ep. 35 : Up. 55000 : bleu : 9.72414 : stalled 4 times (last best: 10.2484)
+[2022-06-25 00:22:13] Seen 1,091,056 samples
+[2022-06-25 00:22:13] Starting data epoch 36 in logical epoch 36
+[2022-06-25 00:22:13] [data] Shuffling data
+[2022-06-25 00:22:14] [data] Done reading 1,091,058 sentences
+[2022-06-25 00:22:18] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 00:29:35] Seen 1,091,056 samples
+[2022-06-25 00:29:35] Starting data epoch 37 in logical epoch 37
+[2022-06-25 00:29:35] [data] Shuffling data
+[2022-06-25 00:29:36] [data] Done reading 1,091,058 sentences
+[2022-06-25 00:29:41] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 00:36:58] Seen 1,091,056 samples
+[2022-06-25 00:36:58] Starting data epoch 38 in logical epoch 38
+[2022-06-25 00:36:58] [data] Shuffling data
+[2022-06-25 00:36:59] [data] Done reading 1,091,058 sentences
+[2022-06-25 00:37:04] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 00:44:21] Seen 1,091,056 samples
+[2022-06-25 00:44:21] Starting data epoch 39 in logical epoch 39
+[2022-06-25 00:44:21] [data] Shuffling data
+[2022-06-25 00:44:22] [data] Done reading 1,091,058 sentences
+[2022-06-25 00:44:27] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 00:44:38] Ep. 39 : Up. 60000 : Sen. 28,161 : Cost 2.63558483 * 30,632,104 @ 5,190 after 368,259,408 : Time 1432.57s : 21382.64 words/s : gNorm 1.2380 : L.r. 1.5492e-04
+[2022-06-25 00:44:38] Translating validation set...
+[2022-06-25 00:44:42] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-25 00:44:42] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-25 00:44:42] Best translation 2 : nhưng trong sở chỉ_huy của Brenda bị lừa_gạt vì tội gian_lận ở Mỹ ít hơn những người xa_lạ .
+[2022-06-25 00:44:42] Best translation 3 : các luật_sư cộng động đã ghi_nhận trong 10 thập_@@ kỉ qua , chỉ có 300 vụ gian_lận gian_lận trong nước Mỹ .
+[2022-06-25 00:44:42] Best translation 4 : một điều chắc_chắn là , cái công_thức mới này sẽ gây ảnh_hưởng tiêu_cực tới việc tham_gia bầu_cử .
+[2022-06-25 00:44:42] Best translation 5 : theo cách này , một phần hệ_thống dân_chủ của Mỹ .
+[2022-06-25 00:44:42] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa ra thẻ căn_cước và thẻ căn_cước Mỹ .
+[2022-06-25 00:44:42] Best translation 20 : phải tốn hơn 100 đô để lái_xe .
+[2022-06-25 00:44:42] Best translation 40 : tuy_nhiên , những người da trắng nghĩ về 76 % cử@@ _tr@@ i , chỉ có 46 % những người dẫn_đầu .
+[2022-06-25 00:44:42] Best translation 80 : thuốc_lá đáng_giá $ 85 .
+[2022-06-25 00:44:42] Best translation 160 : trong toàn_bộ cuộc_đời , anh đã học được rằng những người đàn_ông này là một nhà khoa_học tên là Pierre Bro@@ der ở nhà nghiên_cứu tâm_lý Victor .
+[2022-06-25 00:44:42] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ ds là một tác_phẩm rất hiệu_quả .
+[2022-06-25 00:44:47] Best translation 640 : chính_phủ Nga sẽ đưa ra một đề_nghị mang tính pháp_lý trong mối quan_hệ của công_dân .
+[2022-06-25 00:44:49] Best translation 1280 : cuối_cùng , trong xã_hội có một xã_hội tự_do , không quan_tâm đến lợi_ích chung .
+[2022-06-25 00:45:00] Best translation 2560 : sau khi nó khâu những khối lớn được bao quanh khoảng 70 kg , nó đưa chúng lên trên hai khối đá nền .
+[2022-06-25 00:45:03] Total translation time: 25.14187s
+[2022-06-25 00:45:03] [valid] Ep. 39 : Up. 60000 : bleu : 9.54466 : stalled 5 times (last best: 10.2484)
+[2022-06-25 00:52:09] Seen 1,091,056 samples
+[2022-06-25 00:52:09] Starting data epoch 40 in logical epoch 40
+[2022-06-25 00:52:09] [data] Shuffling data
+[2022-06-25 00:52:10] [data] Done reading 1,091,058 sentences
+[2022-06-25 00:52:14] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 00:59:32] Seen 1,091,056 samples
+[2022-06-25 00:59:32] Starting data epoch 41 in logical epoch 41
+[2022-06-25 00:59:32] [data] Shuffling data
+[2022-06-25 00:59:32] [data] Done reading 1,091,058 sentences
+[2022-06-25 00:59:37] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 01:06:54] Seen 1,091,056 samples
+[2022-06-25 01:06:54] Starting data epoch 42 in logical epoch 42
+[2022-06-25 01:06:54] [data] Shuffling data
+[2022-06-25 01:06:54] [data] Done reading 1,091,058 sentences
+[2022-06-25 01:06:59] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 01:08:26] Ep. 42 : Up. 65000 : Sen. 214,818 : Cost 2.58025575 * 30,726,264 @ 5,680 after 398,985,699 : Time 1427.65s : 21522.34 words/s : gNorm 1.2901 : L.r. 1.4884e-04
+[2022-06-25 01:08:26] Translating validation set...
+[2022-06-25 01:08:30] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-25 01:08:30] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-25 01:08:30] Best translation 2 : nhưng trong sở cảnh_sát của Brenda bị lừa_gạt vì gian_lận ở Mỹ ít hơn những người đã chết .
+[2022-06-25 01:08:30] Best translation 3 : luật_sư cộng với nền Cộng_@@ hòa đã ghi_nhận trong suốt 300 năm qua .
+[2022-06-25 01:08:30] Best translation 4 : một điều chắc_chắn là , cái công_thức mới này sẽ gây ảnh_hưởng tiêu_cực tới việc tham_gia bầu_cử .
+[2022-06-25 01:08:30] Best translation 5 : theo cách này , một phần hệ_thống dân_chủ của Mỹ .
+[2022-06-25 01:08:30] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa thẻ căn_cước và thẻ thành_viên của chính_phủ Mỹ .
+[2022-06-25 01:08:30] Best translation 20 : sự quản_lý có thẩm_quyền đòi_hỏi hơn 100 đô_la .
+[2022-06-25 01:08:30] Best translation 40 : tuy_nhiên , những người da trắng cho rằng 76 % các cử@@ _tr@@ i đều tạo ra 46 % những người dẫn_đầu .
+[2022-06-25 01:08:30] Best translation 80 : thuốc_lá đáng_giá $ 85 .
+[2022-06-25 01:08:30] Best translation 160 : trong toàn_bộ cuộc_đời , anh đã học được rằng những người đàn_ông này là phóng_viên của Pierre Bro@@ z@@ er , một nhà tâm_lý_học tên là Victor .
+[2022-06-25 01:08:30] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ nsky rất hiệu_quả và nó có rất nhiều ghi_@@ bàn .
+[2022-06-25 01:08:33] Best translation 640 : chính_phủ Nga đưa ra những đề_nghị tích_cực trong mối quan_hệ của công_dân .
+[2022-06-25 01:08:36] Best translation 1280 : cuối_cùng , trong xã_hội có một xã_hội tự_do , không quan_tâm đến lợi_ích chung .
+[2022-06-25 01:08:47] Best translation 2560 : sau khi nó khâu những khối lớn được bao quanh khoảng 70 kg , nó đưa chúng lên trên hai lớp vải gỗ .
+[2022-06-25 01:08:50] Total translation time: 23.91978s
+[2022-06-25 01:08:50] [valid] Ep. 42 : Up. 65000 : bleu : 9.31528 : stalled 6 times (last best: 10.2484)
+[2022-06-25 01:14:40] Seen 1,091,056 samples
+[2022-06-25 01:14:40] Starting data epoch 43 in logical epoch 43
+[2022-06-25 01:14:40] [data] Shuffling data
+[2022-06-25 01:14:41] [data] Done reading 1,091,058 sentences
+[2022-06-25 01:14:46] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 01:22:04] Seen 1,091,056 samples
+[2022-06-25 01:22:04] Starting data epoch 44 in logical epoch 44
+[2022-06-25 01:22:04] [data] Shuffling data
+[2022-06-25 01:22:05] [data] Done reading 1,091,058 sentences
+[2022-06-25 01:22:10] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 01:29:26] Seen 1,091,056 samples
+[2022-06-25 01:29:26] Starting data epoch 45 in logical epoch 45
+[2022-06-25 01:29:26] [data] Shuffling data
+[2022-06-25 01:29:27] [data] Done reading 1,091,058 sentences
+[2022-06-25 01:29:31] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 01:32:12] Ep. 45 : Up. 70000 : Sen. 396,857 : Cost 2.53707576 * 30,694,244 @ 5,040 after 429,679,919 : Time 1426.04s : 21524.12 words/s : gNorm 1.2984 : L.r. 1.4343e-04
+[2022-06-25 01:32:12] Translating validation set...
+[2022-06-25 01:32:15] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-25 01:32:15] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại bọn lừa_đảo .
+[2022-06-25 01:32:15] Best translation 2 : nhưng việc bị lừa_gạt bởi một huyền_thoại về việc gian_lận ở Mỹ ít hơn những người tham_gia .
+[2022-06-25 01:32:15] Best translation 3 : luật_sư cộng với nền Cộng_@@ hoà chỉ phát_hiện được 300 vụ gian_lận trong suốt 10 năm qua .
+[2022-06-25 01:32:15] Best translation 4 : một điều chắc_chắn : cái công_thức mới này sẽ gây ảnh_hưởng tiêu_cực tới việc tham_gia bầu_cử .
+[2022-06-25 01:32:15] Best translation 5 : theo cách này , một phần hệ_thống dân_chủ của Mỹ .
+[2022-06-25 01:32:15] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa thẻ căn_cước và căn_cước của người Mỹ .
+[2022-06-25 01:32:16] Best translation 20 : trên 100 .
+[2022-06-25 01:32:16] Best translation 40 : tuy_nhiên , những người da trắng nghĩ 76 % những người tạo ra 46 % những người bầu_cử .
+[2022-06-25 01:32:16] Best translation 80 : thuốc_lá đáng_giá $ 85 .
+[2022-06-25 01:32:16] Best translation 160 : trong toàn_bộ cuộc_đời , anh đã học được rằng những người đàn_ông này là một nhà tâm_lý_học , là một nhà tâm_lý_học tên là Victor .
+[2022-06-25 01:32:16] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ nsky rất hiệu_quả và nó có rất nhiều ghi_@@ bàn .
+[2022-06-25 01:32:20] Best translation 640 : chính_phủ Nga đưa ra đề_nghị một quyền bình_đẳng trong mối quan_hệ với công_dân của họ .
+[2022-06-25 01:32:23] Best translation 1280 : cuối_cùng , trong xã_hội có một xã_hội tự_do , không quan_tâm đến lợi_ích chung .
+[2022-06-25 01:32:34] Best translation 2560 : sau khi r@@ ặng những khối lớn nặng nặng đến 70 kg , nó đưa chúng lên trên hai tấm vải gỗ .
+[2022-06-25 01:32:36] Total translation time: 23.67301s
+[2022-06-25 01:32:36] [valid] Ep. 45 : Up. 70000 : bleu : 9.38256 : stalled 7 times (last best: 10.2484)
+[2022-06-25 01:37:12] Seen 1,091,056 samples
+[2022-06-25 01:37:12] Starting data epoch 46 in logical epoch 46
+[2022-06-25 01:37:12] [data] Shuffling data
+[2022-06-25 01:37:13] [data] Done reading 1,091,058 sentences
+[2022-06-25 01:37:18] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 01:44:35] Seen 1,091,056 samples
+[2022-06-25 01:44:35] Starting data epoch 47 in logical epoch 47
+[2022-06-25 01:44:35] [data] Shuffling data
+[2022-06-25 01:44:35] [data] Done reading 1,091,058 sentences
+[2022-06-25 01:44:40] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 01:51:57] Seen 1,091,056 samples
+[2022-06-25 01:51:57] Starting data epoch 48 in logical epoch 48
+[2022-06-25 01:51:57] [data] Shuffling data
+[2022-06-25 01:51:58] [data] Done reading 1,091,058 sentences
+[2022-06-25 01:52:03] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 01:55:58] Ep. 48 : Up. 75000 : Sen. 586,256 : Cost 2.49716496 * 30,708,256 @ 6,761 after 460,388,186 : Time 1426.02s : 21534.31 words/s : gNorm 1.3349 : L.r. 1.3856e-04
+[2022-06-25 01:55:58] Translating validation set...
+[2022-06-25 01:56:02] Best translation 0 : chiến_lược của đảng Cộng_@@ hòa chống lại Obama
+[2022-06-25 01:56:02] Best translation 1 : các nhà lãnh_đạo cộng hòa buộc chính_sách chống gian_lận .
+[2022-06-25 01:56:02] Best translation 2 : tuy_nhiên , việc được thừa_nhận là huyền_thoại về việc gian_lận ở Mỹ ít hơn những người tham_gia .
+[2022-06-25 01:56:02] Best translation 3 : luật_sư cộng với nền cộng hòa đã ghi_nhận được 300 vụ gian_lận trong 10 năm qua ở Mỹ .
+[2022-06-25 01:56:02] Best translation 4 : một điều chắc_chắn : cái công_thức mới này sẽ gây ảnh_hưởng tiêu_cực tới việc tham_gia bầu_cử .
+[2022-06-25 01:56:02] Best translation 5 : theo cách này , một_số hệ_thống dân_chủ Mỹ .
+[2022-06-25 01:56:02] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa thẻ căn_cước và căn_cước của người Mỹ .
+[2022-06-25 01:56:02] Best translation 20 : trên 100 .
+[2022-06-25 01:56:02] Best translation 40 : tuy_nhiên , những người da trắng nghĩ 76 % cử@@ _tr@@ i mới tạo ra 46 % những người dẫn_đầu .
+[2022-06-25 01:56:02] Best translation 80 : thuốc_lá đáng_giá $ 85 .
+[2022-06-25 01:56:02] Best translation 160 : trong toàn_bộ cuộc_đời , anh đang học được rằng các chàng trai của anh ta là một nhà tâm_lý_học tên là Vic@@ bo@@ i@@ s_@@ Bro@@ der .
+[2022-06-25 01:56:02] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ nsky rất hiệu_quả và nó có rất nhiều bảng thành_tích .
+[2022-06-25 01:56:07] Best translation 640 : chính_phủ Nga đưa ra đề_nghị một quyền bình_đẳng trong mối quan_hệ với công_dân của họ .
+[2022-06-25 01:56:09] Best translation 1280 : cuối_cùng , trong xã_hội có một xã_hội tự_do , không quan_tâm đến lợi_ích chung .
+[2022-06-25 01:56:22] Best translation 2560 : sau khi x@@ én những khối lớn nặng đến 70 kg , nó đưa chúng lên trên hai tấm vải gỗ .
+[2022-06-25 01:56:25] Total translation time: 27.54043s
+[2022-06-25 01:56:25] [valid] Ep. 48 : Up. 75000 : bleu : 9.34614 : stalled 8 times (last best: 10.2484)
+[2022-06-25 01:59:48] Seen 1,091,056 samples
+[2022-06-25 01:59:48] Starting data epoch 49 in logical epoch 49
+[2022-06-25 01:59:48] [data] Shuffling data
+[2022-06-25 01:59:48] [data] Done reading 1,091,058 sentences
+[2022-06-25 01:59:53] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 02:07:11] Seen 1,091,056 samples
+[2022-06-25 02:07:11] Starting data epoch 50 in logical epoch 50
+[2022-06-25 02:07:11] [data] Shuffling data
+[2022-06-25 02:07:12] [data] Done reading 1,091,058 sentences
+[2022-06-25 02:07:17] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 02:14:35] Seen 1,091,056 samples
+[2022-06-25 02:14:35] Starting data epoch 51 in logical epoch 51
+[2022-06-25 02:14:35] [data] Shuffling data
+[2022-06-25 02:14:35] [data] Done reading 1,091,058 sentences
+[2022-06-25 02:14:40] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 02:19:47] Ep. 51 : Up. 80000 : Sen. 764,265 : Cost 2.46291208 * 30,646,274 @ 2,196 after 491,034,457 : Time 1428.95s : 21446.73 words/s : gNorm 1.3521 : L.r. 1.3416e-04
+[2022-06-25 02:19:47] Translating validation set...
+[2022-06-25 02:19:50] Best translation 0 : chiến_lược của đảng cộng hòa chống lại Obama
+[2022-06-25 02:19:50] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách chống lại gian_lận .
+[2022-06-25 02:19:50] Best translation 2 : tuy_nhiên , việc được thừa_nhận là huyền_thoại về việc gian_lận ở Mỹ ít hơn những người đã chết .
+[2022-06-25 02:19:50] Best translation 3 : các luật_sư cộng hòa đã ghi_nhận được 300 vụ gian_lận trong 10 năm qua ở Mỹ .
+[2022-06-25 02:19:50] Best translation 4 : một điều chắc_chắn : cái công_thức mới này sẽ gây ảnh_hưởng tiêu_cực tới việc tham_gia bầu_cử .
+[2022-06-25 02:19:50] Best translation 5 : theo cách này , một_số hệ_thống dân_chủ Mỹ .
+[2022-06-25 02:19:50] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa thẻ căn_cước và thẻ căn_cước của người Mỹ .
+[2022-06-25 02:19:51] Best translation 20 : trên 100 .
+[2022-06-25 02:19:51] Best translation 40 : mặt_khác , những người da trắng nghĩ là 76 % các cử@@ _tr@@ i , chỉ có 46 % những người dẫn_đầu .
+[2022-06-25 02:19:51] Best translation 80 : thuốc_lá đáng_giá $ 85 .
+[2022-06-25 02:19:51] Best translation 160 : trong toàn_bộ cuộc_đời , anh đã học được rằng đàn_ông đi bộ là một nhà tâm_lý_học , là một nhà tâm_lý_học tên là Victor .
+[2022-06-25 02:19:51] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ nsky rất hiệu_quả và nó chứa rất nhiều điểm .
+[2022-06-25 02:19:55] Best translation 640 : chính_phủ Nga đưa ra đề_nghị một quyền bình_đẳng trong mối quan_hệ với công_dân của họ .
+[2022-06-25 02:19:57] Best translation 1280 : kết_luận cho buổi nói_chuyện hôm_nay là một xã_hội tự_do , không quan_tâm đến quyền_lợi cá_nhân .
+[2022-06-25 02:20:08] Best translation 2560 : sau khi x@@ én những khối lớn nặng đến 70 kg , nó đưa lên trên hai tấm ván gỗ .
+[2022-06-25 02:20:12] Total translation time: 25.26846s
+[2022-06-25 02:20:12] [valid] Ep. 51 : Up. 80000 : bleu : 9.23545 : stalled 9 times (last best: 10.2484)
+[2022-06-25 02:22:23] Seen 1,091,056 samples
+[2022-06-25 02:22:23] Starting data epoch 52 in logical epoch 52
+[2022-06-25 02:22:23] [data] Shuffling data
+[2022-06-25 02:22:24] [data] Done reading 1,091,058 sentences
+[2022-06-25 02:22:29] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 02:29:46] Seen 1,091,056 samples
+[2022-06-25 02:29:46] Starting data epoch 53 in logical epoch 53
+[2022-06-25 02:29:46] [data] Shuffling data
+[2022-06-25 02:29:47] [data] Done reading 1,091,058 sentences
+[2022-06-25 02:29:52] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 02:37:08] Seen 1,091,056 samples
+[2022-06-25 02:37:09] Starting data epoch 54 in logical epoch 54
+[2022-06-25 02:37:09] [data] Shuffling data
+[2022-06-25 02:37:09] [data] Done reading 1,091,058 sentences
+[2022-06-25 02:37:14] [data] Done shuffling 1,091,058 sentences to temp files
+[2022-06-25 02:43:35] Ep. 54 : Up. 85000 : Sen. 952,926 : Cost 2.42988229 * 30,728,314 @ 7,280 after 521,762,736 : Time 1428.06s : 21517.47 words/s : gNorm 1.3256 : L.r. 1.3016e-04
+[2022-06-25 02:43:35] Translating validation set...
+[2022-06-25 02:43:39] Best translation 0 : chiến_lược của đảng cộng hòa chống lại Obama
+[2022-06-25 02:43:39] Best translation 1 : các nhà lãnh_đạo Cộng_@@ hòa đã thúc_đẩy chính_sách để chống lại sự gian_lận .
+[2022-06-25 02:43:39] Best translation 2 : tuy_nhiên , việc được thừa_nhận là huyền_thoại về việc gian_lận xảy ra ở Mỹ ít hơn những người đã chết .
+[2022-06-25 02:43:39] Best translation 3 : các luật_sư cộng hòa đã ghi_nhận được 300 vụ gian_lận trong 10 năm qua ở Mỹ .
+[2022-06-25 02:43:39] Best translation 4 : một điều chắc_chắn : cái công_thức mới này sẽ gây ảnh_hưởng tiêu_cực tới việc tham_gia bầu_cử .
+[2022-06-25 02:43:39] Best translation 5 : trong việc này , một phần trong hệ_thống dân_chủ Mỹ .
+[2022-06-25 02:43:39] Best translation 10 : luật bầu_cử mới yêu_cầu họ đưa thẻ căn_cước và giấy_tờ cho người Mỹ .
+[2022-06-25 02:43:39] Best translation 20 : trên 100 .
+[2022-06-25 02:43:39] Best translation 40 : mặt_khác , những người da trắng nghĩ là 76 % các cử@@ _tr@@ i , chỉ có 46 % những người dẫn_đầu .
+[2022-06-25 02:43:39] Best translation 80 : thuốc_lá đáng_giá $ 85 .
+[2022-06-25 02:43:39] Best translation 160 : trong đời tôi , mọi người học được rằng đàn_ông là một nhà tâm_lý_học , là một nhà tâm_lý_học , ở Victor .
+[2022-06-25 02:43:39] Best translation 320 : điều đó có_nghĩa_là I@@ bra@@ hi@@ nsky rất hiệu_quả và nó có nhiều điểm phù_hợp .
+[2022-06-25 02:43:43] Best translation 640 : chính_phủ Nga đưa ra đề_nghị một quyền dưới quyền của họ .
+[2022-06-25 02:43:46] Best translation 1280 : để kết_thúc như một xã_hội hiện_đại , một xã_hội tự_do , không quan_tâm đến quyền_lợi cá_nhân .
+[2022-06-25 02:43:57] Best translation 2560 : sau khi x@@ én những khối lớn nặng đến 70 kg , nó đưa chúng lên trên hai tấm vải gỗ .
+[2022-06-25 02:44:01] Total translation time: 26.51474s
+[2022-06-25 02:44:01] [valid] Ep. 54 : Up. 85000 : bleu : 9.12043 : stalled 10 times (last best: 10.2484)
+[2022-06-25 02:44:02] Training finished
+[2022-06-25 02:44:02] Saving model weights and runtime parameters to /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.npz
+[2022-06-25 02:44:04] Saving Adam parameters
+[2022-06-25 02:44:07] [training] Saving training checkpoint to /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.npz and /storage/brno3-cerit/home/kwan/marian-training/using-subword-v01/training-runs/32k-pyvi-maxlength100/models/model.npz.optimizer.npz

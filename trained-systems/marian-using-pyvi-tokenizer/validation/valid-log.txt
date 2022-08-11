@@ -1,0 +1,22 @@
+[2022-06-24 20:18:33] [valid] First sentence's tokens as scored:
+[2022-06-24 20:18:33] [valid] DefaultVocab keeps original segments for scoring
+[2022-06-24 20:18:33] [valid]   Hyp: nhưng nếu không có nhiều thời_gian , nó sẽ không có nhiều thời_gian để làm được .
+[2022-06-24 20:18:33] [valid]   Ref: tiền cho chuyến đi , tốt nhất_là mang US@@ D ( không nên mang euro ) vì có_thể dễ_dàng đổi ra s@@ iếc - l@@ ơ ( hiện 1 đô_la = 3,@@ 8 s@@ iếc - l@@ ơ ) .
+[2022-06-24 20:18:38] [valid] References contain unknown word, metric scores may be inaccurate
+[2022-06-24 20:19:19] [valid] Ep. 4 : Up. 5000 : bleu : 0.958359 : new best
+[2022-06-24 20:43:17] [valid] Ep. 7 : Up. 10000 : bleu : 2.60508 : new best
+[2022-06-24 21:07:10] [valid] Ep. 10 : Up. 15000 : bleu : 6.13856 : new best
+[2022-06-24 21:31:02] [valid] Ep. 13 : Up. 20000 : bleu : 8.54203 : new best
+[2022-06-24 21:55:01] [valid] Ep. 16 : Up. 25000 : bleu : 9.84286 : new best
+[2022-06-24 22:19:03] [valid] Ep. 20 : Up. 30000 : bleu : 10.1938 : new best
+[2022-06-24 22:42:57] [valid] Ep. 23 : Up. 35000 : bleu : 10.2484 : new best
+[2022-06-24 23:06:49] [valid] Ep. 26 : Up. 40000 : bleu : 9.90926 : stalled 1 times (last best: 10.2484)
+[2022-06-24 23:30:40] [valid] Ep. 29 : Up. 45000 : bleu : 9.99593 : stalled 2 times (last best: 10.2484)
+[2022-06-24 23:57:22] [valid] Ep. 32 : Up. 50000 : bleu : 9.77609 : stalled 3 times (last best: 10.2484)
+[2022-06-25 00:21:12] [valid] Ep. 35 : Up. 55000 : bleu : 9.72414 : stalled 4 times (last best: 10.2484)
+[2022-06-25 00:45:03] [valid] Ep. 39 : Up. 60000 : bleu : 9.54466 : stalled 5 times (last best: 10.2484)
+[2022-06-25 01:08:50] [valid] Ep. 42 : Up. 65000 : bleu : 9.31528 : stalled 6 times (last best: 10.2484)
+[2022-06-25 01:32:36] [valid] Ep. 45 : Up. 70000 : bleu : 9.38256 : stalled 7 times (last best: 10.2484)
+[2022-06-25 01:56:25] [valid] Ep. 48 : Up. 75000 : bleu : 9.34614 : stalled 8 times (last best: 10.2484)
+[2022-06-25 02:20:12] [valid] Ep. 51 : Up. 80000 : bleu : 9.23545 : stalled 9 times (last best: 10.2484)
+[2022-06-25 02:44:01] [valid] Ep. 54 : Up. 85000 : bleu : 9.12043 : stalled 10 times (last best: 10.2484)

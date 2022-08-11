@@ -1,0 +1,22 @@
+[2022-07-03 03:11:18] [valid] First sentence's tokens as scored:
+[2022-07-03 03:11:18] [valid] DefaultVocab keeps original segments for scoring
+[2022-07-03 03:11:18] [valid]   Hyp: chỉ có 10 phút thôi .
+[2022-07-03 03:11:18] [valid]   Ref: tiền cho chuyến đi , tốt nhất_là mang US@@ D ( không nên mang euro ) vì có_thể dễ_dàng đổi ra s@@ iếc - l@@ ơ ( hiện 1 đô_la = 3,@@ 8 s@@ iếc - l@@ ơ ) .
+[2022-07-03 03:11:23] [valid] References contain unknown word, metric scores may be inaccurate
+[2022-07-03 03:11:39] [valid] Ep. 4 : Up. 5000 : bleu : 1.11314 : new best
+[2022-07-03 03:41:52] [valid] Ep. 7 : Up. 10000 : bleu : 4.3189 : new best
+[2022-07-03 04:12:02] [valid] Ep. 10 : Up. 15000 : bleu : 7.32377 : new best
+[2022-07-03 04:42:15] [valid] Ep. 13 : Up. 20000 : bleu : 9.09692 : new best
+[2022-07-03 05:12:30] [valid] Ep. 17 : Up. 25000 : bleu : 9.74265 : new best
+[2022-07-03 05:42:42] [valid] Ep. 20 : Up. 30000 : bleu : 10.0995 : new best
+[2022-07-03 06:12:53] [valid] Ep. 23 : Up. 35000 : bleu : 10.2288 : new best
+[2022-07-03 06:43:04] [valid] Ep. 26 : Up. 40000 : bleu : 10.1962 : stalled 1 times (last best: 10.2288)
+[2022-07-03 07:13:19] [valid] Ep. 29 : Up. 45000 : bleu : 10.1066 : stalled 2 times (last best: 10.2288)
+[2022-07-03 07:43:37] [valid] Ep. 33 : Up. 50000 : bleu : 9.90142 : stalled 3 times (last best: 10.2288)
+[2022-07-03 08:13:47] [valid] Ep. 36 : Up. 55000 : bleu : 9.8876 : stalled 4 times (last best: 10.2288)
+[2022-07-03 08:43:59] [valid] Ep. 39 : Up. 60000 : bleu : 9.73158 : stalled 5 times (last best: 10.2288)
+[2022-07-03 09:14:16] [valid] Ep. 42 : Up. 65000 : bleu : 9.63261 : stalled 6 times (last best: 10.2288)
+[2022-07-03 09:44:23] [valid] Ep. 45 : Up. 70000 : bleu : 9.65266 : stalled 7 times (last best: 10.2288)
+[2022-07-03 10:14:34] [valid] Ep. 49 : Up. 75000 : bleu : 9.61186 : stalled 8 times (last best: 10.2288)
+[2022-07-03 10:44:52] [valid] Ep. 52 : Up. 80000 : bleu : 9.70568 : stalled 9 times (last best: 10.2288)
+[2022-07-03 11:15:03] [valid] Ep. 55 : Up. 85000 : bleu : 9.65032 : stalled 10 times (last best: 10.2288)

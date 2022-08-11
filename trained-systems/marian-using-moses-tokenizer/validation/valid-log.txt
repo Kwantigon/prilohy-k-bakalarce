@@ -1,0 +1,22 @@
+[2022-06-21 10:34:45] [valid] First sentence's tokens as scored:
+[2022-06-21 10:34:45] [valid] DefaultVocab keeps original segments for scoring
+[2022-06-21 10:34:45] [valid]   Hyp: vì vậy , chúng ta có thể nhận ra rằng một người đàn ông có thể làm việc cho ông ấy .
+[2022-06-21 10:34:45] [valid]   Ref: sau đó , một nhà tổ chức đảng của Thị trưởng , Martin Du@@ mont , cáo buộc ông Tre@@ m@@ bla@@ y về việc có cố tinh mắt nhắm mắt mở để một ngân sách song song sử dụng kho bạc của mình rửa tiền .
+[2022-06-21 10:34:50] [valid] References contain unknown word, metric scores may be inaccurate
+[2022-06-21 10:35:10] [valid] Ep. 4 : Up. 5000 : bleu : 0.678775 : new best
+[2022-06-21 10:59:21] [valid] Ep. 7 : Up. 10000 : bleu : 2.07894 : new best
+[2022-06-21 11:23:32] [valid] Ep. 10 : Up. 15000 : bleu : 6.80866 : new best
+[2022-06-21 11:47:47] [valid] Ep. 13 : Up. 20000 : bleu : 9.97556 : new best
+[2022-06-21 12:12:03] [valid] Ep. 16 : Up. 25000 : bleu : 11.5034 : new best
+[2022-06-21 12:36:14] [valid] Ep. 19 : Up. 30000 : bleu : 11.9596 : new best
+[2022-06-21 13:00:30] [valid] Ep. 22 : Up. 35000 : bleu : 12.4208 : new best
+[2022-06-21 13:24:41] [valid] Ep. 25 : Up. 40000 : bleu : 12.3914 : stalled 1 times (last best: 12.4208)
+[2022-06-21 13:48:54] [valid] Ep. 28 : Up. 45000 : bleu : 12.3272 : stalled 2 times (last best: 12.4208)
+[2022-06-21 14:13:12] [valid] Ep. 31 : Up. 50000 : bleu : 12.1621 : stalled 3 times (last best: 12.4208)
+[2022-06-21 14:37:22] [valid] Ep. 34 : Up. 55000 : bleu : 12.1436 : stalled 4 times (last best: 12.4208)
+[2022-06-21 15:01:33] [valid] Ep. 37 : Up. 60000 : bleu : 11.8056 : stalled 5 times (last best: 12.4208)
+[2022-06-21 15:25:38] [valid] Ep. 40 : Up. 65000 : bleu : 11.695 : stalled 6 times (last best: 12.4208)
+[2022-06-21 15:49:51] [valid] Ep. 44 : Up. 70000 : bleu : 11.622 : stalled 7 times (last best: 12.4208)
+[2022-06-21 16:14:00] [valid] Ep. 47 : Up. 75000 : bleu : 11.6191 : stalled 8 times (last best: 12.4208)
+[2022-06-21 16:38:10] [valid] Ep. 50 : Up. 80000 : bleu : 11.309 : stalled 9 times (last best: 12.4208)
+[2022-06-21 17:02:17] [valid] Ep. 53 : Up. 85000 : bleu : 11.0414 : stalled 10 times (last best: 12.4208)

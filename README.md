@@ -1,7 +1,7 @@
-Tento repozitar obsahuje prilohy k me bakalarske prace, tj.:
-- Zdrojovy kod pro TextConverter.cs
-- Dokumentace pro TextConverter.cs
-- Testsety prelozene pres Google Translate.
-- Preklady obou testsetu na ktere jsem pouzil Moses tokenizer a PyVi.
-- Preklady obou testsetu pres BASE system a MODIFIED system.
-- Preklad transkripce reci, ktery jsem prelozil ja sam.
+This repository contains attachments for my bachelor thesis, which are:
+- Source file and documentation for the TextConverter tool.
+- Testsets used for the training.
+- Output files from QuickJudge used for the manual annotation.
+
+What this repository *does not* contain are all the marian models as they are way too big.
+These models are stored at MetaCentrum and I can access them at any time.
