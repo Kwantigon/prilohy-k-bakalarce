@@ -1,0 +1,19 @@
+například	třeba
+opravdu	fakt
+údajně	prej
+pozor	bacha
+náhodně	na random
+# Nouns
+# Nouns should be in their base form.
+# For now, only replacements with the same gender are inflected properly.
+peníze	prachy
+reproduktor	reprák
+# Adjectives
+# Inflections not implemented.
+zapnutý	zaplý
+# Verbs
+# Verbs should be in base form (lemma) stored according to MorphoDiTa
+načrtnout_:W	naskicovat_:W
+nastavit_:W	naštelovat_:W_,l
+předvídat_:T	predikovat_:T
+#který	co
